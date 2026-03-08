@@ -7,11 +7,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@700&display=swap');
 
 :root {
-  --pauseai-orange: #FF9416;
+  --pauseai-orange: #ff9416;
   --pauseai-navy: #0f172a;
   --pauseai-navy-light: #1e293b;
-  --slidev-theme-primary: #FF9416;
-  --slidev-theme-accent: #FF9416;
+  --slidev-theme-primary: #ff9416;
+  --slidev-theme-accent: #ff9416;
   --slidev-slide-container-background: #0f172a;
 }
 
@@ -44,7 +44,8 @@ h1 {
   letter-spacing: 0.02em;
 }
 
-h2, h3 {
+h2,
+h3 {
   font-family: 'Saira Condensed', sans-serif;
   font-weight: 700;
 }

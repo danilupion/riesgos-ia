@@ -1,21 +1,30 @@
 {
   "name": "riesgos-ia",
+  "type": "module",
   "private": true,
   "version": "1.0.0",
   "description": "Presentacion sobre riesgos de la IA — PauseAI + UMA",
   "scripts": {
     "dev": "slidev --remote",
     "build": "slidev build",
-    "export": "slidev export"
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "prepare": "[ \"$PACKAGED\" = true ] && echo 'Skipping prepare for packaged production dependencies install' || husky"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@slango.configs/eslint": "1.2.5",
+    "@slango.configs/lint-staged": "1.1.16",
+    "@slango.configs/prettier": "1.0.11",
     "@slidev/cli": "52.14.1",
     "@slidev/theme-default": "0.25.0",
+    "eslint": "10.0.3",
     "husky": "^9.1.7",
-    "lint-staged": "^16.3.2"
+    "lint-staged": "^16.3.2",
+    "prettier": "3.8.1"
   },
   "engines": {
     "node": "^24.14.0",

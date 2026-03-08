@@ -1,0 +1,12 @@
+# Slidev markdown (frontmatter + src: imports break with prettier)
+slides.md
+slides/
+
+# Helm templates (Go template syntax is not valid YAML)
+helm-chart/templates/
+
+# Build output
+dist/
+
+# Worktrees
+.claude/worktrees/

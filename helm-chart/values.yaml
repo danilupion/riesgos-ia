@@ -1,0 +1,23 @@
+replicaCount: 1
+
+image:
+  repository: riesgos-ia
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 3030
+
+ingress:
+  ingressClassName: nginx
+  annotations: {}
+  host: riesgos-ia.local
+  tls:
+    issuer: ''
+
+secret:
+  # Name of existing K8s Secret containing SLIDEV_PASSWORD key
+  # If empty, the chart creates one using slidevPassword value
+  existingSecret: ''
+  slidevPassword: ''

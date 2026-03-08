@@ -91,3 +91,7 @@ styled-system-studio
 
 # FFmpeg core files (copied from node_modules)
 apps/web/public/ffmpeg/
+
+# Deploy (private registry info — not tracked)
+deploy.env
+environments/

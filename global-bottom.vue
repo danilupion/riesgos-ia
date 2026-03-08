@@ -1,7 +1,9 @@
 <template>
   <footer class="footer-persistent">
     <img src="/logos/logo.png" class="h-5 rounded-full" />
-    <span class="text-xs tracking-wide text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)]">pauseai.es</span>
+    <span class="text-xs tracking-wide text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)]"
+      >pauseai.es</span
+    >
   </footer>
 </template>
 
