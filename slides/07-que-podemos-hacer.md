@@ -116,46 +116,52 @@ layout: section
 
 ---
 
-# 4 cosas que podéis hacer hoy
+# 5 cosas que podéis hacer hoy
 
-<div class="mt-4 space-y-2">
-  <div class="flex items-center gap-3 p-3 rounded-xl bg-white/5">
+<div class="mt-2 space-y-1">
+  <div class="flex items-center gap-3 p-2 rounded-xl bg-white/5">
     <div class="text-2xl font-bold text-orange-400 w-8">1</div>
+    <div>
+      <div class="font-bold">Informaos</div>
+      <div class="opacity-70 text-sm">Lo que habéis aprendido hoy tiene fecha de caducidad. Esto cambia cada semana.</div>
+    </div>
+  </div>
+  <div v-click class="flex items-center gap-3 p-2 rounded-xl bg-white/5">
+    <div class="text-2xl font-bold text-orange-400 w-8">2</div>
     <div>
       <div class="font-bold">Hablad de esto</div>
       <div class="opacity-70 text-sm">Contad lo que habéis escuchado hoy. Romped el silencio.</div>
     </div>
   </div>
-  <div v-click class="flex items-center gap-3 p-3 rounded-xl bg-white/5">
-    <div class="text-2xl font-bold text-orange-400 w-8">2</div>
+  <div v-click class="flex items-center gap-3 p-2 rounded-xl bg-white/5">
+    <div class="text-2xl font-bold text-orange-400 w-8">3</div>
     <div>
       <div class="font-bold">No la normalicéis sin cuestionarla</div>
       <div class="opacity-70 text-sm">Cuando alguien diga "es solo una herramienta", recordad lo que habéis visto hoy.</div>
     </div>
   </div>
-  <div v-click class="flex items-center gap-3 p-3 rounded-xl bg-white/5">
-    <div class="text-2xl font-bold text-orange-400 w-8">3</div>
+  <div v-click class="flex items-center gap-3 p-2 rounded-xl bg-white/5">
+    <div class="text-2xl font-bold text-orange-400 w-8">4</div>
     <div>
       <div class="font-bold">Exigid que vuestros representantes actúen</div>
       <div class="opacity-70 text-sm">pauseai.es tiene plantillas listas para enviar a eurodiputados.</div>
     </div>
   </div>
-  <div v-click class="flex items-center gap-3 p-3 rounded-xl bg-white/5">
-    <div class="text-2xl font-bold text-orange-400 w-8">4</div>
+  <div v-click class="flex items-center gap-3 p-2 rounded-xl bg-white/5">
+    <div class="text-2xl font-bold text-orange-400 w-8">5</div>
     <div>
       <div class="font-bold">Firmad</div>
-      <div class="opacity-70 text-sm"><span class="font-bold">superintelligence-statement.org</span> — Hinton, Bengio, Russell + 69.000 firmas</div>
-      <div class="opacity-70 text-sm"><span class="font-bold">humanstatement.org</span> — declaración pro-humana, 500+ organizaciones</div>
-      <div class="opacity-70 text-sm"><span class="font-bold">pauseai.info/statement</span> — moratoria internacional</div>
+      <div class="opacity-70 text-sm"><span class="font-bold">superintelligence-statement.org</span> · <span class="font-bold">humanstatement.org</span> · <span class="font-bold">pauseai.info/statement</span></div>
     </div>
   </div>
 </div>
 
 <!--
-- 1: Hablad de esto. Contad lo que habéis escuchado hoy. Romped el silencio.
-- 2: No la normalicéis sin cuestionarla. Cuando alguien diga "es solo una herramienta", recordad lo que habéis visto hoy.
-- 3: Exigid que vuestros representantes actúen. pauseai.es tiene plantillas listas.
-- 4: Firmad. superintelligence-statement.org (Hinton, Bengio, Russell + 69K firmas), humanstatement.org (500+ organizaciones), pauseai.info/statement (moratoria).
+- 1: Informaos. Lo que habéis aprendido hoy tiene fecha de caducidad. Esto cambia cada semana. Seguid informándoos. pauseai.es publica actualizaciones, y las fuentes que he citado hoy están todas enlazadas.
+- 2: Hablad de esto. Contad lo que habéis escuchado hoy. Romped el silencio.
+- 3: No la normalicéis sin cuestionarla. Cuando alguien diga "es solo una herramienta", recordad lo que habéis visto hoy.
+- 4: Exigid que vuestros representantes actúen. pauseai.es tiene plantillas listas.
+- 5: Firmad. superintelligence-statement.org (Hinton, Bengio, Russell + 69K firmas), humanstatement.org (500+ organizaciones), pauseai.info/statement (moratoria).
 -->
 
 ---

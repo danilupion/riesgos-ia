@@ -241,6 +241,7 @@ class: text-center
 - Premio Nobel de Física 2024. "El padrino de la IA." Dejó Google en 2023 para hablar libremente.
 - Discurso del Nobel: "Existe una amenaza existencial. No tenemos ni idea de si podremos mantener el control."
 - Bioarmas: "Solo hace falta un loco con rencor... ya se pueden crear virus nuevos de forma relativamente barata usando IA."
+- Contexto: esto no es hipotético. Desde 2011, científicos investigan cómo hacer virus más contagiosos — se llama "ganancia de función." Lo hicimos con la gripe aviar H5N1 (Fouchier, 2012), lo hicimos con coronavirus. Lo que antes requería un laboratorio de bioseguridad nivel 4, ahora la IA lo pone al alcance de cualquiera con un portátil.
 - "Si quieren saber cómo es no ser la inteligencia dominante, pregúntenle a una gallina."
 - p(doom): 50%+. Una moneda al aire.
 -->
@@ -463,6 +464,7 @@ class: text-center
 - [Click] 2026: publican la tercera versión. La línea roja había desaparecido. Solo pararían si creen que van en cabeza Y si sus directivos consideran que el riesgo es "material".
 - Su científico jefe: "Sentimos que no ayudaría a nadie que nosotros dejáramos de entrenar modelos."
 - Esta es la empresa más responsable del sector. Si ellos rebajan sus límites, ¿qué esperamos de las demás?
+- Ventana de Overton: lo que hace 3 años era impensable ("no podemos garantizar la seguridad pero seguimos"), hoy ya se acepta como inevitable. El rango de lo "aceptable" se ha desplazado sin que nos demos cuenta.
 
 TRANSICIÓN: "Y no son solo las políticas. Las personas contratadas para mantener la IA segura están dimitiendo."
 -->
@@ -501,6 +503,7 @@ TRANSICIÓN: "Y no son solo las políticas. Las personas contratadas para manten
 - Oct 2024: Miles Brundage, jefe de preparación para AGI, también dimite de OpenAI.
 - Feb 2026, tres cosas a la vez: Mrinank Sharma (Safeguards, Anthropic) dimite diciendo "el mundo está en peligro". OpenAI disuelve su 2º equipo de seguridad en 16 meses. La mitad del equipo fundador de xAI abandona la compañía.
 - Las personas cuyo trabajo era protegernos están huyendo y avisándonos por el camino.
+- "No hay adultos en la sala." Las empresas se autorregulan (y rebajan sus propios límites). Los gobiernos van por detrás. Las personas de seguridad dimiten. No existe un equivalente a la OIEA para la IA. Nadie está al mando.
 
 TRANSICIÓN: "Entonces, si todo esto es verdad, ¿por qué no estamos haciendo nada? La respuesta está en nuestro cerebro."
 -->

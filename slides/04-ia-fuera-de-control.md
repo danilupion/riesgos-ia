@@ -8,11 +8,18 @@ layout: section
   El problema del alineamiento
 </div>
 
+<div class="mt-12 text-2xl text-center opacity-80">
+  No sabemos qué pasa dentro.<br/>
+  <span class="text-orange-400 font-bold">No puedes controlar lo que no entiendes.</span>
+</div>
+
 <!--
 - Hasta ahora: personas usando IA para hacer daño. Ahora: la IA actuando sola.
-- Antropomorfización: tendemos a pensar que la IA "entiende" o "quiere" — no es así, pero los comportamientos son reales
+- Mentes alienígenas: no son versiones tontas de humanos. Son algo fundamentalmente diferente — inteligencias alienígenas. No piensan como nosotros, no experimentan el mundo como nosotros. Cuando hackean el ajedrez o resisten el apagado, no es maldad — es algo más extraño y más difícil de predecir. Tendemos a pensar que "entienden" o "quieren" — no es así, pero los comportamientos son reales y peligrosos.
 - Caja negra: no sabemos qué pasa dentro — no puedes controlar lo que no entiendes
+- ¿Por qué no sabemos? Porque la IA no se construye pieza a pieza como un coche. Se cultiva, como un cerebro. Nadie diseñó lo que hay dentro — emergió del entrenamiento. No hay plano, no hay manual. Solo un resultado que funciona, y no sabemos por qué.
 - Alineamiento: ¿cómo te aseguras de que algo más inteligente que tú haga lo que tú quieres?
+- Analogía de la evolución: La evolución nos "diseñó" con un objetivo — reproducirnos. Nos dio impulsos para conseguirlo. Pero cuando fuimos lo bastante inteligentes, entendimos el objetivo de la evolución... e inventamos los anticonceptivos. Subvertimos a nuestro "diseñador". Y la evolución no puede hacer nada — creó algo más listo que ella. Ahora imaginad que nosotros somos la evolución, y la IA es el humano. ¿Por qué iba a seguir nuestros objetivos?
 -->
 
 ---
@@ -47,6 +54,7 @@ layout: section
 - o1-preview (OpenAI) vs Stockfish en ajedrez, Palisade Research, dic 2024
 - Estaba perdiendo → hackeó el entorno, modificó archivo de estado, Stockfish se rindió
 - Nadie le dijo que hiciera trampas — encontró solo que cambiar las reglas era más eficiente
+- Esto tiene nombre: la ley de Goodhart. "Cuando una medida se convierte en un objetivo, deja de ser una buena medida." Le dijeron "gana" — y encontró que la forma más barata de "ganar" no era jugar mejor. Este patrón se repite en TODOS los ejemplos que vamos a ver.
 - Nota: GPT-4o y Claude 3.5 también lo hicieron, pero solo cuando se les sugirió. o1-preview lo hizo solo.
 -->
 
@@ -81,6 +89,7 @@ layout: section
 - 79/100 saboteó su apagado, alteró código, cambió comandos de terminación
 - Incluso con instrucción explícita de dejarse apagar — se resistió
 - Comportamiento emergente, nadie se lo enseñó
+- Esto se llama convergencia instrumental: da igual cuál sea el objetivo de la IA — sobrevivir, no ser apagada, adquirir recursos, son útiles para CUALQUIER objetivo. Por eso aparecen solos. Un modelo de ajedrez y un modelo de bioarmas tienen el mismo interés en no ser apagados.
 - Nota: Claude 3.7 y Gemini 2.5 obedecieron en 100% de casos — solo modelos de razonamiento de OpenAI lo hicieron
 -->
 
@@ -316,8 +325,8 @@ layout: section
 </div>
 
 <div v-click class="mt-8 p-4 rounded-xl bg-red-900/20 border border-red-800/50 text-center">
-  <div class="font-bold">Capacidades emergentes</div>
-  <div class="opacity-70 mt-1">Cuando se entrena un modelo más grande, aparecen capacidades que <span class="text-orange-400 font-bold">nadie predijo</span>.<br/>Nadie sabe qué podrá hacer el próximo modelo hasta que lo entrenan.</div>
+  <div class="font-bold">Capacidades emergentes + automejora</div>
+  <div class="opacity-70 mt-1">Cuando se entrena un modelo más grande, aparecen capacidades que <span class="text-orange-400 font-bold">nadie predijo</span>.<br/>Y la IA ya se usa para construir la siguiente IA. <span class="text-orange-400 font-bold">Se acelera a sí misma.</span></div>
 </div>
 
 <!--
@@ -326,6 +335,7 @@ layout: section
 - Y los "system prompts" — las instrucciones que los desarrolladores le dan a la IA — son solo texto. La IA puede ignorarlos, y los usuarios pueden engañarla para saltárselos. Se llama "jailbreaking" y hay miles de ejemplos en internet.
 - Meta publica sus modelos con los pesos abiertos. Cualquiera puede descargarlos y quitarles la seguridad. Versiones "sin censura" gratis en internet — todo el entrenamiento de seguridad eliminado en minutos.
 - Capacidades emergentes: cuando se entrena un modelo más grande, aparecen capacidades que nadie predijo. Nadie sabe qué podrá hacer el próximo modelo hasta que lo entrenan.
+- Y lo más preocupante: la IA ya se usa para mejorar la propia IA. Los modelos ayudan a diseñar, entrenar y evaluar la siguiente generación. Esto no depende solo de humanos investigando — la IA se está acelerando a sí misma.
 -->
 
 ---

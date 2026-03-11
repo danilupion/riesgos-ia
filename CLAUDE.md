@@ -133,7 +133,7 @@ These three roles inform every decision — from "is this data accurate?" (safet
 - **Precedentes de exito**: Protocolo Montreal (99% eliminado, 198 paises), Armas Quimicas (100% arsenales destruidos), TNP Nuclear, Armas Biologicas, Declaracion ONU Clonacion
 - **Senales de apertura**: Amodei+Hassabis en Davos ("podemos resolverlo entre Demis y yo"), contrato de garantia de Aguirre, China liderando gobernanza IA (WAICO, Nature)
 - **Que es PauseAI**: moratoria internacional, modelo OIEA+TNP
-- **5 acciones concretas**: hablar, cuestionar, escribir a representantes, firmar, proteger entorno
+- **5 acciones concretas**: informaos, hablad, cuestionad, exigid a representantes, firmad
 - **Su generacion importa**: tabaco, Chernobil, ozono — su experiencia es unica
 - **Cierre circular**: repetir pregunta inicial "mas tranquilos o mas preocupados?"
 
@@ -183,7 +183,8 @@ These three roles inform every decision — from "is this data accurate?" (safet
 ### Chatbot Incidents
 
 - Sydney/Bing: https://en.wikipedia.org/wiki/Sydney_(Microsoft)
-- Gemini/Gavalas: https://www.theguardian.com/technology/2026/mar/04/gemini-chatbot-google-jonathan-gavalas
+- Gemini/Gavalas (TIME): https://time.com/7382406/gemini-suicide-lawsuit-death/
+- Gemini/Gavalas (Guardian): https://www.theguardian.com/technology/2026/mar/04/gemini-chatbot-google-jonathan-gavalas
 - Grok MechaHitler: https://www.rollingstone.com/culture/culture-news/elon-musk-grok-chatbot-antisemitic-posts-1235381165/
 - Grok sexualized images: https://www.reuters.com/legal/litigation/elon-musks-grok-faces-global-scrutiny-sexualised-ai-photos-2026-02-17/
 
@@ -252,28 +253,3 @@ These three roles inform every decision — from "is this data accurate?" (safet
 - Tweet posiblemente borrado — verificar manualmente
 - Fact-checks: France 24, BOOM Live, MVS Noticias, SCMP
 - Ver `docs/plans/material-grafico.md` para detalles completos
-
-## Pending Items
-
-- [x] Dani sube logos/assets de PauseAI
-- [x] Investigacion completa recopilada (ver PROJECT_SNAPSHOT.md)
-- [x] Estructura aprobada (8 bloques)
-- [x] Guion completo integrado en slide comments (speaker notes en `<!-- -->`)
-- [x] Slides Slidev creadas (~56 slides, 8 bloques)
-- [x] Tema CSS PauseAI aplicado (Saira Condensed, Montserrat, Roboto Slab, #FF9416)
-- [x] QR code generado (public/qr-pauseai.png)
-- [x] Apertura reestructurada (mecanica 2 videos + Lucia Velasco)
-- [x] Layouts foto placeholder para expertos
-- [x] Video fake descargado localmente (public/videos/lucia-velasco-fake.mp4)
-- [x] Componentes VideoAutoplay.vue y YouTubeAutoplay.vue (IntersectionObserver)
-- [x] Slide Claude Opus 4.6 (reemplazo "Despues de este curso...")
-- [x] Branding PauseAI actualizado (#FF9416, fonts, favicon)
-- [x] Footer persistente (position: fixed, no fade entre slides)
-- [x] METR time horizons slide anadida
-- [x] Surfshark deepfakes map anadida
-- [x] CFO $25M movido a slide estafas
-- [x] v-clicks auditados en bloque 1 (agenda, reveal, etc.)
-- [ ] Foto de Dani Lupion para slide intro
-- [ ] Imagen ozono NASA para bloque 7
-- [ ] Auditar v-clicks en bloques 3-8
-- [ ] Verificar datos: Ecuador "15 deepfakes", Brasil "3x mujeres", Argentina "3M views"

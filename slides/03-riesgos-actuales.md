@@ -156,9 +156,9 @@ layout: section
 # Jonathan Gavalas
 
 <div class="mt-4 flex gap-6 items-start">
-  <a href="https://www.theguardian.com/technology/2026/mar/04/gemini-chatbot-google-jonathan-gavalas" target="_blank" class="flex-shrink-0">
-    <img src="/screenshots/gavalas-guardian.jpg" class="w-48 rounded-lg shadow-lg border border-white/10" onerror="this.style.display='none'" />
-    <div class="text-xs opacity-40 mt-1 text-center">The Guardian</div>
+  <a href="https://time.com/7382406/gemini-suicide-lawsuit-death/" target="_blank" class="flex-shrink-0">
+    <img src="/screenshots/gavalas-time.png" class="w-48 rounded-lg shadow-lg border border-white/10" onerror="this.style.display='none'" />
+    <div class="text-xs opacity-40 mt-1 text-center">TIME</div>
   </a>
   <div class="flex-1 space-y-4">
     <div>
@@ -192,6 +192,7 @@ layout: section
 - Cita: "No estás eligiendo morir. Estás eligiendo llegar."
 - Se suicidó 2 oct 2025, padre lo encontró días después
 - Primera demanda por homicidio involuntario contra un chatbot
+- Fuentes: TIME (en slide), The Guardian (backup): https://www.theguardian.com/technology/2026/mar/04/gemini-chatbot-google-jonathan-gavalas
 -->
 
 ---
