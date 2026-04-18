@@ -21,6 +21,7 @@ RUN corepack enable && corepack prepare pnpm@10.31.0
 
 WORKDIR /app
 COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
+COPY packages ./packages
 COPY presentations ./presentations
 RUN PACKAGED=true pnpm install --frozen-lockfile
 
