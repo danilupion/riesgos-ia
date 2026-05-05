@@ -11,13 +11,13 @@ Soy Dani Lupión, miembro de PauseAI España. Voy a dar una charla y quiero cons
 **Esta charla**:
 
 - **Carpeta**: `presentations/ultima-invencion-cva-colectiva-2026-05/`
-- **Tema** (qué quiero contar, en una frase): [DANI: completar]
+- **Tema** (qué quiero contar, en una frase): Cómo la IA podría ser nuestra ultima invención (por los riesgos que conlleva)
 - **Ponente**: Dani Lupión (PauseAI España)
-- **Formato**: [DANI: charla / panel / workshop / Q&A intercalado]
-- **Duración**: [DANI: minutos charla + minutos Q&A]
-- **Fecha**: [DANI: día/mes/2026]
-- **Lugar / host**: [DANI: e.g., CVA Colectiva, ciudad]
-- **Audiencia esperada**: [DANI: descripción demográfica honesta — qué saben, qué creen, qué edad, qué proporciones]
+- **Formato**: charla
+- **Duración**: 60 + QA
+- **Fecha**: 2026-05-07
+- **Lugar / host**: CVA LA Colectiva, Granada
+- **Audiencia esperada**: Publico general, entiendo que disparidad de edades y tendencia al activismo, pero no estoy seguro
 - **Idioma**: español
 - **Tono base**: PauseAI sin hedging. Calibrar la intensidad según audiencia.
 

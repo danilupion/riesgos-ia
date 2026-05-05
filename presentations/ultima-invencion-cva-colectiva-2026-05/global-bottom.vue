@@ -6,9 +6,12 @@
     >
   </footer>
   <footer class="footer-persistent footer-right">
-    <span class="text-xs tracking-wide text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)]"
-      >CVA La Colectiva</span
-    >
+    <img
+      src="/logos/colectiva.png"
+      class="h-10"
+      style="filter: brightness(0) invert(1)"
+      alt="La Colectiva — Centro Vecinal Autogestionado"
+    />
   </footer>
 </template>
 
