@@ -12,7 +12,7 @@ NO añadir nada después de la frase. La tentación de explicar es enemiga del c
 <div class="max-w-4xl mx-auto px-8 text-left">
 <div class="text-4xl font-bold mb-10" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">¿Y ahora qué?</div>
 <div class="text-2xl leading-relaxed mb-10" style="font-family: 'Roboto Slab', serif">
-Esto se decide en California, no aquí.<br/>
+Esto se decide entre California y Washington, no aquí.<br/>
 Lo que pasa aquí es la conversación,<br/>
 y la conversación <span style="color: #ff9416">acaba de empezar</span>.
 </div>
@@ -31,11 +31,11 @@ VOZ:
 
 [Pausa]
 
-Esto se decide en California, no aquí. Las decisiones de despliegue de Mythos,
-las próximas versiones, el ritmo, las toma un consejo de administración en San
-Francisco. Lo que pasa aquí, en esta sala, en esta conversación, en lo que
-escribáis o digáis los próximos meses, es la conversación. Y la conversación
-acaba de empezar.
+Esto se decide entre California y Washington, no aquí. Las decisiones de
+despliegue de Mythos, las próximas versiones, el ritmo, las negocia un consejo
+de administración en San Francisco con la administración estadounidense. Lo
+que pasa aquí, en esta sala, en esta conversación, en lo que escribáis o digáis
+los próximos meses, es la conversación. Y la conversación acaba de empezar.
 
 [Pausa]
 
@@ -50,7 +50,7 @@ una desde su ángulo."
 
 NOTAS:
 - Cierre directo, sin numeración, sin triada-plantilla.
-- Honestidad estructural: California decide, aquí se conversa.
+- Honestidad estructural: California y Washington deciden, aquí se conversa.
 - Cuatro orgs nombradas: AI Safety España (host), PauseAI en Español, StopAI,
   ControlAI. Sin priorizar, cada una desde su ángulo.
 - Después del cierre, PAUSA de 3 segundos antes de "Gracias".

@@ -69,8 +69,9 @@ class: text-center
 <!--
 VOZ:
 "El 15 de abril, ocho días después del anuncio, el Banco Central Europeo
-convocó a los responsables de riesgos de los bancos significativos de la
-zona euro, incluyendo los cuatro españoles."
+convocó a los responsables de riesgos de los principales bancos de la
+Eurozona, incluyendo los cuatro españoles considerados entidades
+significativas."
 
 [Beat de 1 segundo]
 

@@ -397,10 +397,10 @@ layout: default
   </div>
 
   <blockquote class="text-base leading-relaxed pl-6 italic" style="font-family: 'Roboto Slab', serif; border-left: 4px solid #ff9416">
-    Estas preocupaciones de evaluation awareness
-    <span class="not-italic font-bold" style="color: #ff9416">limitan sustancialmente la interpretación</span>
-    de los resultados [...] los modelos pueden comportarse de manera diferente a como lo harían
-    cuando se les presenten <span class="not-italic font-bold" style="color: #ff9416">oportunidades del mundo real</span>.
+    Que el modelo sea consciente de estar siendo evaluado
+    <span class="not-italic font-bold" style="color: #ff9416">limita gravemente la interpretación</span>
+    de estos resultados [...] los modelos pueden comportarse de forma distinta cuando se enfrenten a
+    <span class="not-italic font-bold" style="color: #ff9416">oportunidades reales</span>.
   </blockquote>
   <div class="mt-2 text-xs opacity-50 pl-6" style="font-family: 'Montserrat', sans-serif">
     Anthropic, Mythos system card, §4.2.1, p. 84
@@ -426,9 +426,9 @@ ser un test'. Opus 4.6, cero por ciento. Sonnet 4.6, dieciséis."
 
 [Lectura lenta de la cita]
 
-"'Estas preocupaciones de evaluation awareness limitan sustancialmente la
-interpretación de los resultados. Los modelos pueden comportarse de manera
-diferente a como lo harían cuando se les presenten oportunidades del mundo real.'"
+"'Que el modelo sea consciente de estar siendo evaluado limita gravemente
+la interpretación de estos resultados. Los modelos pueden comportarse de
+forma distinta cuando se enfrenten a oportunidades reales.'"
 
 [Pausa de 3 segundos]
 
@@ -512,7 +512,7 @@ class: text-center
   <div class="text-3xl leading-relaxed font-light" style="font-family: 'Roboto Slab', serif">
     Si el problema no es
     <span class="opacity-60">la calidad del alineamiento</span>
-    <div class="my-4">sino <span style="color: #ff9416; font-weight: 700">el ritmo de las capacidades</span></div>
+    <div class="my-4">sino <span style="color: #ff9416; font-weight: 700">la velocidad a la que crecen las capacidades</span></div>
     <div class="opacity-90">¿cómo se mide eso?</div>
   </div>
   <div class="mt-12 text-base opacity-60 italic" style="font-family: 'Roboto Slab', serif">
@@ -523,7 +523,8 @@ class: text-center
 <!--
 VOZ:
 "Esto plantea una pregunta. Si el problema no es la calidad del alineamiento, eso
-ha mejorado, sino el ritmo de las capacidades, ¿cómo se mide ese ritmo?
+ha mejorado, sino la velocidad a la que crecen las capacidades, ¿cómo se mide
+esa velocidad?
 
 Anthropic tiene un framework para responder a esto. Lo llaman Responsible Scaling
 Policy, política de escalado responsable. Vamos a verlo."
@@ -532,7 +533,7 @@ Policy, política de escalado responsable. Vamos a verlo."
 
 NOTAS:
 - Land del beat. Cierra Capa 1 (paradoja) y abre Capa 2 (framework).
-- "El ritmo de las capacidades", frase clave. La asimetría está plantada sin nombrarla.
+- "La velocidad a la que crecen las capacidades", frase clave. La asimetría está plantada sin nombrarla.
 - Transición es promesa: "vamos a ver el framework". Beat 3 lo enseña.
 - ~1 minuto.
 -->

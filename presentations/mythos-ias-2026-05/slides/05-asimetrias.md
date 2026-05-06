@@ -270,7 +270,7 @@ layout: default
         ZONA EURO · SIN ACCESO
       </div>
       <div class="space-y-2 text-base" style="font-family: 'Montserrat', sans-serif">
-        <div>· El <span class="font-semibold">BCE convocó hace dos semanas</span> a los responsables de riesgos de los bancos significativos, incluidos los <span class="font-semibold">cuatro españoles</span>: Santander, BBVA, CaixaBank, Sabadell.</div>
+        <div>· El <span class="font-semibold">BCE convocó hace dos semanas</span> a los responsables de riesgos de los principales bancos de la Eurozona, incluidos los <span class="font-semibold">cuatro españoles considerados entidades significativas</span>.</div>
         <div>· Pidió <span class="font-semibold">planes de contingencia</span>.</div>
         <div>· Bancos europeos <span class="font-semibold">no tienen acceso</span>. Lagarde lo ha reclamado. UK lo recibe "inminente".</div>
         <div>· El <span class="font-semibold">Banco de España</span> ya pidió a entidades planes de adopción.</div>
@@ -294,9 +294,9 @@ en abril para promover el uso defensivo.
 [Pausa]
 
 Lado europeo, sin acceso: el Banco Central Europeo convocó hace dos semanas a
-los responsables de riesgos de los bancos significativos de la zona euro, y aquí
-están los cuatro españoles: Santander, BBVA, CaixaBank y Sabadell. ¿Para qué los
-convocó? Para pedirles planes de contingencia ante Mythos.
+los responsables de riesgos de los principales bancos de la Eurozona, y entre
+ellos están los cuatro españoles considerados entidades significativas. ¿Para
+qué los convocó? Para pedirles planes de contingencia ante Mythos.
 
 Pero los bancos europeos no tienen acceso al modelo. Lagarde lo ha reclamado.
 Anthropic dice que abrirá a empresas británicas de manera inminente, sin fecha

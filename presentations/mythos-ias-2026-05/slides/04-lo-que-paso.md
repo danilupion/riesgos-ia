@@ -423,7 +423,8 @@ VOZ:
 "Recapitulamos las tres capas.
 
 Capa 1, la propia Anthropic confiesa una paradoja de alineamiento: el modelo
-mejor alineado y a la vez el de mayor riesgo, debido al ritmo de las capacidades.
+mejor alineado y a la vez el de mayor riesgo, debido a la velocidad a la que
+crecen las capacidades.
 
 Capa 2, el framework con el que se clasificaba este tipo de riesgos se ha
 retirado, justo a tiempo del lanzamiento.
