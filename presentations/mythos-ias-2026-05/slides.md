@@ -30,7 +30,7 @@ class: text-center
     Zero-days, emergencia y la ventana que se cierra
   </div>
   <div class="text-lg opacity-40 mt-3">
-    Dani Lupión · PauseAI · Mayo 2026
+    Dani Lupión · PauseAI en Español · Mayo 2026
   </div>
 </div>
 
