@@ -290,7 +290,7 @@ VOZ:
 
 <div class="max-w-4xl mx-auto mt-2">
   <blockquote class="text-2xl italic leading-relaxed p-4 pl-5 border-l-4 border-orange-400" style="font-family: 'Roboto Slab', serif">
-    "La pregunta no es <span style="text-decoration: line-through; opacity: 0.5">si</span> se construirán armas de IA.<br/>
+    "La pregunta no es si se construirán armas de IA.<br/>
     Es <span style="color: #ff9416; font-weight: 700">QUIÉN</span> las construirá. Y <span style="color: #ff9416; font-weight: 700">PARA QUÉ</span>."
   </blockquote>
   <div class="text-[10px] opacity-40 mt-1 pl-5 italic" style="font-family: 'Roboto Slab', serif">

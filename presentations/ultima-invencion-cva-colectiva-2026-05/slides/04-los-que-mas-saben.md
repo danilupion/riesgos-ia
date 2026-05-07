@@ -52,20 +52,23 @@ Apertura: "Lo que vais a oír ahora no son opiniones mías. Son las palabras de 
 -->
 
 ---
-layout: cover
-background: /surface-earth.png
 class: text-center
 ---
 
-<div class="absolute inset-0 flex items-center justify-center px-8">
-  <div class="bg-black/65 backdrop-blur-sm rounded-2xl px-10 py-8 max-w-3xl">
-    <blockquote class="text-3xl italic font-bold text-white leading-relaxed drop-shadow-lg" style="font-family: 'Roboto Slab', serif">
+<style scoped>
+.slidev-layout { background-image: url('/surface-earth.png') !important; background-size: cover !important; background-position: center !important; background-color: transparent !important; }
+.slidev-layout::before, .slidev-layout::after { display: none !important; }
+</style>
+
+<div class="absolute inset-0 flex items-center justify-center px-4">
+  <div class="text-center max-w-4xl">
+    <blockquote class="text-3xl italic font-bold text-white leading-relaxed" style="font-family: 'Roboto Slab', serif; text-shadow: 0 2px 12px rgba(0,0,0,0.95), 0 0 24px rgba(0,0,0,0.8)">
       "La superficie entera de la Tierra<br/>cubierta de <span style="color: #ff9416">paneles solares y centros de datos</span>."
     </blockquote>
-    <div class="text-[11px] opacity-60 italic mt-3 text-white">
+    <div class="text-xs italic mt-2 text-white opacity-80" style="text-shadow: 0 1px 6px rgba(0,0,0,0.95)">
       "the entire surface of the Earth covered in solar panels and datacenters."
     </div>
-    <div class="text-sm opacity-70 mt-4 text-white">
+    <div class="text-sm mt-3 text-white opacity-90" style="text-shadow: 0 1px 6px rgba(0,0,0,0.95)">
       Ilya Sutskever · cofundador de OpenAI
     </div>
   </div>
