@@ -126,6 +126,78 @@ VOZ:
 - [Click] Sanders + AOC: 25 marzo 2026, AI Data Center Moratorium Act. Verbatim "una pausa razonable al desarrollo de la IA para garantizar la seguridad de la humanidad".
 - "AOC y Sanders pidiendo una pausa razonable. No son tecno-pánico de Silicon Valley. Es política viable, en debate ahora mismo."
 - [Click] Cámara Lores enero 2026: debate moratoria. Verbatim "moratoria es nuestra única esperanza". Gobierno UK no la respaldó.
+- LAND a slide ecosistema: "Y antes de la propuesta concreta de PauseAI, una nota."
+-->
+
+---
+
+# PauseAI no es la única voz
+
+<div class="grid grid-cols-2 gap-3 mt-3">
+  <a href="https://stopai.info" target="_blank" rel="noopener" class="flex gap-3 p-3 rounded-xl bg-white/5 border-l-4 border-orange-400 transition hover:bg-white/10 items-center" style="color: inherit; text-decoration: none">
+    <div class="bg-white rounded-lg p-2 flex-shrink-0 flex items-center justify-center" style="width: 7rem; height: 7rem">
+      <img src="/screenshots/stopai-logo.webp" class="max-w-full max-h-full object-contain" />
+    </div>
+    <div class="min-w-0 flex-1">
+      <div class="font-bold text-base leading-tight">StopAI</div>
+      <div class="opacity-70 text-xs mt-2 leading-snug">Acción directa contra el desarrollo del frontier.</div>
+      <div class="opacity-50 text-[10px] mt-2" style="font-family: 'Fira Code', monospace">stopai.info</div>
+    </div>
+  </a>
+  <a href="https://controlai.com" target="_blank" rel="noopener" class="flex gap-3 p-3 rounded-xl bg-white/5 border-l-4 border-orange-400 transition hover:bg-white/10 items-center" style="color: inherit; text-decoration: none">
+    <div class="rounded-lg flex-shrink-0 overflow-hidden" style="width: 7rem; height: 7rem">
+      <img src="/screenshots/controlai-logo.jpg" class="w-full h-full object-cover" />
+    </div>
+    <div class="min-w-0 flex-1">
+      <div class="font-bold text-base leading-tight">ControlAI</div>
+      <div class="opacity-70 text-xs mt-2 leading-snug">Policy en Bruselas y Westminster.</div>
+      <div class="opacity-50 text-[10px] mt-2" style="font-family: 'Fira Code', monospace">controlai.com</div>
+    </div>
+  </a>
+</div>
+<div class="grid grid-cols-2 gap-3 mt-3">
+  <a href="https://www.theaidocgetinvolved.com" target="_blank" rel="noopener" class="flex gap-3 p-3 rounded-xl bg-white/5 border-l-4 border-orange-400 transition hover:bg-white/10 items-center" style="color: inherit; text-decoration: none">
+    <img src="/screenshots/the-ai-doc-poster.jpg" class="rounded shadow-lg flex-shrink-0" style="height: 11rem" />
+    <div class="min-w-0 flex-1">
+      <div class="font-bold text-sm leading-tight">The AI Doc</div>
+      <div class="opacity-60 text-[11px] mt-0.5 italic leading-snug">Or How I Became an Apocaloptimist</div>
+      <div class="opacity-70 text-xs mt-2">Documental. En salas desde marzo de 2026.</div>
+      <div class="opacity-50 text-[10px] mt-1" style="font-family: 'Fira Code', monospace">theaidocgetinvolved.com</div>
+    </div>
+  </a>
+  <a href="https://www.planetadelibros.com/libro-si-alguien-la-crea-todos-moriremos/442432" target="_blank" rel="noopener" class="flex gap-3 p-3 rounded-xl bg-white/5 border-l-4 border-orange-400 transition hover:bg-white/10 items-center" style="color: inherit; text-decoration: none">
+    <img src="/screenshots/si-alguien-la-crea-cover.jpg" class="rounded shadow-lg flex-shrink-0" style="height: 11rem" />
+    <div class="min-w-0 flex-1">
+      <div class="font-bold text-sm italic leading-tight">Si alguien la crea, todos moriremos</div>
+      <div class="opacity-60 text-[11px] mt-0.5 leading-snug">Yudkowsky y Soares · trad. Olga García Arrabal</div>
+      <div class="opacity-70 text-xs mt-2">Ediciones Destino · marzo de 2026</div>
+      <div class="opacity-50 text-[10px] mt-1" style="font-family: 'Fira Code', monospace">planetadelibros.com</div>
+    </div>
+  </a>
+</div>
+<div class="mt-4 text-center text-base">
+  PauseAI es una voz. <span class="text-orange-400 font-bold">Hay un ecosistema.</span><br/>
+  <span class="text-sm opacity-70">Lo importante no es por dónde entréis. Lo importante es que entréis.</span>
+</div>
+
+<!--
+Beat 5 · slide ecosistema · pre-CTA.
+
+VOZ:
+"Antes de la propuesta concreta, una nota. PauseAI no es la única voz."
+[Slide]
+"StopAI: acción directa. ControlAI: policy en Bruselas y Westminster. The AI Doc: un documental que llegó a salas en marzo de este año, asociado al Center for Humane Technology. Y un libro de Eliezer Yudkowsky y Nate Soares — Ediciones Destino lo publicó en marzo en español: 'Si alguien la crea, todos moriremos'. El título dice mucho del tono."
+[Pausa]
+"PauseAI es una voz. Hay un ecosistema. Lo importante no es por dónde entréis. Lo importante es que entréis."
+
+NOTAS:
+- Función: legitimar PauseAI mostrando que es parte de un movimiento amplio. Para sala anticapitalista cooperativista, diversidad de tácticas = señal de movimiento maduro.
+- Libro Yudkowsky/Soares: título original inglés "If Anyone Builds It, Everyone Dies" (sept 2025). Edición española no confirmada. Slide muestra traducción literal.
+- The AI Doc: documental Center for Humane Technology, co-director Daniel Roher, estreno marzo 2026.
+- StopAI (Sam Kirchner): acción directa, no violenta.
+- ControlAI (Andrea Miotti): think-tank UK con presencia Bruselas/Westminster.
+- LAND a "Cuatro cosas que podéis hacer hoy": "Y aquí está la propuesta concreta de PauseAI."
+- TIEMPO: 60-75 segundos.
 -->
 
 ---
@@ -169,6 +241,116 @@ Beat 5.5 · CTA cuatro vías.
 - 2: DIFUNDID. Romped el silencio.
 - 3: UNÍOS A PAUSEAI EN ESPAÑOL. No hay nodo Granada todavía, si alguien quiere coordinarse aquí, hablamos al final.
 - 4: FIRMAD. superintelligence-statement.org (Hinton, Bengio, Russell + 70K firmas), pauseai.info/statement (moratoria), humanstatement.org (500+ orgs).
+-->
+
+---
+
+# Fuentes
+
+<style scoped>
+.ref-link { color: inherit; text-decoration: none; transition: color 0.15s; }
+.ref-link:hover { color: #ff9416; }
+</style>
+
+<div class="grid grid-cols-3 gap-3 mt-3 text-[9.5px] leading-snug" style="font-family: 'Montserrat', sans-serif">
+  <div class="space-y-3">
+    <div>
+      <div class="text-orange-400 font-bold text-[11px] uppercase tracking-wide mb-1" style="font-family: 'Saira Condensed', sans-serif">Marco · capacidades</div>
+      <ul class="space-y-1 opacity-80 list-none pl-0">
+        <li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0065245808604180" target="_blank" rel="noopener" class="ref-link">I. J. Good, <em>Speculations Concerning the First Ultraintelligent Machine</em> (1965)</a></li>
+        <li><a href="https://arxiv.org/abs/1705.08807" target="_blank" rel="noopener" class="ref-link">Grace et al., <em>When Will AI Exceed Human Performance?</em> arXiv 1705.08807 (2017)</a></li>
+        <li><a href="https://metr.org/time-horizons/" target="_blank" rel="noopener" class="ref-link">METR.org · Time Horizons</a></li>
+        <li><a href="https://hai.stanford.edu/ai-index/2026-ai-index-report" target="_blank" rel="noopener" class="ref-link">Stanford AI Index 2026 · HAI</a></li>
+        <li><a href="https://openai.com/index/where-the-goblins-came-from/" target="_blank" rel="noopener" class="ref-link">OpenAI, <em>Where the Goblins Came From</em> (30 abr 2026)</a></li>
+        <li><a href="https://cdn.openai.com/papers/gpt-4.pdf" target="_blank" rel="noopener" class="ref-link">OpenAI, GPT-4 Technical Report (2023)</a></li>
+        <li><a href="https://keepthefuturehuman.ai/" target="_blank" rel="noopener" class="ref-link">FLI · A. Aguirre, <em>Keep the Future Human</em> (2025)</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="text-orange-400 font-bold text-[11px] uppercase tracking-wide mb-1" style="font-family: 'Saira Condensed', sans-serif">Mythos · asimetría</div>
+      <ul class="space-y-1 opacity-80 list-none pl-0">
+        <li><a href="https://red.anthropic.com/2026/mythos-preview/" target="_blank" rel="noopener" class="ref-link">Anthropic · anuncio Mythos + Glasswing (7 abr 2026)</a></li>
+        <li><a href="https://www.theregister.com/2026/04/22/mozilla_firefox_mythos_future_defenders/" target="_blank" rel="noopener" class="ref-link">The Register · Help Net · Engadget — Mozilla 271 (22 abr 2026)</a></li>
+        <li><a href="https://www.bloomberg.com/news/articles/2026-04-21/anthropic-s-mythos-model-is-being-accessed-by-unauthorized-users" target="_blank" rel="noopener" class="ref-link">Bloomberg · TechCrunch · Fortune — acceso día 1 (21 abr 2026)</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="space-y-3">
+    <div>
+      <div class="text-orange-400 font-bold text-[11px] uppercase tracking-wide mb-1" style="font-family: 'Saira Condensed', sans-serif">Riesgos actuales · empleo</div>
+      <ul class="space-y-1 opacity-80 list-none pl-0">
+        <li><a href="https://www.cnn.com/2024/02/01/politics/election-deepfake-threats-invs" target="_blank" rel="noopener" class="ref-link">CNN · Eslovaquia deepfake (2024)</a></li>
+        <li><a href="https://surfshark.com/research/" target="_blank" rel="noopener" class="ref-link">Surfshark · deepfakes en 38 países</a></li>
+        <li><a href="https://www.cnn.com/2023/04/29/us/ai-scam-calls-kidnapping-cec/index.html" target="_blank" rel="noopener" class="ref-link">CNN · ABC News · SCMP — voz clonada</a></li>
+        <li><a href="https://time.com/7382406/gemini-suicide-lawsuit-death/" target="_blank" rel="noopener" class="ref-link">TIME · Gavalas / Gemini suicidio</a></li>
+        <li><a href="https://www.nbcnews.com/tech/internet/elon-musk-grok-antisemitic-posts-x-rcna217634" target="_blank" rel="noopener" class="ref-link">NBC News · Rolling Stone — Grok MechaHitler</a></li>
+        <li><a href="https://www.reuters.com/legal/litigation/elon-musks-grok-faces-global-scrutiny-sexualised-ai-photos-2026-02-17/" target="_blank" rel="noopener" class="ref-link">Reuters · Grok imágenes sexualizadas (feb 2026)</a></li>
+        <li><a href="https://www.anthropic.com/research/labor-market-impacts" target="_blank" rel="noopener" class="ref-link">Anthropic · <em>Labor Market Impacts</em> (mar 2026)</a></li>
+        <li><a href="https://www.funcas.es/documentos_trabajo/inteligencia-artificial-y-mercado-de-trabajo-en-espana-exposicion-ocupacional-efectos-sobre-el-empleo-y-adopcion-empresarial/" target="_blank" rel="noopener" class="ref-link">Funcas · Rodríguez-Fernández (UGR, abr 2026)</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="text-orange-400 font-bold text-[11px] uppercase tracking-wide mb-1" style="font-family: 'Saira Condensed', sans-serif">Fuera de control · militar</div>
+      <ul class="space-y-1 opacity-80 list-none pl-0">
+        <li><a href="https://palisaderesearch.org/blog/shutdown-resistance" target="_blank" rel="noopener" class="ref-link">Palisade Research · o3 sabotaje del apagado (may 2025)</a></li>
+        <li><a href="https://www.anthropic.com/research/agentic-misalignment" target="_blank" rel="noopener" class="ref-link">Anthropic · Agentic Misalignment (2025)</a></li>
+        <li><a href="https://arxiv.org/pdf/2512.24873" target="_blank" rel="noopener" class="ref-link">Alibaba/Qwen · ROME, arXiv 2512.24873</a></li>
+        <li><a href="https://www.businessinsider.com/meta-ai-alignment-director-openclaw-email-deletion-2026-2" target="_blank" rel="noopener" class="ref-link">Business Insider · OpenClaw / Summer Yue (feb 2026)</a></li>
+        <li><a href="https://www.army.mil/article/286317/" target="_blank" rel="noopener" class="ref-link">U.S. Army · Detachment 201 (jun 2025)</a></li>
+        <li><a href="https://www.washingtonpost.com/technology/2026/03/04/anthropic-ai-iran-campaign/" target="_blank" rel="noopener" class="ref-link">WashPost · CBS · The Hill — Claude/Iran (4 mar 2026)</a></li>
+        <li><a href="https://fortune.com/2026/04/22/palantir-alex-karp-mini-manifesto-national-security-defense-tech-ai/" target="_blank" rel="noopener" class="ref-link">Karp &amp; Zamiska, <em>The Technological Republic</em> + manifiesto Palantir (19 abr 2026)</a></li>
+        <li><a href="https://www.defensenews.com/news/pentagon-congress/2026/05/01/pentagon-freezes-out-anthropic-as-it-signs-deals-with-ai-rivals/" target="_blank" rel="noopener" class="ref-link">Defense News · CNN — Pentagon excluye Anthropic (1 may 2026)</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="space-y-3">
+    <div>
+      <div class="text-orange-400 font-bold text-[11px] uppercase tracking-wide mb-1" style="font-family: 'Saira Condensed', sans-serif">Voces · p(doom)</div>
+      <ul class="space-y-1 opacity-80 list-none pl-0">
+        <li><a href="https://www.nobelprize.org/prizes/physics/2024/hinton/lecture/" target="_blank" rel="noopener" class="ref-link">Hinton · Discurso Premio Nobel de Física (2024)</a></li>
+        <li><a href="https://www.cbc.ca/radio/ideas/geoffrey-hinton-maternal-instincts-9.7094116" target="_blank" rel="noopener" class="ref-link">Hinton · CBC Ideas <em>Maternal Instincts</em> (feb 2026)</a></li>
+        <li><a href="https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026" target="_blank" rel="noopener" class="ref-link">Bengio + 100 expertos · International AI Safety Report 2026</a></li>
+        <li><a href="https://pausecon.org/" target="_blank" rel="noopener" class="ref-link">Russell · PauseCon Brussels (feb 2026)</a></li>
+        <li><a href="https://www.darioamodei.com/essay/the-adolescence-of-technology" target="_blank" rel="noopener" class="ref-link">Amodei · <em>The Adolescence of Technology</em></a></li>
+        <li><a href="https://arxiv.org/abs/2401.02843" target="_blank" rel="noopener" class="ref-link">Grace et al. · 2.778 investigadores, arXiv 2401.02843</a></li>
+        <li><a href="https://futureoflife.org/ai-safety-index-winter-2025/" target="_blank" rel="noopener" class="ref-link">Future of Life Institute · AI Safety Index Winter 2025</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="text-orange-400 font-bold text-[11px] uppercase tracking-wide mb-1" style="font-family: 'Saira Condensed', sans-serif">Política · precedentes</div>
+      <ul class="space-y-1 opacity-80 list-none pl-0">
+        <li><a href="https://www.sanders.senate.gov/press-releases/news-sanders-ocasio-cortez-announce-ai-data-center-moratorium-act/" target="_blank" rel="noopener" class="ref-link">Sanders + Ocasio-Cortez · AI Data Center Moratorium Act (25 mar 2026)</a></li>
+        <li><a href="https://lordslibrary.parliament.uk/superintelligent-ai-should-its-development-be-stopped/" target="_blank" rel="noopener" class="ref-link">House of Lords UK · debate moratoria (ene 2026)</a></li>
+        <li><a href="https://www.bsr.org/en/blog/the-eu-ai-act-where-do-we-stand-in-2025/" target="_blank" rel="noopener" class="ref-link">EU AI Act · BSR analysis</a></li>
+        <li><a href="https://www.fmprc.gov.cn/mfa_eng/xw/zyxw/202507/t20250729_11679232.html" target="_blank" rel="noopener" class="ref-link">China · Plan Global Gobernanza IA (jul 2025)</a></li>
+        <li><a href="https://www.un.org/disarmament/wmd/nuclear/npt/" target="_blank" rel="noopener" class="ref-link">Tratado de No Proliferación Nuclear (1968)</a></li>
+        <li><a href="https://disarmament.unoda.org/en/our-work/weapons-mass-destruction/biological-weapons/biological-weapons-convention" target="_blank" rel="noopener" class="ref-link">Convención de Armas Biológicas (1975)</a></li>
+        <li><a href="https://www.unep.org/ozonaction/who-we-are/about-montreal-protocol" target="_blank" rel="noopener" class="ref-link">Protocolo de Montreal (1987)</a></li>
+        <li><a href="https://www.opcw.org/chemical-weapons-convention" target="_blank" rel="noopener" class="ref-link">Convención de Armas Químicas (1993)</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="mt-5 text-center">
+  <div class="text-xs opacity-70">Fuentes completas, con enlaces directos a cada documento:</div>
+  <div class="text-sm font-bold mt-1" style="color: #ff9416; font-family: 'Fira Code', monospace">
+    pauseai.es/presentaciones/ultima-invencion-cva-colectiva-2026-05
+  </div>
+</div>
+
+<!--
+Slide fuentes · cierre de credibilidad antes del Q&A.
+
+VOZ:
+"Antes de las preguntas, una nota."
+[Slide]
+"Todo lo que habéis oído tiene fuente. Las podéis ver aquí, agrupadas por bloque, y la lista completa con enlaces directos está en la página acompañante."
+
+NOTAS:
+- Función: SHOW, not tell. La densidad visual es el mensaje. La sala no necesita leer cada referencia, basta con ver que hay rigor.
+- 32 referencias agrupadas en 5 bloques temáticos coincidentes con la estructura de la charla.
+- Detalles completos (URLs, fechas exactas, autores) en research/sources.md y fuentes.md.
+- Tiempo en pantalla: 30-45 segundos. Avanzar al slide de Preguntas + QRs cuando la sala procesa.
 -->
 
 ---
