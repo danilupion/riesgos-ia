@@ -1,10 +1,13 @@
 {
-  "title": "Lo que la máquina aún no ve",
-  "subtitle": "IA e imagen médica",
   "speaker": "Dani Lupión",
   "date": "2026-04-01",
   "dateApprox": true,
-  "venue": "C.D.P. Fundación Albor · Cádiz",
-  "language": "es",
-  "description": "Charla a estudiantes de CFGS Imagen para el Radiodiagnóstico sobre IA aplicada al diagnóstico médico y sus límites."
+  "languages": {
+    "es": {
+      "title": "Lo que la máquina aún no ve",
+      "subtitle": "IA e imagen médica",
+      "venue": "C.D.P. Fundación Albor · Cádiz",
+      "description": "Charla a estudiantes de CFGS Imagen para el Radiodiagnóstico sobre IA aplicada al diagnóstico médico y sus límites."
+    }
+  }
 }

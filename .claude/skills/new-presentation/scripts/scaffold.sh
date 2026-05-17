@@ -112,11 +112,26 @@ mkdir -p "$TARGET/slides" "$TARGET/public/logos" \
 cp "$ASSETS/logos/logo.png" "$TARGET/public/logos/"
 cp "$ASSETS/logos/logo-completo.png" "$TARGET/public/logos/"
 
+# Derive YYYY-MM-01 ISO date from the dirname suffix (`<topic>-<venue>-YYYY-MM`).
+DATE_ISO=""
+if [[ "$DIRNAME" =~ -([0-9]{4})-([0-9]{2})$ ]]; then
+  DATE_ISO="${BASH_REMATCH[1]}-${BASH_REMATCH[2]}-01"
+fi
+
 # --- package.json ---
 substitute "$TEMPLATES/package.json.tmpl" "$TARGET/package.json" \
   NAME "$DIRNAME" \
   DESCRIPTION "$TITLE" \
   PORT "$PORT"
+
+# --- presentation.json (drives the landing index) ---
+substitute "$TEMPLATES/presentation.json.tmpl" "$TARGET/presentation.json" \
+  SPEAKER "$SPEAKER" \
+  DATE_ISO "$DATE_ISO" \
+  TITLE "$TITLE" \
+  VENUE_LINE "$VENUE_LINE" \
+  VENUE_FULL "$VENUE_FULL" \
+  OVERVIEW "$OVERVIEW"
 
 # --- slides.md ---
 substitute "$TEMPLATES/slides.md.tmpl" "$TARGET/slides.md" \

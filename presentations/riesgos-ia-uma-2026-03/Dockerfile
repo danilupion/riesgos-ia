@@ -1,4 +1,4 @@
-ARG NODE_IMAGE=node:24.14.0-alpine
+ARG NODE_IMAGE=node:26.1.0-alpine
 
 # ------ deps ------
 FROM ${NODE_IMAGE} AS deps

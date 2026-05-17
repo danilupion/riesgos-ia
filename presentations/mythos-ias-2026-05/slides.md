@@ -9,6 +9,7 @@ drawings:
   enabled: false
 transition: fade
 colorSchema: dark
+lang: es
 addons:
   - slidev-addon-pauseai
 fonts:
@@ -43,29 +44,29 @@ class: text-center
 -->
 
 ---
-src: ./slides/00-apertura.md
+src: ./slides/es/00-apertura.md
 ---
 
 ---
-src: ./slides/01-mythos.md
+src: ./slides/es/01-mythos.md
 ---
 
 ---
-src: ./slides/02-paradoja-alineamiento.md
+src: ./slides/es/02-paradoja-alineamiento.md
 ---
 
 ---
-src: ./slides/03-framework.md
+src: ./slides/es/03-framework.md
 ---
 
 ---
-src: ./slides/04-lo-que-paso.md
+src: ./slides/es/04-lo-que-paso.md
 ---
 
 ---
-src: ./slides/05-asimetrias.md
+src: ./slides/es/05-asimetrias.md
 ---
 
 ---
-src: ./slides/06-cierre.md
+src: ./slides/es/06-cierre.md
 ---

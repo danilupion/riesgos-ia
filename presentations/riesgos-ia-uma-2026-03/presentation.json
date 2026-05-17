@@ -1,10 +1,19 @@
 {
-  "title": "Riesgos de la IA",
-  "subtitle": "Riesgos existenciales y la perspectiva de PauseAI",
   "speaker": "Dani Lupión",
   "date": "2026-03-01",
   "dateApprox": true,
-  "venue": "Aula de Mayores +55 · Universidad de Málaga (Ejido)",
-  "language": "es",
-  "description": "Charla de 90 min sobre los riesgos de la IA avanzada al final de un curso del Aula de Mayores +55 en la UMA."
+  "languages": {
+    "es": {
+      "title": "Riesgos de la IA",
+      "subtitle": "Riesgos existenciales y la perspectiva de PauseAI",
+      "venue": "Aula de Mayores +55 · Universidad de Málaga (Ejido)",
+      "description": "Charla de 90 min sobre los riesgos de la IA avanzada al final de un curso del Aula de Mayores +55 en la UMA."
+    },
+    "en": {
+      "title": "AI Risks",
+      "subtitle": "Existential risks and PauseAI's perspective",
+      "venue": "Senior Programme +55 · University of Málaga (Ejido)",
+      "description": "90-min talk on advanced AI risks at the end of an AI course in UMA's Senior Programme +55."
+    }
+  }
 }

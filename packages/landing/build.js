@@ -45,6 +45,11 @@ function escapeHtml(s) {
   );
 }
 
+// Strip em/en dashes from author-supplied card copy.
+function stripDashes(s) {
+  return String(s ?? '').replace(/\s*[–—]\s*/g, ', ');
+}
+
 function formatDate(iso, isApprox, lang) {
   if (!iso) return '';
   const [y, m, d] = iso.split('-').map(Number);
@@ -54,10 +59,6 @@ function formatDate(iso, isApprox, lang) {
     return lang === 'en' ? `${monthName} ${y}` : `${monthName} de ${y}`;
   }
   return lang === 'en' ? `${monthName} ${d}, ${y}` : `${d} de ${monthName} de ${y}`;
-}
-
-function isUpcoming(iso, todayIso) {
-  return iso >= todayIso;
 }
 
 async function loadPresentations() {
@@ -70,6 +71,13 @@ async function loadPresentations() {
     try {
       const raw = await readFile(jsonPath, 'utf-8');
       const meta = JSON.parse(raw);
+      for (const lang of Object.values(meta.languages || {})) {
+        if (lang && typeof lang === 'object') {
+          for (const k of Object.keys(lang)) {
+            if (typeof lang[k] === 'string') lang[k] = stripDashes(lang[k]);
+          }
+        }
+      }
       presentations.push({ slug, ...meta });
     } catch (err) {
       if (err.code === 'ENOENT') {
@@ -83,39 +91,81 @@ async function loadPresentations() {
   return presentations;
 }
 
-function renderCard(p, todayIso) {
-  const upcoming = isUpcoming(p.date, todayIso);
-  const dateText = formatDate(p.date, !!p.dateApprox, p.language || 'es');
-  const langLabel = (p.language || 'es').toUpperCase();
-  return `<a class="card${upcoming ? ' card--upcoming' : ''}" href="./${escapeHtml(p.slug)}/">
+function pickCanonical(languages) {
+  if (languages?.es) return { code: 'es', meta: languages.es };
+  const first = Object.entries(languages || {})[0];
+  return first ? { code: first[0], meta: first[1] } : null;
+}
+
+function renderCard(p) {
+  const langs = p.languages || {};
+  const canonical = pickCanonical(langs);
+  if (!canonical) return '';
+
+  const code = canonical.code;
+  const meta = canonical.meta;
+  const dateText = formatDate(p.date, !!p.dateApprox, code);
+
+  const hrefFor = (lang) => `./${p.slug}/${lang === code ? '' : `${lang}/`}`;
+
+  const i18nAttrs = (key) =>
+    Object.entries(langs)
+      .map(([lang, m]) => `data-${lang}="${escapeHtml(m[key] ?? '')}"`)
+      .join(' ');
+
+  const i18nHrefAttrs = () =>
+    Object.keys(langs)
+      .map((lang) => `data-${lang}="${escapeHtml(hrefFor(lang))}"`)
+      .join(' ');
+
+  const dateAttrs = Object.keys(langs)
+    .map((lang) => `data-${lang}="${escapeHtml(formatDate(p.date, !!p.dateApprox, lang))}"`)
+    .join(' ');
+
+  const otherLangs = Object.keys(langs).filter((l) => l !== code);
+  const langToggle =
+    otherLangs.length > 0
+      ? `<div class="card-langs" role="group" aria-label="language">
+          ${Object.keys(langs)
+            .map(
+              (lang) =>
+                `<button type="button" class="card-lang-btn${lang === code ? ' is-active' : ''}" data-set-lang="${lang}">${lang.toUpperCase()}</button>`,
+            )
+            .join('')}
+        </div>`
+      : '';
+
+  return `<article class="card" data-lang="${code}">
   <div class="card-meta">
-    <span class="card-date">${escapeHtml(dateText)}</span>
-    ${upcoming ? '<span class="card-badge card-badge--upcoming">Próxima</span>' : ''}
-    <span class="card-badge card-badge--lang">${escapeHtml(langLabel)}</span>
+    <span class="card-date i18n-text" ${dateAttrs}>${escapeHtml(dateText)}</span>
+    ${langToggle}
   </div>
-  <h2 class="card-title">${escapeHtml(p.title || p.slug)}</h2>
-  ${p.subtitle ? `<p class="card-subtitle">${escapeHtml(p.subtitle)}</p>` : ''}
-  <p class="card-byline">
-    <span class="card-speaker">${escapeHtml(p.speaker || '')}</span>
-    ${p.venue ? `<span class="card-divider">·</span><span class="card-venue">${escapeHtml(p.venue)}</span>` : ''}
-  </p>
-  ${p.description ? `<p class="card-description">${escapeHtml(p.description)}</p>` : ''}
-  <span class="card-cta">Abrir presentación →</span>
-</a>`;
+  <h2 class="card-title">
+    <a class="card-title-link i18n-href" ${i18nHrefAttrs()} href="${escapeHtml(hrefFor(code))}">
+      <span class="i18n-text" ${i18nAttrs('title')}>${escapeHtml(meta.title || p.slug)}</span>
+    </a>
+  </h2>
+  ${meta.subtitle ? `<p class="card-subtitle i18n-text" ${i18nAttrs('subtitle')}>${escapeHtml(meta.subtitle)}</p>` : ''}
+  ${meta.venue ? `<p class="card-venue i18n-text" ${i18nAttrs('venue')}>${escapeHtml(meta.venue)}</p>` : ''}
+  ${meta.description ? `<p class="card-description i18n-text" ${i18nAttrs('description')}>${escapeHtml(meta.description)}</p>` : ''}
+  <a class="card-cta i18n-href" ${i18nHrefAttrs()} href="${escapeHtml(hrefFor(code))}">
+    <span class="i18n-text" data-es="Abrir presentación →" data-en="Open presentation →">Abrir presentación →</span>
+  </a>
+</article>`;
 }
 
 function renderHTML(presentations, todayIso) {
-  const cards = presentations.map((p) => renderCard(p, todayIso)).join('\n');
-  const upcomingCount = presentations.filter((p) => isUpcoming(p.date, todayIso)).length;
+  const cards = presentations.map(renderCard).filter(Boolean).join('\n');
+  const count = presentations.length;
   return `<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Presentaciones · PauseAI España</title>
-  <meta name="description" content="Charlas y conferencias de PauseAI España. Riesgos de la IA avanzada, política, ética y movimiento por una pausa." />
-  <meta property="og:title" content="Presentaciones · PauseAI España" />
-  <meta property="og:description" content="Charlas y conferencias de PauseAI España." />
+  <title>Presentaciones · PauseAI en Español</title>
+  <meta name="description" content="Charlas y conferencias de PauseAI en Español. Riesgos de la IA avanzada, política, ética y movimiento por una pausa." />
+  <meta property="og:title" content="Presentaciones · PauseAI en Español" />
+  <meta property="og:description" content="Charlas y conferencias de PauseAI en Español." />
   <meta property="og:type" content="website" />
   <link rel="icon" type="image/png" href="./logo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -126,17 +176,17 @@ function renderHTML(presentations, todayIso) {
 <body>
   <nav class="topbar">
     <a class="brand" href="https://pauseai.es">
-      <img src="./logo.png" alt="PauseAI" />
+      <img src="./logo.png" alt="PauseAI en Español" />
       <span>pauseai.es</span>
     </a>
     <a class="back" href="https://pauseai.es">← Volver a pauseai.es</a>
   </nav>
 
   <header class="hero">
-    <img src="./logo-completo.png" alt="PauseAI España" class="hero-logo" />
+    <img src="./logo-completo.png" alt="PauseAI en Español" class="hero-logo" />
     <h1>Presentaciones</h1>
-    <p class="hero-subtitle">Charlas y conferencias de <strong>PauseAI España</strong> sobre riesgos de la IA avanzada, ética, política y movimiento por una pausa.</p>
-    <p class="hero-count">${presentations.length === 1 ? '1 presentación' : `${presentations.length} presentaciones`}${upcomingCount > 0 ? ` · ${upcomingCount === 1 ? '1 próxima' : `${upcomingCount} próximas`}` : ''}</p>
+    <p class="hero-subtitle">Charlas y conferencias de <strong>PauseAI en Español</strong> sobre riesgos de la IA avanzada, ética, política y movimiento por una pausa.</p>
+    <p class="hero-count">${count === 1 ? '1 presentación' : `${count} presentaciones`}</p>
   </header>
 
   <main class="container">
@@ -146,16 +196,40 @@ function renderHTML(presentations, todayIso) {
   </main>
 
   <footer class="footer">
-    <p><strong>PauseAI España</strong> — Pausemos la IA, sociedad civil por una pausa al desarrollo de IA avanzada.</p>
+    <p><strong>PauseAI en Español.</strong> Pausemos la IA, sociedad civil por una pausa al desarrollo de IA avanzada.</p>
     <p class="small">
       <a href="https://pauseai.es">pauseai.es</a>
       <span class="divider">·</span>
       <a href="https://pauseai.info">pauseai.info (internacional)</a>
       <span class="divider">·</span>
-      <a href="https://github.com/PauseAI">GitHub</a>
+      <a href="https://github.com/pauseai-en-espanol/presentaciones">GitHub</a>
     </p>
-    <p class="small muted">Construido con <a href="https://sli.dev">Slidev</a> · Actualizado ${formatDate(todayIso, false, 'es')}</p>
+    <p class="small muted">Actualizado ${formatDate(todayIso, false, 'es')}</p>
   </footer>
+
+  <script>
+    document.querySelectorAll('.card').forEach((card) => {
+      const buttons = card.querySelectorAll('.card-lang-btn');
+      if (!buttons.length) return;
+      buttons.forEach((btn) => {
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const lang = btn.dataset.setLang;
+          if (!lang || card.dataset.lang === lang) return;
+          card.dataset.lang = lang;
+          buttons.forEach((b) => b.classList.toggle('is-active', b.dataset.setLang === lang));
+          card.querySelectorAll('.i18n-text').forEach((el) => {
+            const v = el.dataset[lang];
+            if (v != null) el.textContent = v;
+          });
+          card.querySelectorAll('.i18n-href').forEach((el) => {
+            const v = el.dataset[lang];
+            if (v != null) el.setAttribute('href', v);
+          });
+        });
+      });
+    });
+  </script>
 </body>
 </html>
 `;
@@ -247,7 +321,9 @@ a {
 }
 
 .hero-logo {
-  height: 56px;
+  height: 110px;
+  max-width: min(520px, 90%);
+  width: auto;
   margin-bottom: 1.75rem;
   opacity: 0.95;
 }
@@ -316,11 +392,6 @@ a {
   background: var(--pauseai-navy-lighter);
 }
 
-.card--upcoming {
-  border-color: var(--pauseai-orange);
-  box-shadow: 0 0 0 1px var(--pauseai-orange-dim);
-}
-
 .card-meta {
   display: flex;
   align-items: center;
@@ -337,24 +408,38 @@ a {
   letter-spacing: 0.08em;
 }
 
-.card-badge {
-  padding: 0.15rem 0.5rem;
+.card-langs {
+  display: inline-flex;
+  margin-left: auto;
+  gap: 2px;
+  background: rgba(255, 255, 255, 0.04);
+  padding: 2px;
   border-radius: 999px;
+  position: relative;
+  z-index: 2;
+}
+
+.card-lang-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  font: inherit;
   font-size: 0.65rem;
   font-weight: 700;
-  text-transform: uppercase;
   letter-spacing: 0.08em;
+  padding: 0.18rem 0.55rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
 }
 
-.card-badge--upcoming {
+.card-lang-btn:hover {
+  color: var(--text-primary);
+}
+
+.card-lang-btn.is-active {
   background: var(--pauseai-orange);
   color: var(--pauseai-navy);
-}
-
-.card-badge--lang {
-  background: rgba(255, 255, 255, 0.08);
-  color: var(--text-secondary);
-  margin-left: auto;
 }
 
 .card-title {
@@ -368,6 +453,18 @@ a {
   line-height: 1.15;
 }
 
+.card-title-link {
+  color: inherit;
+  display: inline;
+}
+
+.card-title-link::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
 .card-subtitle {
   font-family: 'Roboto Slab', serif;
   font-size: 0.95rem;
@@ -376,27 +473,15 @@ a {
   line-height: 1.4;
 }
 
-.card-byline {
-  font-size: 0.82rem;
-  color: var(--text-secondary);
-  margin: 0 0 0.75rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-  align-items: center;
-}
-
-.card-speaker {
-  font-weight: 600;
-  color: var(--text-primary);
-}
-
-.card-divider {
-  color: var(--text-muted);
-}
-
 .card-venue {
-  color: var(--text-secondary);
+  font-size: 0.82rem;
+  color: var(--text-primary);
+  margin: 0 0 0.85rem;
+  padding: 0.35rem 0.6rem;
+  border-left: 2px solid var(--pauseai-orange);
+  background: var(--pauseai-orange-dim);
+  border-radius: 0 4px 4px 0;
+  line-height: 1.35;
 }
 
 .card-description {
@@ -413,6 +498,8 @@ a {
   font-weight: 600;
   letter-spacing: 0.02em;
   margin-top: auto;
+  position: relative;
+  z-index: 2;
 }
 
 /* ---------- Footer ---------- */
@@ -465,7 +552,7 @@ a {
   }
 
   .hero-logo {
-    height: 44px;
+    height: 80px;
   }
 
   .container {
@@ -482,18 +569,11 @@ a {
 }
 `;
 
-async function copyLogos() {
-  const sources = [
-    {
-      src: join(PRESENTATIONS_DIR, 'civil-society-aipsrc-2026-05', 'public', 'logos', 'logo.png'),
-      dest: join(DIST, 'logo.png'),
-    },
-    {
-      src: join(PRESENTATIONS_DIR, 'civil-society-aipsrc-2026-05', 'public', 'logos', 'banner.png'),
-      dest: join(DIST, 'logo-completo.png'),
-    },
-  ];
-  for (const { src, dest } of sources) {
+async function copyAssets() {
+  const ASSETS = join(__dirname, 'assets');
+  for (const name of ['logo.png', 'logo-completo.png']) {
+    const src = join(ASSETS, name);
+    const dest = join(DIST, name);
     try {
       await copyFile(src, dest);
     } catch (err) {
@@ -509,7 +589,7 @@ async function main() {
   const html = renderHTML(presentations, todayIso);
   await writeFile(join(DIST, 'index.html'), html, 'utf-8');
   await writeFile(join(DIST, 'style.css'), STYLE_CSS, 'utf-8');
-  await copyLogos();
+  await copyAssets();
   console.log(
     `[landing] Generated ${presentations.length} card${presentations.length === 1 ? '' : 's'} at ${DIST}`,
   );

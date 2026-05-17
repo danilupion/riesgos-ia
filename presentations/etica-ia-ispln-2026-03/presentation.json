@@ -1,10 +1,13 @@
 {
-  "title": "IA, Ética, y la Ausencia de Esta",
-  "subtitle": "Sobre ética en IA — y la falta de ella",
   "speaker": "Alvaro Torres de Miguel",
   "date": "2026-03-01",
   "dateApprox": true,
-  "venue": "ISPLN",
-  "language": "es",
-  "description": "Charla sobre ética en IA y los huecos sistémicos que la práctica actual deja."
+  "languages": {
+    "es": {
+      "title": "IA, Ética, y la Ausencia de Esta",
+      "subtitle": "Sobre ética en IA — y la falta de ella",
+      "venue": "ISPLN",
+      "description": "Charla sobre ética en IA y los huecos sistémicos que la práctica actual deja."
+    }
+  }
 }

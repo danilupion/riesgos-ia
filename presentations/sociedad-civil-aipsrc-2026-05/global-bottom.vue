@@ -2,23 +2,27 @@
 import { computed } from 'vue';
 import { configs } from '@slidev/client';
 
+const isEn = computed(() => configs.lang === 'en');
+const domain = computed(() => (isEn.value ? 'pauseai.info' : 'pauseai.es'));
 const venueLabel = computed(() =>
-  configs.lang === 'en' ? 'Senior Programme +55' : 'Aula de Mayores +55',
+  isEn.value
+    ? 'AI Policy & Safety Reading Club · Session 2'
+    : 'AI Policy and Safety Reading Club · Sesión 2',
 );
 </script>
 
 <template>
   <footer class="footer-persistent footer-left">
     <img src="/logos/logo.png" class="h-5 rounded-full" />
-    <span class="text-xs tracking-wide text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)]"
-      >pauseai.es</span
-    >
+    <span class="text-xs tracking-wide text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)]">{{
+      domain
+    }}</span>
   </footer>
   <footer class="footer-persistent footer-right">
-    <span class="text-xs tracking-wide text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)]">{{
-      venueLabel
-    }}</span>
-    <img src="/logos/uma.png" class="h-5" style="filter: brightness(0) invert(1)" />
+    <span
+      class="text-xs tracking-wide text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)] opacity-70"
+      >{{ venueLabel }}</span
+    >
   </footer>
 </template>
 
@@ -29,7 +33,7 @@ const venueLabel = computed(() =>
   display: flex;
   align-items: center;
   gap: 8px;
-  opacity: 0.5;
+  opacity: 0.6;
   z-index: 100;
   pointer-events: none;
 }

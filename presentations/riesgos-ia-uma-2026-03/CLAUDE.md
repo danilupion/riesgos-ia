@@ -4,6 +4,14 @@
 
 Dani Lupion, miembro de PauseAI, ha sido invitado como ponente externo para una charla unica de 1h30m dentro del programa **Aula de Mayores +55** de la Universidad de Malaga (UMA). La charla ocurre al final de un curso de IA, por lo que la audiencia ya tiene nociones basicas. Se centra en **riesgos de la IA y seguridad existencial** desde la perspectiva de PauseAI.
 
+## Bilingual
+
+- ES (canónica): `slides.md` → `slides/es/` · `pnpm dev` (3030) · `pnpm build`
+- EN: `slides-en.md` → `slides/en/` · `pnpm dev:en` (3038) · `pnpm build:en`
+- Ambos idiomas comparten `public/`, `style.css`, `vite.config.js`, `global-bottom.vue`, `pages/`, `setup/` y `package.json`.
+- `global-bottom.vue` lee `configs.lang` y conmuta "Aula de Mayores +55" ↔ "Senior Programme +55" automáticamente.
+- Estructura de slides y `v-click` espejados 1:1 entre idiomas. La traducción es mecánica — mantenerlos en lockstep al editar.
+
 ## Contexto del Aula de Mayores +55
 
 - Programa oficial de la Universidad de Malaga para personas mayores de 55 anos

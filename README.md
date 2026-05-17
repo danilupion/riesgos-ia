@@ -54,26 +54,62 @@ charts/                    # Helm charts for Kubernetes deployment
 
 ## Adding a New Presentation
 
-1. Create a directory in `presentations/` following the naming convention: `<topic>-<venue>-<YYYY>-<MM>`
-2. Add a `package.json` with Slidev as a dev dependency (use `slidev-addon-pauseai` for shared components)
-3. Create `slides.md`, `slides/`, `public/`, `style.css`, `global-bottom.vue`
-4. Add a `CLAUDE.md` with audience, structure, and sources
+1. Create a directory in `presentations/` following the naming convention: `<topic>-<venue>-<YYYY>-<MM>` (slug in the canonical language).
+2. Add a `package.json` with Slidev as a dev dependency (use `slidev-addon-pauseai` for shared components).
+3. Create `slides.md` (canonical), `slides/<lang>/`, `public/`, `style.css`, `global-bottom.vue`.
+4. Add a `CLAUDE.md` with audience, structure, and sources.
 5. Add a `presentation.json` so the landing index picks it up:
 
 ```json
 {
-  "title": "Title",
-  "subtitle": "Optional subtitle",
   "speaker": "Speaker name",
   "date": "YYYY-MM-DD",
   "dateApprox": false,
-  "venue": "Venue · location",
-  "language": "es",
-  "description": "One-line description for the listing card."
+  "languages": {
+    "es": {
+      "title": "Título",
+      "subtitle": "Subtítulo opcional",
+      "venue": "Lugar · ubicación",
+      "description": "Descripción de una línea para la tarjeta del listado."
+    }
+  }
 }
 ```
 
-Set `dateApprox: true` when only the month is known (the landing will render "abril de 2026" instead of "15 de abril de 2026").
+Set `dateApprox: true` when only the month is known (the landing renders "abril de 2026" instead of "15 de abril de 2026").
+
+### Adding a second language
+
+Bilingual presentations keep one directory per talk. The canonical language lives at `/<slug>/`; translations live at `/<slug>/<lang>/`.
+
+1. In `slides/`, create per-language subdirs: `slides/es/01-…md`, `slides/en/01-…md`.
+2. Keep `slides.md` as the canonical entry, add `slides-<lang>.md` for each translation. Each entry sets `lang: es` / `lang: en` in its frontmatter and references its own `./slides/<lang>/*.md`.
+3. Make `global-bottom.vue` lang-aware if any text differs (read `configs.lang` from `@slidev/client`).
+4. In `package.json`, add per-language scripts:
+
+```json
+{
+  "scripts": {
+    "dev": "slidev --remote --port 3030",
+    "dev:en": "slidev slides-en.md --remote --port 3031",
+    "build": "slidev build",
+    "build:en": "slidev build slides-en.md --out dist/en"
+  }
+}
+```
+
+5. Extend `presentation.json` with a second entry under `languages`:
+
+```json
+{
+  "languages": {
+    "es": { "title": "…", "subtitle": "…", "venue": "…", "description": "…" },
+    "en": { "title": "…", "subtitle": "…", "venue": "…", "description": "…" }
+  }
+}
+```
+
+Slide structure, click reveals and image references must mirror 1:1 between languages — only prose is translated. The Docker build auto-detects `slides-en.md` and serves the EN build under `/<slug>/en/`.
 
 ## Docker Build
 

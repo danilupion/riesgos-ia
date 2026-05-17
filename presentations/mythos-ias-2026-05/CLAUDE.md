@@ -2,7 +2,14 @@
 
 ## Presentation Overview
 
-Charla de Dani Lupión (PauseAI España) sobre Claude Mythos Preview y el Project Glasswing de Anthropic: capacidades ofensivas emergentes, descubrimiento masivo de zero-days y la ventana transicional entre atacante y defensor. Impartida en AISafety España, en español.
+Charla de Dani Lupión (PauseAI España) sobre Claude Mythos Preview y el Project Glasswing de Anthropic: capacidades ofensivas emergentes, descubrimiento masivo de zero-days y la ventana transicional entre atacante y defensor. Impartida en AISafety España.
+
+## Bilingual
+
+- ES (canonical): `slides.md` → `slides/es/` · `pnpm dev` (3036) · `pnpm build`
+- EN: `slides-en.md` → `slides/en/` · `pnpm dev:en` (3046) · `pnpm build:en`
+- Both languages share `public/`, `style.css`, `vite.config.js`, `global-bottom.vue`, and `package.json`.
+- Slide structure and click reveals mirror 1:1 between languages. Translation is mechanical — keep them in lockstep when editing.
 
 ## Key Details
 
@@ -12,7 +19,7 @@ Charla de Dani Lupión (PauseAI España) sobre Claude Mythos Preview y el Projec
 - **Duración**: TBD
 - **Fecha**: Mayo 2026
 - **Lugar**: AISafety España
-- **Idioma**: Español
+- **Idiomas**: Español (canónico) + Inglés
 - **Tono**: Técnico pero accesible, factual, sin hedging. Enfoque AI safety + policy implications.
 
 ## Branding
@@ -52,6 +59,7 @@ Charla de Dani Lupión (PauseAI España) sobre Claude Mythos Preview y el Projec
 - [ ] Construir slides individuales en `slides/` (sesiones posteriores)
 - [ ] Verificar todas las fuentes con `TODO source:` en slides/
 - [ ] Generar QR code a pauseai.es en `public/qr-pauseai.png`
+- [ ] Regenerar `qr-mythos.png` y `qr-share.png` para la nueva URL (`pauseai.es/presentaciones/mythos-ias-2026-05/en/` para la versión inglesa)
 
 ## Key Sources
 

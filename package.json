@@ -5,8 +5,8 @@
   "version": "1.0.0",
   "description": "Coleccion de presentaciones PauseAI España",
   "scripts": {
-    "dev": "turbo run dev",
-    "build": "turbo run build",
+    "dev": "turbo run dev dev:en",
+    "build": "turbo run build build:en",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
@@ -16,18 +16,25 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@slango.configs/eslint": "1.2.13",
-    "@slango.configs/lint-staged": "1.1.19",
-    "@slango.configs/prettier": "1.0.14",
-    "eslint": "10.2.0",
-    "husky": "^9.1.7",
-    "lint-staged": "^16.4.0",
-    "prettier": "3.8.2",
-    "turbo": "^2.9.6"
+    "@slango.configs/eslint": "1.2.16",
+    "@slango.configs/lint-staged": "1.1.21",
+    "@slango.configs/prettier": "1.0.17",
+    "eslint": "10.4.0",
+    "husky": "9.1.7",
+    "lint-staged": "17.0.5",
+    "prettier": "3.8.3",
+    "turbo": "2.9.14"
   },
   "engines": {
-    "node": "^24.14.0",
-    "pnpm": "^11.1.1"
+    "node": "^26.1.0",
+    "pnpm": "^11.1.2"
   },
-  "packageManager": "pnpm@11.1.1"
+  "packageManager": "pnpm@11.1.2",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.1.2",
+      "onFail": "error"
+    }
+  }
 }

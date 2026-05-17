@@ -9,6 +9,7 @@ drawings:
   enabled: false
 transition: fade
 colorSchema: dark
+lang: es
 addons:
   - slidev-addon-pauseai
 fonts:
@@ -43,33 +44,33 @@ class: text-center
 -->
 
 ---
-src: ./slides/01-apertura.md
+src: ./slides/es/01-apertura.md
 ---
 
 ---
-src: ./slides/02-que-puede-hacer-ia.md
+src: ./slides/es/02-que-puede-hacer-ia.md
 ---
 
 ---
-src: ./slides/03-riesgos-actuales.md
+src: ./slides/es/03-riesgos-actuales.md
 ---
 
 ---
-src: ./slides/04-ia-fuera-de-control.md
+src: ./slides/es/04-ia-fuera-de-control.md
 ---
 
 ---
-src: ./slides/05-los-que-mas-saben.md
+src: ./slides/es/05-los-que-mas-saben.md
 ---
 
 ---
-src: ./slides/06-por-que-no-reaccionamos.md
+src: ./slides/es/06-por-que-no-reaccionamos.md
 ---
 
 ---
-src: ./slides/07-que-podemos-hacer.md
+src: ./slides/es/07-que-podemos-hacer.md
 ---
 
 ---
-src: ./slides/08-preguntas.md
+src: ./slides/es/08-preguntas.md
 ---

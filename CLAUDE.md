@@ -66,4 +66,19 @@ Claude operates with THREE simultaneous roles across all presentations. All thre
 
 ## Naming Convention
 
-Presentations follow the pattern: `<topic>-<YYYY>-<MM>` (e.g., `riesgos-ia-uma-2026-03`). Each presentation has its own CLAUDE.md with audience details, session structure, sources, and specific instructions.
+Presentations follow the pattern: `<topic>-<venue>-<YYYY>-<MM>` (e.g., `riesgos-ia-uma-2026-03`). The slug uses the canonical-language wording. Each presentation has its own CLAUDE.md with audience details, session structure, sources, and specific instructions.
+
+## Bilingual presentations
+
+When a talk exists in more than one language, both languages live in the **same directory** (no `*-en-*` siblings). Convention:
+
+- Canonical language at `/presentaciones/<slug>/` (usually ES).
+- Each additional language at `/presentaciones/<slug>/<lang>/` (e.g. `/en/`).
+- `slides.md` is the canonical entry; `slides-<lang>.md` is the translated entry. Each declares `lang: <code>` in its frontmatter and `src:` into `./slides/<lang>/*.md`.
+- `public/`, `style.css`, `vite.config.js`, `global-bottom.vue`, `package.json` and `presentation.json` are **shared** across languages.
+- `global-bottom.vue` reads `configs.lang` from `@slidev/client` when any text needs to switch (e.g. venue label).
+- `presentation.json` uses a `languages: { es: {…}, en: {…} }` map; the landing renders one card per talk with a language toggle when there is more than one entry.
+- Slide structure, click reveals and image references mirror 1:1 across languages — translation is mechanical, drift is a bug. Edit in lockstep.
+- Dockerfile auto-detects `slides-en.md` (or any second entry) and builds it into `dist/en/`.
+
+See `README.md` for the scaffold + per-language scripts.

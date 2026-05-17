@@ -1,9 +1,12 @@
 {
-  "title": "El Último Filtro Eres Tú",
-  "subtitle": "IA, desinformación y salud",
   "speaker": "Dani Lupión",
   "date": "2026-04-15",
-  "venue": "C.D.P. Fundación Albor · Cádiz",
-  "language": "es",
-  "description": "Charla a estudiantes de Técnico de Farmacia sobre cómo la IA distorsiona la información sanitaria."
+  "languages": {
+    "es": {
+      "title": "El Último Filtro Eres Tú",
+      "subtitle": "IA, desinformación y salud",
+      "venue": "C.D.P. Fundación Albor · Cádiz",
+      "description": "Charla a estudiantes de Técnico de Farmacia sobre cómo la IA distorsiona la información sanitaria."
+    }
+  }
 }

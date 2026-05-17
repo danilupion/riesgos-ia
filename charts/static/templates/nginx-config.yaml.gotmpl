@@ -14,7 +14,7 @@ data:
         {{- if .Values.headSnippet }}
         sub_filter '</head>' '{{ .Values.headSnippet }}</head>';
         sub_filter_once on;
-        sub_filter_types text/html;
+        # sub_filter_types defaults to text/html already; no need to re-declare.
         {{- end }}
 
         {{- range .Values.redirects }}
@@ -32,9 +32,17 @@ data:
         {{- end }}
         {{- end }}
 
-        # SPA fallback: route unknown paths to the presentation's own index.html
-        location ~ ^/([^/]+/[^/]+)/ {
-            try_files $uri $uri/ /$1/index.html;
+        # SPA fallback: route unknown paths to the presentation's own index.html.
+        # The optional `/[a-z]{2}` group captures a language subpath (e.g. /en/),
+        # so bilingual presentations resolve to /<slug>/<lang>/index.html instead
+        # of falling back to the canonical /<slug>/index.html.
+        # Regex MUST be quoted: `{2}` would otherwise be parsed as the start of
+        # an nginx config block, truncating the pattern.
+        # Final `=404` is critical: without it, when /$1/index.html does not exist
+        # nginx treats the path as an internal URI redirect, re-enters this
+        # location, and loops until the rewrite limit returns 500.
+        location ~ "^/([^/]+/[^/]+(?:/[a-z]{2})?)/" {
+            try_files $uri $uri/ /$1/index.html =404;
         }
 
         location / {

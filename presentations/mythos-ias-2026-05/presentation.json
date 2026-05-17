@@ -1,10 +1,19 @@
 {
-  "title": "Mythos y Glasswing",
-  "subtitle": "Zero-days, emergencia y la ventana que se cierra",
   "speaker": "Dani Lupión",
   "date": "2026-05-01",
   "dateApprox": true,
-  "venue": "AISafety España",
-  "language": "es",
-  "description": "Sobre el Claude Mythos Preview y Project Glasswing de Anthropic: capacidades ofensivas emergentes y descubrimiento masivo de zero-days."
+  "languages": {
+    "es": {
+      "title": "Mythos y Glasswing",
+      "subtitle": "Zero-days, emergencia y la ventana que se cierra",
+      "venue": "AISafety España",
+      "description": "Sobre el Claude Mythos Preview y Project Glasswing de Anthropic: capacidades ofensivas emergentes y descubrimiento masivo de zero-days."
+    },
+    "en": {
+      "title": "Mythos and Glasswing",
+      "subtitle": "Zero-days, emergence and the closing window",
+      "venue": "AISafety España",
+      "description": "Anthropic's Claude Mythos Preview and Project Glasswing: emerging offensive capabilities, mass zero-day discovery, and the closing attacker/defender window."
+    }
+  }
 }

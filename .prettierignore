@@ -1,5 +1,7 @@
 # Slidev markdown (frontmatter + src: imports break with prettier)
+# slides.md is the canonical (ES) entry; slides-<lang>.md is each translation.
 slides.md
+slides-*.md
 slides/
 
 # Raw research downloads (HTML/PDF/TXT extracted from external sources — not source code)

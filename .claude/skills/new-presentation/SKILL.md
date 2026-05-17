@@ -218,6 +218,7 @@ Print a concise summary:
 4. **Pending verifications**: every `TODO source:` marker you left, with slide file + line. If there are >10, summarise by category instead.
 5. **Unsorted images**: count + path (`public/screenshots/unsorted/`) if any remain.
 6. **Known gaps**: anything you couldn't migrate (e.g. embedded fonts, complex animations, charts that didn't export as images).
+7. **presentation.json**: auto-scaffolded with `languages: { es: { … } }`. Note that the landing reads this file directly; if you want to add an English version later see the "Adding a second language" section in the repo README.
 
 ## Error handling
 
