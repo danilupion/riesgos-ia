@@ -1,0 +1,11 @@
+{
+  "name": "@pauseai-es/landing",
+  "type": "module",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Generador de la landing /presentaciones/ en pauseai.es",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "node build.js && python3 -m http.server 8080 --directory dist"
+  }
+}

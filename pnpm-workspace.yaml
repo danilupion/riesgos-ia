@@ -2,5 +2,10 @@ packages:
   - presentations/*
   - packages/*
 
+allowBuilds:
+  esbuild: true
+  playwright-chromium: false
+  unrs-resolver: false
+
 onlyBuiltDependencies:
   - esbuild
