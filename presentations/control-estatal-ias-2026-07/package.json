@@ -1,12 +1,12 @@
 {
-  "name": "riesgos-ia-uma-2026-03",
+  "name": "control-estatal-ias-2026-07",
   "type": "module",
   "private": true,
   "version": "1.0.0",
-  "description": "Riesgos de la IA — PauseAI + UMA Aula de Mayores +55",
+  "description": "Mythos, Fable y GPT-5.6: ¿ha comenzado la era del control estatal de la IA de frontera?",
   "scripts": {
-    "dev": "slidev --remote --port 3030",
-    "dev:en": "slidev slides-en.md --remote --port 3038",
+    "dev": "slidev --remote --port 3040",
+    "dev:en": "slidev slides-en.md --remote --port 3050",
     "build": "slidev build",
     "build:en": "slidev build slides-en.md --out dist/en"
   },

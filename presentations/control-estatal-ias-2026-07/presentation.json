@@ -1,0 +1,19 @@
+{
+  "speaker": "Dani Lupión",
+  "date": "2026-07-01",
+  "dateApprox": true,
+  "languages": {
+    "es": {
+      "title": "Mythos, Fable y GPT-5.6",
+      "subtitle": "¿Ha comenzado la era del control estatal de la IA de frontera?",
+      "venue": "Seminario BlueDot Impact × iaS",
+      "description": "Continuación de «Mythos y Glasswing»: acceso escalonado a modelos de frontera, gobiernos como gatekeepers y qué significa para la comunidad de AI safety."
+    },
+    "en": {
+      "title": "Mythos, Fable and GPT-5.6",
+      "subtitle": "Has the era of state control of frontier AI begun?",
+      "venue": "BlueDot Impact × iaS seminar",
+      "description": "Follow-up to “Mythos and Glasswing”: tiered access to frontier models, governments as gatekeepers, and what it means for the AI safety community."
+    }
+  }
+}

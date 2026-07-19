@@ -9,7 +9,7 @@
     "build": "slidev build"
   },
   "devDependencies": {
-    "@slidev/cli": "52.15.2",
+    "@slidev/cli": "52.18.0",
     "@slidev/theme-default": "0.25.0",
     "slidev-addon-pauseai": "workspace:*"
   }

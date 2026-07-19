@@ -16,25 +16,25 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@slango.configs/eslint": "1.2.16",
-    "@slango.configs/lint-staged": "1.1.21",
-    "@slango.configs/prettier": "1.0.17",
-    "eslint": "10.4.0",
+    "@slango.configs/eslint": "1.2.33",
+    "@slango.configs/lint-staged": "1.1.30",
+    "@slango.configs/prettier": "1.0.24",
+    "eslint": "10.7.0",
     "husky": "9.1.7",
-    "lint-staged": "17.0.5",
-    "prettier": "3.8.3",
-    "turbo": "2.9.14"
+    "lint-staged": "17.0.8",
+    "prettier": "3.9.5",
+    "turbo": "2.10.5"
   },
   "engines": {
     "node": "^26.1.0",
-    "pnpm": "^11.3.0"
+    "pnpm": "^11.13.1"
   },
-  "packageManager": "pnpm@11.3.0",
+  "packageManager": "pnpm@11.13.1",
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "11.3.0",
-      "onFail": "error"
+      "version": "11.13.1",
+      "onFail": "download"
     }
   }
 }
