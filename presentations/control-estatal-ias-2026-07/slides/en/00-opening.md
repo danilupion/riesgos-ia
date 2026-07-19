@@ -4,10 +4,8 @@ class: text-center
 ---
 
 <!--
-Beat 0, cold open (~3 min). Same discipline as in May: dates in massive
-typography, the voice does the work. The room comes from the
-Mythos/Glasswing talk (many attended); we open with the June sequence
-without context — the dates stand on their own.
+Beat 0, cold open (~3 min). Dates in massive typography, the voice does
+the work. No context: the dates stand on their own.
 -->
 
 <div class="text-9xl font-black tracking-tight" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416; letter-spacing: 0.02em">
@@ -24,8 +22,8 @@ without context — the dates stand on their own.
 <!--
 VOICE:
 "On June 9, 2026, Anthropic launches the Claude 5 family. Fable 5, for
-everyone, with safeguards. And Mythos 5 — which is the same underlying
-model — only for approved organizations.
+everyone, with safeguards. And Mythos 5, which is the same underlying
+model, only for approved organizations.
 
 One model. Two names. Two worlds."
 
@@ -33,7 +31,7 @@ One model. Two names. Two worlds."
 
 NOTES:
 - Don't explain yet what "approved" means. Just plant the partition.
-- "The same underlying model" is verbatim from Anthropic — proven in Block 1.
+- "The same underlying model" is verbatim from Anthropic. Proven in Block 1.
 - ~30s.
 -->
 
@@ -55,16 +53,15 @@ class: text-center
 
 <!--
 VOICE:
-"Three days later, on Friday June 12, the U.S. Department of Commerce
-issues an export control directive. Anthropic suspends access. Not in
-China. Not in sanctioned countries. Across the entire planet — including
-this room."
+"Three days later, on Friday June 12, the Department of Commerce issues an
+export control directive. Anthropic suspends access. Not in China. Not in
+sanctioned countries. Across the entire planet, including this room."
 
 [1-second beat]
 
 NOTES:
-- "Including this room" — first personal anchor for the European audience.
-- The why (the Amazon jailbreak) is told in Block 1; here, just the fact.
+- "Including this room": first personal anchor for the European audience.
+- The why (the Amazon jailbreak) is told in Block 1.
 - ~30s.
 -->
 
@@ -77,10 +74,10 @@ class: text-center
   JUNE 27
 </div>
 <div class="text-2xl mt-12 opacity-80 max-w-3xl mx-auto leading-snug">
-  <blockquote class="italic" style="font-family: 'Roboto Slab', serif">
+  <div class="italic" style="font-family: 'Roboto Slab', serif">
     "The government notified us that Mythos 5 can be redeployed."
-  </blockquote>
-  <div class="text-base opacity-50 mt-3" style="font-family: 'Montserrat', sans-serif">— Anthropic, June 27, 2026</div>
+  </div>
+  <div class="text-base opacity-50 mt-3" style="font-family: 'Montserrat', sans-serif">Anthropic, June 27, 2026</div>
 </div>
 <div v-click class="mt-10 text-2xl italic max-w-3xl mx-auto leading-snug" style="font-family: 'Roboto Slab', serif; color: #ff9416">
   Whoever notifies is whoever commands.
@@ -88,18 +85,19 @@ class: text-center
 
 <!--
 VOICE:
-"And on June 27, Anthropic publishes this sentence: 'The government
-notified us that Mythos 5 can be redeployed.'
+"And on June 27, Anthropic publishes this sentence: 'the government
+notified us that Mythos 5 can be redeployed'.
 
 [CLICK]
 
 Look at the grammar. Not 'we decided'. Not 'we agreed'.
-They *notified* us. Whoever notifies is whoever commands."
+They notified us. Whoever notifies is whoever commands."
 
 [1-second beat]
 
 NOTES:
-- The quote is verbatim from anthropic.com/news/redeploying-fable-5 (✅ report).
+- Quote verbatim from Anthropic (anthropic.com/news/redeploying-fable-5,
+  ✅ report).
 - The grammar of that sentence IS the talk's argument in miniature.
 - ~40s.
 -->
@@ -115,25 +113,21 @@ class: text-center
 </div>
 <div v-click class="mt-12 text-2xl opacity-80 italic max-w-3xl mx-auto" style="font-family: 'Roboto Slab', serif">
   Short answer: <span style="color: #ff9416">yes.</span><br/>
-  This talk is about <span class="font-semibold">what kind of control it is</span> —<br/>
-  and why that changes everything.
+  This talk is about <span class="font-semibold">what kind of control it is</span>.
 </div>
 
 <!--
 VOICE:
-"The question in this talk's title is: has the era of state control of
-frontier AI begun?
+"The question in the title: has the era of state control of frontier AI
+begun?
 
 [CLICK]
 
-And I'll give you the short answer up front: yes. We're not going to spend
-an hour on suspense. The talk is about something more interesting: what
-*kind* of control has arrived, measured against the frameworks the AI
-safety community has spent years building. And why that difference changes
-everything."
+I'll give you the short answer up front: yes. We're not playing suspense.
+The talk is about something more interesting: what kind of control has
+arrived, and why that difference changes everything."
 
 NOTES:
 - Revealing the thesis early is deliberate: technical audience, doesn't want mystery.
-- Implicit talk plan: facts → map → technical → Leviathan → contrast.
 - ~45s. Total beat 0: ~3 min.
 -->

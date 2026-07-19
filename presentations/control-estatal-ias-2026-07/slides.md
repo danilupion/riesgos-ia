@@ -38,7 +38,7 @@ class: text-center
 <!--
 - Portada: presentarme brevemente (Dani Lupión, PauseAI España).
 - Recordar que esta charla es continuación de «Mythos y Glasswing» (mayo 2026):
-  pulso rápido — "¿quién estuvo en la sesión de mayo?" — para calibrar cuánto
+  pulso rápido ("¿quién estuvo en la sesión de mayo?") para calibrar cuánto
   recapitular.
 - No adelantar la tesis aquí; la pregunta del subtítulo es el gancho.
 -->

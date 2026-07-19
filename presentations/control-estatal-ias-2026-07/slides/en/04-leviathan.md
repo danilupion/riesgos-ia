@@ -4,9 +4,9 @@ class: text-center
 ---
 
 <!--
-Block 4: The Leviathan and Europe (~8 min). State↔labs (Pentagon/Glasswing),
-the GovAI arsenal, Hobbes/narrow corridor, Europe as object, terrorism
-with honesty. Source: crossover §5, §7, §8 + report.
+Block 4: The Leviathan and Europe (~8 min). State and labs, the GovAI
+arsenal, Hobbes, Europe (interactive moment 2), terrorism. Source:
+crossover §5, §7, §8 + report.
 -->
 
 # Block 4
@@ -14,9 +14,8 @@ with honesty. Source: crossover §5, §7, §8 + report.
 
 <!--
 VOICE:
-"Part four. So far we've been talking about models. Now it's time to talk
-about the other protagonist: the state. And about what happens to anyone
-who tries to set conditions on it."
+"Part four. So far, the models. Now the other protagonist: the state. And
+what happens to anyone who tries to set conditions on it."
 
 NOTES:
 - ~10s.
@@ -34,61 +33,59 @@ layout: default
     <div>
       <div class="text-sm uppercase tracking-widest opacity-60 mb-3" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.15em">The stick</div>
       <div class="space-y-3">
-        <div v-click class="p-4 rounded-lg" style="background: rgba(148, 163, 184, 0.08); border-left: 4px solid #94a3b8">
+        <div class="p-4 rounded-lg" style="background: rgba(148, 163, 184, 0.08); border-left: 4px solid #94a3b8">
           <div class="text-sm font-bold mb-1 opacity-70" style="font-family: 'Saira Condensed', sans-serif">MAR 9</div>
-          <div class="text-sm leading-relaxed" style="font-family: 'Montserrat', sans-serif">Anthropic <span class="font-semibold">sues the Pentagon</span>: designated a "supply-chain risk" —
-          a label reserved for companies tied to adversaries — after refusing military use "for all lawful use".</div>
+          <div class="text-sm leading-relaxed" style="font-family: 'Montserrat', sans-serif">Anthropic <span class="font-semibold">sues the Pentagon</span>: designated a "supply-chain risk" for refusing unrestricted military use.</div>
         </div>
-        <div v-click class="p-4 rounded-lg" style="background: rgba(148, 163, 184, 0.08); border-left: 4px solid #94a3b8">
+        <div class="p-4 rounded-lg" style="background: rgba(148, 163, 184, 0.08); border-left: 4px solid #94a3b8">
           <div class="text-sm font-bold mb-1 opacity-70" style="font-family: 'Saira Condensed', sans-serif">APR 8</div>
-          <div class="text-sm leading-relaxed" style="font-family: 'Montserrat', sans-serif">Appeal denied. A lower-court judge had found
-          <span class="font-semibold">evidence of First Amendment retaliation</span>.</div>
+          <div class="text-sm leading-relaxed" style="font-family: 'Montserrat', sans-serif">Loses the appeal. A judge had seen <span class="font-semibold">signs of retaliation</span>.</div>
         </div>
       </div>
     </div>
     <div>
       <div class="text-sm uppercase tracking-widest opacity-60 mb-3" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.15em">The carrot</div>
       <div class="space-y-3">
-        <div v-click class="p-4 rounded-lg" style="background: rgba(255, 148, 22, 0.05); border-left: 4px solid #ff9416">
+        <div class="p-4 rounded-lg" style="background: rgba(255, 148, 22, 0.05); border-left: 4px solid #ff9416">
           <div class="text-sm font-bold mb-1" style="color:#ff9416; font-family: 'Saira Condensed', sans-serif">JUN 2</div>
-          <div class="text-sm leading-relaxed" style="font-family: 'Montserrat', sans-serif">Glasswing expands to ~150 organizations (per press reports: NATO, the EU's cybersecurity agency, SWIFT).</div>
+          <div class="text-sm leading-relaxed" style="font-family: 'Montserrat', sans-serif">Glasswing grows to ~150 organizations. Per press reports: NATO and SWIFT are in.</div>
         </div>
-        <div v-click class="p-4 rounded-lg" style="background: rgba(255, 148, 22, 0.05); border-left: 4px solid #ff9416">
-          <div class="text-sm font-bold mb-1" style="color:#ff9416; font-family: 'Saira Condensed', sans-serif">JUN 27 — JUL 1</div>
-          <div class="text-sm leading-relaxed" style="font-family: 'Montserrat', sans-serif">"The government notified us…": Mythos redeployed to ~100 approved organizations,
-          Fable restored — <span class="font-semibold">"following government approval"</span>.</div>
+        <div class="p-4 rounded-lg" style="background: rgba(255, 148, 22, 0.05); border-left: 4px solid #ff9416">
+          <div class="text-sm font-bold mb-1" style="color:#ff9416; font-family: 'Saira Condensed', sans-serif">JUN 27</div>
+          <div class="text-sm leading-relaxed" style="font-family: 'Montserrat', sans-serif">"The government notified us": Mythos returns, for ~100 approved organizations.</div>
         </div>
       </div>
     </div>
   </div>
   <div v-click class="mt-6 text-base opacity-80 italic text-center" style="font-family: 'Roboto Slab', serif">
-    The company that sues the Pentagon in March accepts in July that the government decides when and to whom it deploys.
+    The company that sues the Pentagon in March accepts in July that the government decides its deployments.
   </div>
 </div>
 
 <!--
 VOICE:
-"Put these two columns side by side, because apart they don't make sense.
+"Put these two columns side by side, because separately they make no sense.
 
-[CLICK] Left column: in March, Anthropic sues the Pentagon. It has been
-designated a 'supply-chain risk' — a label historically reserved for
-companies tied to foreign adversaries — for refusing to let the military
-use Claude without restrictions. [CLICK] In April they lose the appeal,
-even though a judge had found evidence of First Amendment retaliation.
+Left: in March, Anthropic sues the Pentagon. It has been designated a
+'supply-chain risk', a label historically reserved for companies tied to
+adversaries, for refusing to let the military use Claude without
+restrictions. In April it loses the appeal, even though a judge had seen
+signs of First Amendment retaliation.
 
-[CLICK] Right column: in June, Glasswing expands with NATO and SWIFT
-inside. [CLICK] And at the end of the month, 'the government has notified
-us that Mythos can be redeployed'.
+Right: in June, Glasswing expands, with NATO and SWIFT inside. And at the
+end of the month, 'the government notified us that Mythos can be
+redeployed'.
 
-[CLICK] The same company that sues the Pentagon in March accepts in July
-that the government decides when and to whom its models are deployed. Not
-because it changed its mind — because the stick and the carrot are the
-same arm. Cooperate, and you get Glasswing. Resist, and you get the
-blacklist."
+[CLICK]
+
+The same company that sues the Pentagon in March accepts in July that the
+government decides its deployments. It hasn't changed its mind: the stick
+and the carrot are the same arm. Cooperate and you get Glasswing. Resist
+and you get the blacklist."
 
 NOTES:
-- All ✅ (report: Anthropic vs. Pentagon). Trump responded "in combative
-  terms" — mentionable out loud, no verbatim quote.
+- All ✅ (report: Anthropic vs. Pentagon). Trump responded in combative
+  terms: mentionable in voice, no verbatim quote.
 - ~2 min.
 -->
 
@@ -98,45 +95,42 @@ layout: default
 
 <div class="max-w-6xl mx-auto px-8 pt-2">
   <div class="text-sm uppercase tracking-widest opacity-60 mb-3" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.15em">
-    GovAI / FHI, 2021 — five years earlier
+    GovAI, 2021. Five years earlier.
   </div>
   <div class="text-4xl font-bold mb-8" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">
     The arsenal was already inventoried
   </div>
   <div class="grid grid-cols-3 gap-3 text-center text-sm" style="font-family: 'Montserrat', sans-serif">
-    <div class="p-4 rounded-lg" style="background: rgba(255, 148, 22, 0.08)"><span class="font-semibold">Export controls</span><div class="text-xs opacity-60 mt-1">← used: Jun 12</div></div>
+    <div class="p-4 rounded-lg" style="background: rgba(255, 148, 22, 0.08)"><span class="font-semibold">Export controls</span><div class="text-xs opacity-60 mt-1">used: Jun 12</div></div>
     <div class="p-4 rounded-lg" style="background: rgba(148, 163, 184, 0.08)"><span class="font-semibold">Secrecy orders</span></div>
     <div class="p-4 rounded-lg" style="background: rgba(148, 163, 184, 0.08)"><span class="font-semibold">Defense Production Act</span></div>
-    <div class="p-4 rounded-lg" style="background: rgba(148, 163, 184, 0.08)"><span class="font-semibold">CFIUS</span><div class="text-xs opacity-60 mt-1">foreign investment</div></div>
+    <div class="p-4 rounded-lg" style="background: rgba(148, 163, 184, 0.08)"><span class="font-semibold">CFIUS</span></div>
     <div class="p-4 rounded-lg" style="background: rgba(148, 163, 184, 0.08)"><span class="font-semibold">Antitrust</span></div>
     <div class="p-4 rounded-lg" style="background: rgba(148, 163, 184, 0.08)"><span class="font-semibold">"Born secret"</span><div class="text-xs opacity-60 mt-1">nuclear doctrine</div></div>
   </div>
-  <div v-click class="mt-8 p-5 rounded-lg" style="background: rgba(148, 163, 184, 0.08)">
-    <div class="text-base leading-relaxed" style="font-family: 'Montserrat', sans-serif">
-      Fischer et al. catalogued in 2021 the US legal levers for shaping AI development.
-      2026 <span class="font-semibold">is not an anomaly: it is the inventory activating</span> — and the Pentagon's
-      blacklist is the punitive lever the catalogue never even formalized.
-    </div>
+  <div v-click class="mt-8 text-lg text-center italic max-w-4xl mx-auto" style="font-family: 'Roboto Slab', serif">
+    2026 is not an anomaly: <span style="color:#ff9416">it's the inventory activating</span>.
   </div>
 </div>
 
 <!--
 VOICE:
-"Was this unforeseeable? No. In 2021 — five years earlier — a GovAI team
-catalogued the legal levers the US government had for shaping AI
-development: export controls, secrecy orders, the Defense Production Act,
-CFIUS, antitrust, and even the 'born secret' doctrine from the nuclear
-regime — the idea that certain information is born classified.
+"Was this unforeseeable? No. In 2021, five years earlier, a GovAI team
+catalogued the US government's legal levers for shaping AI: export
+controls, secrecy orders, the Defense Production Act, CFIUS, antitrust,
+and the 'born secret' doctrine from the nuclear regime: certain
+information is classified at birth.
 
 [CLICK]
 
-From that catalogue, in 2026 we have seen the first lever activate — plus
-one the catalogue never even formalized: public procurement as punishment.
-The policy lesson: when a state perceives a technology as existential for
-its security, the arsenal already exists. It doesn't wait for legislation."
+From that catalog, 2026 has activated the first lever. Plus one that
+wasn't even listed: public procurement as punishment. The lesson: when a
+state perceives a technology as existential, the arsenal already exists.
+It doesn't wait for legislation."
 
 NOTES:
-- crossover §5 (AI Policy Levers, ✅ verified). ~1.5 min.
+- crossover §5 (AI Policy Levers, verified).
+- ~1.5 min.
 -->
 
 ---
@@ -144,67 +138,52 @@ layout: default
 ---
 
 <div class="max-w-6xl mx-auto px-8 pt-2">
-  <div class="text-sm uppercase tracking-widest opacity-60 mb-3" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.15em">
-    The philosophical frame
-  </div>
   <div class="text-4xl font-bold mb-8" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">
     Hobbes and the narrow corridor
   </div>
   <div class="grid grid-cols-2 gap-6">
     <div class="p-5 rounded-lg" style="background: rgba(148, 163, 184, 0.08)">
-      <div class="text-base font-bold mb-2 opacity-80" style="font-family: 'Saira Condensed', sans-serif">THE HOBBESIAN ARGUMENT</div>
+      <div class="text-base font-bold mb-2 opacity-80" style="font-family: 'Saira Condensed', sans-serif">HOBBES</div>
       <div class="text-sm leading-relaxed" style="font-family: 'Montserrat', sans-serif">
-        When offensive capability diffuses faster than defensive capability,
-        social demand for a <span class="font-semibold">strong protector</span> grows.
-        The Leviathan doesn't arrive by coup: <span class="font-semibold">it arrives by demand</span>.
+        If attack spreads faster than defense, demand for a strong protector grows.
+        <span class="font-semibold">The Leviathan arrives by demand.</span>
       </div>
     </div>
     <div class="p-5 rounded-lg" style="background: rgba(255, 148, 22, 0.05); border-left: 4px solid #ff9416">
       <div class="text-base font-bold mb-2" style="color:#ff9416; font-family: 'Saira Condensed', sans-serif">THE NARROW CORRIDOR</div>
       <div class="text-sm leading-relaxed" style="font-family: 'Montserrat', sans-serif">
-        Acemoglu & Robinson: liberty lives in the corridor between the
-        <span class="font-semibold">despotic Leviathan</span> and the <span class="font-semibold">absent state</span>.
-        What keeps the state inside the corridor: law, checks and balances, transparency.
+        Liberty lives between the despotic Leviathan and the absent state.
+        What sustains it: <span class="font-semibold">law, checks and balances, transparency</span>.
       </div>
     </div>
   </div>
-  <div v-click class="mt-8 text-center">
+  <div v-click class="mt-10 text-center">
     <div class="text-2xl italic leading-relaxed max-w-4xl mx-auto" style="font-family: 'Roboto Slab', serif">
-      The 2026 question is not <span class="opacity-60">"state or no state?"</span> —<br/>
-      it is <span style="color: #ff9416">"what keeps this Leviathan inside the corridor?"</span>
-    </div>
-    <div v-click class="text-lg opacity-70 mt-5" style="font-family: 'Montserrat', sans-serif">
-      And the answer, for now, is: <span class="font-semibold">nothing</span>. No law, no public criteria, no verification.
+      The question is not "state, yes or no?"<br/>
+      It's <span style="color: #ff9416">"what keeps this Leviathan inside the corridor?"</span><br/>
+      <span class="text-xl opacity-70">And today the answer is: nothing.</span>
     </div>
   </div>
 </div>
 
 <!--
 VOICE:
-"Let's give it its philosophical name. This is Hobbes: when attack
-diffuses faster than defense — the curve from the previous block — the
-demand for a strong protector grows on its own. The Leviathan rarely
-arrives by coup; it arrives by demand.
+"The philosophical name for this is Hobbes: when attack spreads faster
+than defense, the demand for a strong protector grows on its own. The
+Leviathan rarely arrives by coup. It arrives by demand.
 
-And the classic answer to Hobbes is Acemoglu and Robinson's: liberty
-lives in a narrow corridor between the despotic Leviathan and the absent
-state. What keeps the state inside the corridor is deeply boring: law,
-checks and balances, transparency, appeal.
-
-[CLICK]
-
-So the 2026 question is not 'should the state get involved in frontier
-AI?' — it already has, and with the capability curve we've seen, it had
-to play some role. The question is: what keeps THIS Leviathan inside the
-corridor?
+And the classic answer is Acemoglu and Robinson's narrow corridor: liberty
+lives between the despotic Leviathan and the absent state. What keeps the
+state inside the corridor is terribly boring: law, checks and balances,
+transparency.
 
 [CLICK]
 
-And the answer, as of today, is: nothing. No legal framework — a
-'voluntary' EO. No public criteria — Glasswing is opaque. No verification
-— letters from the Commerce Secretary. That's the difference between
-constituted power and arbitrary power, and it's the bridge to the final
-block."
+So the question of 2026 is not whether the state should get involved in
+frontier AI. It already has, and with the curve we've seen, it had some
+role to play. The question is what keeps THIS Leviathan inside the
+corridor. And today the answer is: nothing. No law, no public criteria, no
+verification. That's the bridge to the final block."
 
 NOTES:
 - crossover §5. The "nothing" is the hinge into Block 5.
@@ -223,54 +202,52 @@ layout: default
     Who here lost access?
   </div>
   <div class="space-y-3">
-    <div v-click class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
+    <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
       <div class="font-bold flex-shrink-0 w-6" style="color: #ff9416">·</div>
-      <div>The actual June tiers: US critical → ~100 approved → select allies (NATO, SWIFT — per press reports) → <span class="font-semibold">EU: out</span> → rest of the world.</div>
+      <div>The real tiers in June: US first, ~100 approved organizations, select allies… and the <span class="font-semibold">EU out</span>.</div>
     </div>
-    <div v-click class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
+    <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
       <div class="font-bold flex-shrink-0 w-6" style="color: #ff9416">·</div>
-      <div>As of April 28, <span class="font-semibold">no EU institution</span> had operational access to Glasswing/Mythos. The EU has never had access to Mythos.</div>
+      <div><span class="font-semibold">No EU institution</span> has had operational access to Glasswing or Mythos.</div>
     </div>
-    <div v-click class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
+    <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
       <div class="font-bold flex-shrink-0 w-6" style="color: #ff9416">·</div>
-      <div>Gabriel Attal compared the blackout to <span class="font-semibold">"the blockade of the Strait of Hormuz"</span>. Austria proposes by letter to lure Anthropic to the EU. Volt pushes the EuroStack (~70% of Europe's cloud is foreign).</div>
+      <div>Attal: like "the blockade of the Strait of Hormuz". Austria proposes luring Anthropic to the EU. Volt pushes the EuroStack.</div>
     </div>
   </div>
   <div v-click class="mt-6 p-5 rounded-lg" style="background: rgba(148, 163, 184, 0.08)">
     <blockquote class="text-base italic" style="font-family: 'Roboto Slab', serif">
-      "There is no realistic plan B. The European Union can attempt to keep regulating companies outside of their
-      borders, but only the US and China can realistically build the technological rails of the 21st century."
+      "There is no realistic plan B… only the US and China can realistically build the technological rails of the 21st century."
     </blockquote>
-    <div class="text-sm opacity-50 mt-2" style="font-family: 'Montserrat', sans-serif">— Fist, Burga & Hwang (IFP), <i>Preparing for Launch</i> — the worldview that 19 days of blackout turned into lived policy</div>
+    <div class="text-sm opacity-50 mt-2" style="font-family: 'Montserrat', sans-serif">Institute for Progress, <i>Preparing for Launch</i>. Written before the blackout.</div>
   </div>
 </div>
 
 <!--
 VOICE:
-"And now, the part that hits home. Question for the room: who here lost
-access to Fable between June twelfth and July first? [pause — hands or
-chat] What you felt has a technical name: discovering your tier.
+"And now the part that hits home. Question: who here lost access to Fable
+between June 12 and July 1? [pause; hands or chat] What you felt has a
+name: discovering your access tier.
 
-[CLICK] The actual June tiers: American critical infrastructure first, a
-hundred organizations approved by letter, select allies — NATO and SWIFT
-inside, per press reports — [CLICK] and the European Union out. This is
-not rhetoric: as of April, no European institution had operational access
-to Glasswing, and the EU has never had access to Mythos.
+The real tiers in June: the United States first, a hundred organizations
+approved by letter, some allies... and the European Union out. No European
+institution has had operational access to Glasswing or Mythos.
 
-[CLICK] The political reaction came in the key of sovereignty: Attal
-comparing it to the blockade of the Strait of Hormuz, Austria literally
-proposing to lure Anthropic to the EU, Volt using the episode to push the
-EuroStack.
+The reaction came in sovereignty terms: Attal comparing it to the blockade
+of the Strait of Hormuz, Austria proposing by letter to lure Anthropic to
+the EU, Volt pushing the EuroStack.
 
-[CLICK] And this quote from the Institute for Progress, written before
-the episode, is the worldview that those nineteen days turned into lived
-policy: 'there is no realistic plan B; only the US and China can build
-the technological rails of the 21st century'. Europe discovered that its
-access to frontier cognitive infrastructure is a privilege revocable by a
-foreign government. That is the operational definition of non-sovereignty."
+[CLICK]
+
+And this line from the Institute for Progress, written before the
+blackout, is the vision those 19 days turned into experience: there is no
+plan B; only the US and China build the rails. Europe discovered that its
+access to frontier AI is a privilege revocable by a foreign government.
+That is, in practice, not being sovereign."
 
 NOTES:
-- INTERACTIVE MOMENT 2 (quick poll). All ✅/☑️ per report (Austria ☑️ 2-1).
+- INTERACTIVE MOMENT 2. All ✅/☑️ (Austria ☑️ 2-1).
+- IFP quote verbatim (verified).
 - ~2 min.
 -->
 
@@ -287,60 +264,51 @@ layout: default
   </div>
   <div class="grid grid-cols-2 gap-6">
     <div class="p-5 rounded-lg" style="background: rgba(148, 163, 184, 0.08)">
-      <div class="text-base font-bold mb-3 opacity-80" style="font-family: 'Saira Condensed', sans-serif">WHAT HAS HAPPENED (documented)</div>
+      <div class="text-base font-bold mb-3 opacity-80" style="font-family: 'Saira Condensed', sans-serif">WHAT HAS HAPPENED</div>
       <div class="space-y-2 text-sm leading-relaxed" style="font-family: 'Montserrat', sans-serif">
-        <div>· Cybertruck, Las Vegas (2025): ChatGPT to plan the explosion.</div>
-        <div>· Palm Springs (2025): chatbot to research explosives (DOJ).</div>
-        <div>· Europol TE-SAT: AI propaganda "at record levels"; <span class="font-semibold">no confirmed case of CBRN uplift</span>.</div>
-        <div class="pt-2 font-semibold" style="color:#ff9416">All with non-frontier models.</div>
+        <div>· Cybertruck, Las Vegas: ChatGPT to plan the explosion.</div>
+        <div>· Palm Springs: a chatbot to research explosives.</div>
+        <div>· Europol: AI propaganda at record levels. No confirmed weapons uplift.</div>
+        <div class="pt-2 font-semibold" style="color:#ff9416">All with weak models, not frontier ones.</div>
       </div>
     </div>
     <div class="p-5 rounded-lg" style="background: rgba(255, 148, 22, 0.05); border-left: 4px solid #ff9416">
-      <div class="text-base font-bold mb-3" style="color:#ff9416; font-family: 'Saira Condensed', sans-serif">WHAT THE CURVE IMPLIES</div>
+      <div class="text-base font-bold mb-3" style="color:#ff9416; font-family: 'Saira Condensed', sans-serif">WHAT'S COMING</div>
       <blockquote class="text-sm italic leading-relaxed" style="font-family: 'Roboto Slab', serif">
-        "…the disturbed loner who wants to kill people but lacks the discipline or skill… will now be elevated
-        to the capability level of the PhD virologist."
+        "The disturbed loner who wants to kill people but lacks the discipline or skill… will now be elevated to the capability level of the PhD virologist."
       </blockquote>
-      <div class="text-xs opacity-50 mt-2" style="font-family: 'Montserrat', sans-serif">— Dario Amodei, <i>The Adolescence of Technology</i> (2026)</div>
-      <div class="text-sm mt-3 leading-relaxed" style="font-family: 'Montserrat', sans-serif">
-        The historical correlation between <span class="font-semibold">capability and motivation</span> breaks.
-      </div>
+      <div class="text-xs opacity-50 mt-2" style="font-family: 'Montserrat', sans-serif">Dario Amodei, <i>The Adolescence of Technology</i> (2026)</div>
     </div>
   </div>
   <div v-click class="mt-6 text-base opacity-80 italic text-center" style="font-family: 'Roboto Slab', serif">
-    The good argument is not "they already use frontier AI" (false) — it is "the cost of the day they do is asymmetric".
+    The good argument is not "they already use frontier AI" (false). It's that the cost of the day they do is asymmetric.
   </div>
 </div>
 
 <!--
 VOICE:
-"Before closing the block, the uncomfortable topic: terrorism. And we're
-going to do it with the two columns kept apart, because mixing these two
-columns is how panic gets manufactured.
+"Before closing the block, the uncomfortable topic: terrorism. In two
+columns, because mixing them is how panic gets manufactured.
 
-Left column, the documented record: the Cybertruck attack in Las Vegas,
-where the perpetrator used ChatGPT to plan the explosion. Palm Springs,
-where according to the DOJ the perpetrator researched explosives with a
-chatbot. And the Europol report: AI-generated propaganda at record
-levels, but not a single confirmed case of uplift in unconventional
-weapons. Notice: every real case used weak, non-frontier models. High
-motivation, low capability, conventional harm.
+Left, what's documented: the Las Vegas Cybertruck, planned with ChatGPT.
+Palm Springs, explosives researched with a chatbot. And Europol: AI
+propaganda at record levels, but not a single confirmed case of help with
+unconventional weapons. All the real cases: weak models. High motivation,
+low capability, conventional damage.
 
-Right column, what the curve implies. Amodei puts it well: the 'disturbed
-loner' who wants to kill but lacks the discipline and the knowledge will
-be elevated to the level of a PhD virologist. The historical correlation
-between wanting and being able breaks.
+Right, what the curve implies. Amodei puts it well: the disturbed loner
+who wants to kill but doesn't know how will be elevated to the level of a
+PhD virologist. The correlation between wanting and being able breaks.
 
 [CLICK]
 
-The good argument for thresholds and safeguards is not 'terrorists
-already use frontier AI' — that is false per what's been verified. It is:
-the cost of the day they do is so asymmetric that you don't manage it
-with probabilities, you manage it with structure. PauseAI earns
-credibility by being the one that does NOT inflate the data."
+The good argument for thresholds is not 'terrorists already use frontier
+AI'. That's false. It's that the cost of the day they do is so asymmetric
+that you manage it with structure, not probabilities. PauseAI earns
+credibility by being the one that doesn't inflate the data."
 
 NOTES:
-- All ✅ (report: terrorism). Do NOT use the IS video "in TechHaven" (❌;
-  the core fact is in CREST, without that attribution).
+- All ✅ (report: terrorism). Do NOT use the IS video "in TechHaven" (❌).
+- Amodei quote verbatim (verified).
 - ~1.5 min. Block total: ~8 min.
 -->

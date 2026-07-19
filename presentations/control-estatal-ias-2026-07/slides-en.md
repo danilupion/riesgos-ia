@@ -37,8 +37,8 @@ class: text-center
 
 <!--
 - Cover: brief self-intro (Dani Lupión, PauseAI España).
-- This talk is a follow-up to "Mythos and Glasswing" (May 2026): quick pulse —
-  "who attended the May session?" — to calibrate how much to recap.
+- This talk is a follow-up to "Mythos and Glasswing" (May 2026): quick pulse
+  ("who attended the May session?") to calibrate how much to recap.
 - Don't front-load the thesis; the subtitle question is the hook.
 -->
 

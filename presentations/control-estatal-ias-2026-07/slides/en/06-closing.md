@@ -4,7 +4,7 @@ class: text-center
 ---
 
 <!--
-Closing (~3 min): personal note + what the iaS community can do + thanks.
+Closing (~3 min): personal note + what to do + thanks.
 -->
 
 <div class="text-sm uppercase tracking-widest opacity-60 mb-8" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.15em">
@@ -15,26 +15,26 @@ Closing (~3 min): personal note + what the iaS community can do + thanks.
 </div>
 <div v-click class="mt-10 text-xl opacity-80 max-w-3xl mx-auto leading-relaxed italic" style="font-family: 'Roboto Slab', serif">
   Enforceable global coordination. Solve alignment.<br/>
-  And then — only then — go full speed ahead.
+  And then, only then, go full speed ahead.
 </div>
 
 <!--
 VOICE:
-"I'll close with the personal note. When I took BlueDot's AGI strategy
-course, one of the exercises was to write down what future you want. I
-wrote that I co-lead PauseAI in Spain precisely because I believe the
-default trajectory is dangerous. And I summed up my position in three
-words: pause, then purpose.
+"I'll close with the personal note. In BlueDot's AGI strategy course, one
+of the exercises was writing down what future you want. I wrote that I
+co-lead PauseAI in Spain precisely because I believe the default
+trajectory is dangerous. And I summed it up in three words: pause, then
+purpose.
 
 [CLICK]
 
-Pause — enforceable global coordination, of the kind we've seen today:
-with a treaty, with thresholds, with inspection. Solve alignment with the
-time that pause buys. And then, only then, go full speed ahead. We are
-not anti-AI. We are anti doing this with no brakes and no rules."
+Pause: enforceable global coordination, the kind we've seen today, with a
+treaty, thresholds and inspection. Solve alignment with the time that
+pause buys. And then, only then, go full speed ahead. We are not anti-AI.
+We are anti doing this with no brakes and no rules."
 
 NOTES:
-- From the course exercise (crossover §9, verified quote). Personal tone, dial it down.
+- From the course exercise (crossover §9). Personal tone, lower the revs.
 - ~1 min.
 -->
 
@@ -47,58 +47,53 @@ layout: default
     What this community can do
   </div>
   <div class="grid grid-cols-3 gap-5">
-    <div v-click class="p-5 rounded-lg" style="background: rgba(255, 148, 22, 0.05); border-top: 4px solid #ff9416">
+    <div class="p-5 rounded-lg" style="background: rgba(255, 148, 22, 0.05); border-top: 4px solid #ff9416">
       <div class="text-base font-bold mb-2" style="color:#ff9416; font-family: 'Saira Condensed', sans-serif">RESEARCH</div>
       <div class="text-sm leading-relaxed opacity-90" style="font-family: 'Montserrat', sans-serif">
-        Verification (compute tracking, reproducible evals), safeguard robustness,
-        the gaping hole of <span class="font-semibold">evals science</span>.
+        Verification, safeguard robustness, the science of evals. Small field, giant lever.
       </div>
     </div>
-    <div v-click class="p-5 rounded-lg" style="background: rgba(255, 148, 22, 0.05); border-top: 4px solid #ff9416">
+    <div class="p-5 rounded-lg" style="background: rgba(255, 148, 22, 0.05); border-top: 4px solid #ff9416">
       <div class="text-base font-bold mb-2" style="color:#ff9416; font-family: 'Saira Condensed', sans-serif">POLICY</div>
       <div class="text-sm leading-relaxed opacity-90" style="font-family: 'Montserrat', sans-serif">
-        August activates the EU's GPAI sanctions. Spain and the EU need people who understand
-        <span class="font-semibold">this</span> — the Fable episode is the best case study available.
+        In August the EU's enforcement powers kick in. The Fable episode is the best case study to explain all this.
       </div>
     </div>
-    <div v-click class="p-5 rounded-lg" style="background: rgba(255, 148, 22, 0.05); border-top: 4px solid #ff9416">
+    <div class="p-5 rounded-lg" style="background: rgba(255, 148, 22, 0.05); border-top: 4px solid #ff9416">
       <div class="text-base font-bold mb-2" style="color:#ff9416; font-family: 'Saira Condensed', sans-serif">ADVOCACY</div>
       <div class="text-sm leading-relaxed opacity-90" style="font-family: 'Montserrat', sans-serif">
-        The taboo is broken: state control already exists. Demanding the version with a
-        <span class="font-semibold">treaty, thresholds and verification</span> has never been this concrete.
+        The taboo is broken. Asking for a treaty, thresholds and verification was never this concrete.
       </div>
     </div>
   </div>
   <div v-click class="mt-8 text-center text-base opacity-70 italic" style="font-family: 'Roboto Slab', serif">
-    Fewer than 2,000 full-time people are trying to steer AGI development. You fit.
+    Fewer than 2,000 people work full time on steering this. There's room for you.
   </div>
 </div>
 
 <!--
 VOICE:
-"So what can a community like this one — Spanish-speaking, with research
-and policy profiles — actually do?
+"So what can a community like this one do?
 
-[CLICK] Research: everything we've seen today limps on verification.
-Compute tracking, reproducible evals, the science of safeguards. It's a
-small field with a giant lever.
+Research: everything we've seen limps on verification. Compute tracking,
+reproducible evals, the science of safeguards. Small field, giant lever.
 
-[CLICK] Policy: in two weeks the EU's sanctioning powers over
-general-purpose models activate. Spain and Europe need people who
-technically understand what we've covered today — and the Fable episode
-is the best case study in existence for explaining it to a
-decision-maker.
+Policy: in two weeks the EU's enforcement powers over general-purpose
+models kick in. We need people who understand today's material
+technically, and the Fable episode is the best case study to explain it to
+a decision-maker.
 
-[CLICK] And advocacy: the taboo is broken. You no longer have to convince
-anyone that states can control the frontier — they are doing it. You have
-to demand the right version. It has never been this concrete.
+Advocacy: the taboo is broken. Nobody needs convincing anymore that states
+can control the frontier. They're doing it. We have to ask for the right
+version.
 
-[CLICK] And the number I always give: fewer than two thousand full-time
-people, in the whole world, are trying to steer this. You fit. You
-literally fit."
+[CLICK]
+
+And the usual number: fewer than two thousand people work full time on
+steering this. There's room for you. Literally, room for you."
 
 NOTES:
-- "<2,000 people" — BlueDot, start-contributing unit. GPAI date: Aug 2, 2026 (✅).
+- "<2,000 people": BlueDot, start-contributing. GPAI penalties: Aug 2, 2026 (✅).
 - ~1.5 min.
 -->
 
@@ -125,17 +120,17 @@ class: text-center
 
 <!--
 TODO: add QR codes (qr-pauseai.png, qr-charla.png) in public/ and
-reference them here once generated (see the CLAUDE.md TODOs).
+reference them here once generated (see CLAUDE.md TODOs).
 
 VOICE:
 "Thank you. The slides, with every source verified claim by claim, are at
-that URL. And now, yes: questions, objections and disagreements —
-especially disagreements."
+that URL. And now, yes: questions, objections and disagreements.
+Especially disagreements."
 
 NOTES:
-- Open Q&A. Keep at hand for the discussion:
-  · Warner quote (☑️ 2-1, with the journalist's caveat).
-  · Ransomware: Q2 only (+43%, 2,279 victims, GuidePoint) — the compound figure is refuted.
-  · Shutdown-resistance 79%→0 as an example of eval fragility.
-  · The list of 5 preempted objections from the crossover.
+- Open Q&A. Keep at hand:
+  · Warner (☑️ 2-1, with the journalist's disclaimer).
+  · Ransomware: Q2 only (+43%, 2,279 victims, GuidePoint).
+  · Shutdown-resistance 79% as an example of eval fragility.
+  · The 5 preempted objections from the crossover.
 -->
