@@ -1,136 +1,99 @@
 ---
-layout: center
-class: text-center
----
-
-<!--
-Closing (~3 min): personal note + what to do + thanks.
--->
-
-<div class="text-sm uppercase tracking-widest opacity-60 mb-8" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.15em">
-  Personal note
-</div>
-<div class="text-5xl font-bold" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">
-  Pause, then purpose
-</div>
-<div v-click class="mt-10 text-xl opacity-80 max-w-3xl mx-auto leading-relaxed italic" style="font-family: 'Roboto Slab', serif">
-  Enforceable global coordination. Solve alignment.<br/>
-  And then, only then, go full speed ahead.
-</div>
-
-<!--
-VOICE:
-"I'll close with the personal note. In BlueDot's AGI strategy course, one
-of the exercises was writing down what future you want. I wrote that I
-co-lead PauseAI in Spain precisely because I believe the default
-trajectory is dangerous. And I summed it up in three words: pause, then
-purpose.
-
-[CLICK]
-
-Pause: enforceable global coordination, the kind we've seen today, with a
-treaty, thresholds and inspection. Solve alignment with the time that
-pause buys. And then, only then, go full speed ahead. We are not anti-AI.
-We are anti doing this with no brakes and no rules."
-
-NOTES:
-- From the course exercise (crossover §9). Personal tone, lower the revs.
-- ~1 min.
--->
-
----
 layout: default
 ---
 
-<div class="max-w-6xl mx-auto px-8 pt-2">
-  <div class="text-4xl font-bold mb-8" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">
-    What this community can do
-  </div>
-  <div class="grid grid-cols-3 gap-5">
-    <div class="p-5 rounded-lg" style="background: rgba(255, 148, 22, 0.05); border-top: 4px solid #ff9416">
-      <div class="text-base font-bold mb-2" style="color:#ff9416; font-family: 'Saira Condensed', sans-serif">RESEARCH</div>
-      <div class="text-sm leading-relaxed opacity-90" style="font-family: 'Montserrat', sans-serif">
-        Verification, safeguard robustness, the science of evals. Small field, giant lever.
-      </div>
-    </div>
-    <div class="p-5 rounded-lg" style="background: rgba(255, 148, 22, 0.05); border-top: 4px solid #ff9416">
-      <div class="text-base font-bold mb-2" style="color:#ff9416; font-family: 'Saira Condensed', sans-serif">POLICY</div>
-      <div class="text-sm leading-relaxed opacity-90" style="font-family: 'Montserrat', sans-serif">
-        In August the EU's enforcement powers kick in. The Fable episode is the best case study to explain all this.
-      </div>
-    </div>
-    <div class="p-5 rounded-lg" style="background: rgba(255, 148, 22, 0.05); border-top: 4px solid #ff9416">
-      <div class="text-base font-bold mb-2" style="color:#ff9416; font-family: 'Saira Condensed', sans-serif">ADVOCACY</div>
-      <div class="text-sm leading-relaxed opacity-90" style="font-family: 'Montserrat', sans-serif">
-        The taboo is broken. Asking for a treaty, thresholds and verification was never this concrete.
-      </div>
-    </div>
-  </div>
-  <div v-click class="mt-8 text-center text-base opacity-70 italic" style="font-family: 'Roboto Slab', serif">
-    Fewer than 2,000 people work full time on steering this. There's room for you.
-  </div>
+<style scoped>
+.src-link { color: inherit; text-decoration: none; display: block; transition: opacity 0.15s; }
+.src-link:hover { opacity: 1 !important; text-decoration: underline; text-decoration-color: #ff9416; text-underline-offset: 3px; }
+.src-link:hover .src-url { opacity: 0.9; color: #ff9416; }
+</style>
+
+<div class="max-w-6xl mx-auto px-6 pt-2">
+<div class="text-2xl font-bold mb-4" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">Sources and verification</div>
+<div class="grid grid-cols-3 gap-x-6 gap-y-3 text-xs leading-snug" style="font-family: 'Montserrat', sans-serif">
+<div>
+<div class="text-xs font-bold mb-2" style="color: #ff9416; font-family: 'Saira Condensed', sans-serif; letter-spacing: 0.1em">PRIMARY · LABS</div>
+<div class="space-y-2">
+<a href="https://www.anthropic.com/news/claude-fable-5-mythos-5" target="_blank" rel="noopener" class="src-link"><div class="opacity-90">Fable 5 / Mythos 5 launch</div><div class="src-url opacity-50" style="font-family: 'Fira Code', monospace; font-size: 0.62rem">anthropic.com/news/claude-fable-5-mythos-5</div></a>
+<a href="https://www.anthropic.com/news/redeploying-fable-5" target="_blank" rel="noopener" class="src-link"><div class="opacity-90">The rollback and redeploy</div><div class="src-url opacity-50" style="font-family: 'Fira Code', monospace; font-size: 0.62rem">anthropic.com/news/redeploying-fable-5</div></a>
+<a href="https://www.anthropic.com/news/expanding-project-glasswing" target="_blank" rel="noopener" class="src-link"><div class="opacity-90">Glasswing · expansion (Jun 2)</div><div class="src-url opacity-50" style="font-family: 'Fira Code', monospace; font-size: 0.62rem">anthropic.com/news/expanding-project-glasswing</div></a>
+<a href="https://deploymentsafety.openai.com/gpt-5-6" target="_blank" rel="noopener" class="src-link"><div class="opacity-90">GPT-5.6 · system card</div><div class="src-url opacity-50" style="font-family: 'Fira Code', monospace; font-size: 0.62rem">deploymentsafety.openai.com/gpt-5-6</div></a>
+<a href="https://openai.com/index/previewing-gpt-5-6-sol/" target="_blank" rel="noopener" class="src-link"><div class="opacity-90">GPT-5.6 · limited preview</div><div class="src-url opacity-50" style="font-family: 'Fira Code', monospace; font-size: 0.62rem">openai.com/index/previewing-gpt-5-6-sol</div></a>
+</div>
+</div>
+<div>
+<div class="text-xs font-bold mb-2" style="color: #ff9416; font-family: 'Saira Condensed', sans-serif; letter-spacing: 0.1em">STATE · GOVERNANCE</div>
+<div class="space-y-2">
+<a href="https://fortune.com/2026/03/09/anthropic-sues-pentagon-ai-supply-chain-risk-trump-adminstration/" target="_blank" rel="noopener" class="src-link"><div class="opacity-90">Anthropic sues the Pentagon</div><div class="src-url opacity-50">Fortune · Mar 9, 2026</div></a>
+<a href="https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/" target="_blank" rel="noopener" class="src-link"><div class="opacity-90">"Voluntary" EO / Dean Ball</div><div class="src-url opacity-50">TechCrunch · Jun 26, 2026</div></a>
+<a href="https://www.nist.gov/news-events/news/2025/12/caisi-evaluation-kimi-k2-thinking" target="_blank" rel="noopener" class="src-link"><div class="opacity-90">CAISI · Kimi K2 evaluation</div><div class="src-url opacity-50" style="font-family: 'Fira Code', monospace; font-size: 0.62rem">nist.gov · CAISI/Kimi</div></a>
+<a href="https://digital-strategy.ec.europa.eu/en/policies/guidelines-gpai-providers" target="_blank" rel="noopener" class="src-link"><div class="opacity-90">EU · GPAI guidelines</div><div class="src-url opacity-50" style="font-family: 'Fira Code', monospace; font-size: 0.62rem">digital-strategy.ec.europa.eu</div></a>
+<a href="https://www.piie.com/blogs/realtime-economics/2026/fable-mythos-saga-ad-hoc-us-ai-model-controls-could-help-china" target="_blank" rel="noopener" class="src-link"><div class="opacity-90">PIIE · ad hoc controls</div><div class="src-url opacity-50">piie.com · realtime economics</div></a>
+<a href="https://elpais.com/internacional/2026-07-17/china-busca-encabezar-un-nuevo-orden-mundial-de-la-inteligencia-artificial.html" target="_blank" rel="noopener" class="src-link"><div class="opacity-90">China · new world AI order (WAIC)</div><div class="src-url opacity-50">El País · Jul 17, 2026</div></a>
+<a href="https://www.reuters.com/world/asia-pacific/chinas-xi-promotes-chinas-commitment-ai-access-speech-shanghai-conference-2026-07-17/" target="_blank" rel="noopener" class="src-link"><div class="opacity-90">Xi · open AI access (WAIC)</div><div class="src-url opacity-50">Reuters · Jul 17, 2026</div></a>
+</div>
+</div>
+<div>
+<div class="text-xs font-bold mb-2" style="color: #ff9416; font-family: 'Saira Condensed', sans-serif; letter-spacing: 0.1em">EUROPE · CYBER</div>
+<div class="space-y-2">
+<a href="https://thenextweb.com/news/early-users-of-anthropics-mythos-still-have-access-after-us-order" target="_blank" rel="noopener" class="src-link"><div class="opacity-90">ENISA · offer denied</div><div class="src-url opacity-50">The Next Web · Jun 19</div></a>
+<a href="https://ai-frontiers.org/articles/what-export-controls-on-anthropics-most-advanced-models-mean-for-europe" target="_blank" rel="noopener" class="src-link"><div class="opacity-90">Export controls and Europe</div><div class="src-url opacity-50">ai-frontiers.org</div></a>
+<a href="https://volteuropa.org/news/fable-5" target="_blank" rel="noopener" class="src-link"><div class="opacity-90">Volt · EuroStack</div><div class="src-url opacity-50">volteuropa.org/news/fable-5</div></a>
+<a href="https://www.cnn.com/2026/06/23/world/ai-five-eyes-warning-cyber-threat-intl-hnk" target="_blank" rel="noopener" class="src-link"><div class="opacity-90">Five Eyes · "months, not years"</div><div class="src-url opacity-50">CNN · Jun 23, 2026</div></a>
+<a href="https://www.microsoft.com/en-us/security/blog/2026/04/02/threat-actor-abuse-of-ai-accelerates-from-tool-to-cyberattack-surface/" target="_blank" rel="noopener" class="src-link"><div class="opacity-90">Microsoft · AI phishing 54%</div><div class="src-url opacity-50">microsoft.com/security</div></a>
+</div>
+</div>
+</div>
 </div>
 
 <!--
 VOICE:
-"So what can a community like this one do?
-
-Research: everything we've seen limps on verification. Compute tracking,
-reproducible evals, the science of safeguards. Small field, giant lever.
-
-Policy: in two weeks the EU's enforcement powers over general-purpose
-models kick in. We need people who understand today's material
-technically, and the Fable episode is the best case study to explain it to
-a decision-maker.
-
-Advocacy: the taboo is broken. Nobody needs convincing anymore that states
-can control the frontier. They're doing it. We have to ask for the right
-version.
-
-[CLICK]
-
-And the usual number: fewer than two thousand people work full time on
-steering this. There's room for you. Literally, room for you."
+"All the sources, here. Every figure in the talk is verified and sourced. Each
+entry is a clickable link, and the full report, with a verbatim quote per
+claim, is at the talk's URL."
 
 NOTES:
-- "<2,000 people": BlueDot, start-contributing. GPAI penalties: Aug 2, 2026 (✅).
-- ~1.5 min.
+- Functional slide, ~20s. Three columns. All from the report (research/informe.md).
 -->
 
 ---
 layout: center
-class: text-center
 ---
 
-<div class="flex flex-col items-center">
-  <img src="/logos/logo-completo.png" class="h-20" />
-  <div class="text-4xl font-bold mt-10" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">
-    Thank you
-  </div>
-  <div class="text-xl opacity-70 mt-6" style="font-family: 'Montserrat', sans-serif">
-    Dani Lupión · PauseAI en Español
-  </div>
-  <div class="text-lg opacity-50 mt-2" style="font-family: 'Fira Code', monospace">
-    pauseai.es/presentaciones/control-estatal-ias-2026-07/en/
-  </div>
-  <div class="text-base opacity-40 mt-6 italic" style="font-family: 'Roboto Slab', serif">
-    Questions, objections and disagreements: welcome.
-  </div>
+<style scoped>
+.contact-link { color: inherit; text-decoration: none; transition: opacity 0.15s; display: block; }
+.contact-link:hover { opacity: 1 !important; color: #ff9416; }
+</style>
+
+<div class="max-w-6xl mx-auto px-8 grid grid-cols-2 items-center gap-12">
+<div class="text-left">
+<div style="font-size: 6rem; line-height: 1; font-weight: 900; color: #ff9416; font-family: 'Saira Condensed', sans-serif; letter-spacing: 0.02em">Questions</div>
+<div class="mt-8 space-y-2 text-base" style="font-family: 'Montserrat', sans-serif">
+<a href="https://x.com/pauseai_es" target="_blank" rel="noopener" class="contact-link opacity-90">@pauseai_es <span class="opacity-50 text-sm" style="font-family: 'Fira Code', monospace">x.com/pauseai_es</span></a>
+<a href="https://x.com/danilupion" target="_blank" rel="noopener" class="contact-link opacity-90">@danilupion <span class="opacity-50 text-sm" style="font-family: 'Fira Code', monospace">x.com/danilupion</span></a>
+<a href="mailto:danilupion@pauseai.es" class="contact-link opacity-90"><span style="font-family: 'Fira Code', monospace">danilupion@pauseai.es</span></a>
+<a href="https://pauseai.es" target="_blank" rel="noopener" class="contact-link opacity-90"><span style="font-family: 'Fira Code', monospace">pauseai.es</span></a>
+<a href="https://pauseaispanish.substack.com/" target="_blank" rel="noopener" class="contact-link opacity-90">Newsletter <span class="opacity-50 text-sm" style="font-family: 'Fira Code', monospace">pauseaispanish.substack.com</span></a>
+</div>
+</div>
+<div class="text-center">
+<a href="https://pauseai.es/presentaciones/control-estatal-ias-2026-07/en" target="_blank" rel="noopener" style="color: inherit; text-decoration: none">
+<img src="/qr-charla-en.png" class="w-56 h-56 rounded-lg bg-white p-2 mx-auto" />
+<div class="mt-3 text-xs font-semibold" style="color: #ff9416; font-family: 'Saira Condensed', sans-serif; letter-spacing: 0.05em">VIEW ONLINE · ALL SOURCES</div>
+<div class="mt-1 text-xs opacity-50" style="font-family: 'Fira Code', monospace">pauseai.es/presentaciones/<br/>control-estatal-ias-2026-07/en</div>
+</a>
+</div>
 </div>
 
 <!--
-TODO: add QR codes (qr-pauseai.png, qr-charla.png) in public/ and
-reference them here once generated (see CLAUDE.md TODOs).
-
 VOICE:
-"Thank you. The slides, with every source verified claim by claim, are at
-that URL. And now, yes: questions, objections and disagreements.
-Especially disagreements."
+"And to close: here's where to find me and the QR to the talk, with all the
+sources. Write to me about anything, especially disagreements. Thank you."
 
 NOTES:
-- Open Q&A. Keep at hand:
-  · Warner (☑️ 2-1, with the journalist's disclaimer).
-  · Ransomware: Q2 only (+43%, 2,279 victims, GuidePoint).
-  · Shutdown-resistance 79% as an example of eval fragility.
-  · The 5 preempted objections from the crossover.
+- Open Q&A. Keep handy: Warner (☑️ 2-1), ransomware only Q2 (+43%, 2,279
+  victims, GuidePoint), shutdown-resistance 79% (eval fragility), ENISA (offer
+  denied, restoration unconfirmed), the pre-empted objections from the
+  crossover, and the point that documented terrorism cases used non-frontier
+  models.
 -->

@@ -4,7 +4,7 @@ class: text-center
 ---
 
 <!--
-Block 3: Why it doesn't hold technically (~10 min). Three legs:
+Block 3: Why it doesn't hold technically (~10 min). Three reasons:
 safeguards, open-weight, cyber curve. Source: crossover §2 to §4 + report.
 Discipline: the ">99%" ALWAYS as Anthropic's claim.
 -->
@@ -15,7 +15,7 @@ Discipline: the ">99%" ALWAYS as Anthropic's claim.
 <!--
 VOICE:
 "Part three. Suppose we accept this access control. Does it hold
-technically? Three legs: the safeguards, the open weights, and the
+technically? Three reasons: the safeguards, the open weights, and the
 offensive capability curve."
 
 NOTES:
@@ -28,27 +28,84 @@ layout: default
 
 <div class="max-w-6xl mx-auto px-8 pt-2">
   <div class="text-sm uppercase tracking-widest opacity-60 mb-3" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.15em">
-    Leg 1 · the safeguards
+    Reason 1 · the safeguards
   </div>
   <div class="text-4xl font-bold mb-6" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">
-    Cat and mouse, with data
+    What is a classifier?
   </div>
-  <div class="space-y-3">
+  <div class="grid grid-cols-2 gap-6">
+    <div class="p-5 rounded-lg" style="background: rgba(148, 163, 184, 0.08)">
+      <div class="text-base font-bold mb-2 opacity-80" style="font-family: 'Saira Condensed', sans-serif; letter-spacing: 0.05em">
+        THE CONCEPT
+      </div>
+      <div class="text-sm leading-relaxed" style="font-family: 'Montserrat', sans-serif">
+        A second system that inspects <span class="font-semibold">what goes in</span> (your prompt) and
+        <span class="font-semibold">what comes out</span> (the answer) and blocks what's disallowed.
+        A filtering layer <span class="font-semibold">on top of the model</span>.
+      </div>
+    </div>
+    <div class="p-5 rounded-lg" style="background: rgba(255, 148, 22, 0.05); border-left: 4px solid #ff9416">
+      <div class="text-base font-bold mb-2" style="color: #ff9416; font-family: 'Saira Condensed', sans-serif; letter-spacing: 0.05em">
+        ITS RELATION TO THE JAILBREAK
+      </div>
+      <div class="text-sm leading-relaxed" style="font-family: 'Montserrat', sans-serif">
+        It's <span class="font-semibold">the main defense</span>: the jailbreak tries to make the model produce the banned content;
+        the classifier is what should catch it. Anthropic's "constitutional" ones train from a list of
+        rules and can be <span class="font-semibold">retrained fast</span> against new attacks.
+      </div>
+    </div>
+  </div>
+  <div class="mt-6 text-base opacity-80 italic text-center" style="font-family: 'Roboto Slab', serif">
+    The question isn't whether they exist, but <span style="color:#ff9416">how much they really withstand</span>.
+  </div>
+</div>
+
+<!--
+VOICE:
+"Reason one: the safeguards. And to talk about them properly, ten seconds on
+what a classifier is, because it's the key piece.
+
+A classifier is, simply, a second system that looks at what goes in, your
+prompt, and what comes out, the model's answer, and blocks what's
+disallowed. It's a filtering layer placed on top of the model, like a
+bouncer.
+
+And what does it have to do with the jailbreak? Everything. The classifier
+is the main defense against jailbreaks: the jailbreak tries to make the
+model produce banned content, and the classifier is exactly what should
+catch it. Anthropic's are called 'constitutional' because they train from a
+written list of what's allowed and disallowed, and they can be retrained
+fast when a new attack appears. That's what Anthropic called 'rapid
+response' in June.
+
+So the interesting question isn't whether they exist. It's how much they
+really withstand. And that we see with data."
+
+NOTES:
+- The classifier concept + its role against jailbreaks. Counterpart to the
+  "What is a jailbreak?" slide in Block 1.
+- No clicks. ~1 min.
+-->
+
+---
+layout: default
+---
+
+<div class="max-w-6xl mx-auto px-8 pt-2">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-3" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.15em">
+    Reason 1 · the safeguards
+  </div>
+  <div class="text-4xl font-bold mb-6" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">
+    A cycle that never closes
+  </div>
+  <div class="space-y-4">
     <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
-      <div class="font-bold flex-shrink-0 w-32" style="color: #ff9416">2025</div>
-      <div>Constitutional Classifiers: <span class="font-semibold">3,000 hours</span> of red-teaming without a universal jailbreak. Jailbreak success: 86% to <span class="font-semibold">4.4%</span>.</div>
+      <div class="font-bold flex-shrink-0 w-40" style="color: #ff9416">REINFORCED</div>
+      <div>The classifier is trained and declared robust: in 2025, jailbreaks from 86% to <span class="font-semibold">4.4%</span> after 3,000 hours of red-teaming; and after Fable, Anthropic <span class="font-semibold">says</span> it blocks the technique <span class="font-semibold">&gt;99%</span> (unverified).</div>
     </div>
     <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
-      <div class="font-bold flex-shrink-0 w-32" style="color: #ff9416">THE DEMO</div>
-      <div>In the public demo, someone eventually lands <span class="font-semibold">a universal jailbreak</span>.</div>
-    </div>
-    <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
-      <div class="font-bold flex-shrink-0 w-32" style="color: #ff9416">JUN 2026</div>
-      <div>Fable 5 ships with reinforced safeguards. <span class="font-semibold">Jailbroken in 3 days.</span></div>
-    </div>
-    <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
-      <div class="font-bold flex-shrink-0 w-32" style="color: #ff9416">">99%"</div>
-      <div>The retrained classifier blocks the technique, <span class="font-semibold">says Anthropic</span>. Single source, no independent verification.</div>
+      <div class="font-bold flex-shrink-0 w-40" style="color: #ff9416">BROKEN</div>
+      <div>And it always ends up broken: a <span class="font-semibold">universal jailbreak</span> against those classifiers in 2025; Fable 5, with the best safeguards, <span class="font-semibold">in 3 days</span> (Jun 2026). <span class="opacity-70">↻ And back to reinforcing.</span></div>
     </div>
   </div>
   <div v-click class="mt-6 p-5 rounded-lg" style="background: rgba(148, 163, 184, 0.08)">
@@ -61,17 +118,20 @@ layout: default
 
 <!--
 VOICE:
-"Leg one: the safeguards. And I want to be fair, because the story is
-better than it looks. And worse.
+"The data. And I want to be fair, because the story is better than it looks.
+And worse. Notice: it's a two-step loop. The classifier is reinforced, it
+breaks, and back to the start. Reinforcing and retraining are the same thing.
 
 In 2025, Anthropic's constitutional classifiers withstood three thousand
 hours of red-teaming without a single universal jailbreak, and cut
 jailbreak success from 86% to 4.4%. Serious engineering. But in the public
 demo, in the end, someone got the universal jailbreak.
 
-June 2026, same movie: Fable 5 ships with the company's most polished
-safeguards. Amazon's team needed three days. And the response was the
-usual one: retrain the classifier, which now, says Anthropic, blocks the
+June 2026, same dynamic, though a different attack: not a universal jailbreak
+like the demo's, but a specific technique with which Fable 5 got as far as
+producing working exploit code. Fable ships with the company's most polished
+safeguards, and even so Amazon's team needed three days. And the response was
+the usual one: retrain the classifier, which now, says Anthropic, blocks the
 technique in more than 99% of attempts. Notice I say 'says Anthropic': the
 figure exists only on their page.
 
@@ -129,7 +189,7 @@ layout: default
 
 <div class="max-w-6xl mx-auto px-8 pt-2">
   <div class="text-sm uppercase tracking-widest opacity-60 mb-3" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.15em">
-    Leg 2 · the open weights
+    Reason 2 · the open weights
   </div>
   <div class="text-4xl font-bold mb-6" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">
     What the directive cannot touch
@@ -138,7 +198,7 @@ layout: default
     <div class="p-5 rounded-lg" style="background: rgba(255, 148, 22, 0.05)">
       <div class="text-5xl font-black" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">$200</div>
       <div class="text-sm mt-3 opacity-80 leading-relaxed" style="font-family: 'Montserrat', sans-serif">
-        Undoing Llama 2's safety fine-tuning.
+        Stripping the safeguards off an open model. Demonstrated with Llama 2.
       </div>
     </div>
     <div class="p-5 rounded-lg" style="background: rgba(255, 148, 22, 0.05)">
@@ -165,10 +225,12 @@ layout: default
 
 <!--
 VOICE:
-"Leg two: the open weights. Three numbers.
+"Reason two: the open weights. Three numbers.
 
-Two hundred dollars: what it cost to undo Llama 2's safety fine-tuning.
-The safeguards of an open model are a suggestion.
+Two hundred dollars: what it cost to strip the safeguards off an open model.
+It was demonstrated with Llama 2 years ago; with today's open models, closer
+to the frontier, it's only easier. The safeguards of an open model are a
+suggestion.
 
 Ninety-four percent: the openly malicious requests DeepSeek fulfilled with
 common jailbreaks. The American models: eight.
@@ -206,10 +268,6 @@ layout: default
     </blockquote>
     <div class="text-sm opacity-50 mt-3" style="font-family: 'Montserrat', sans-serif">Scher et al. (MIRI), international agreement proposal (2025)</div>
   </div>
-  <div v-click class="mt-8 text-xl text-center leading-relaxed max-w-4xl mx-auto" style="font-family: 'Roboto Slab', serif">
-    This is not an argument against coordination.<br/>
-    <span style="color: #ff9416">It is the premise of every treaty.</span>
-  </div>
 </div>
 
 <!--
@@ -219,8 +277,6 @@ unilateral control does not work, why ask for pauses?'
 
 MIRI's calculation says it without anesthesia: a US-only pause buys around
 six months.
-
-[CLICK]
 
 Exactly. That is why no serious person asks for a unilateral pause. That
 unilateral does not work is the premise of every treaty, not its
@@ -240,57 +296,55 @@ layout: default
 
 <div class="max-w-6xl mx-auto px-8 pt-2">
   <div class="text-sm uppercase tracking-widest opacity-60 mb-3" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.15em">
-    Leg 3 · offensive capability
+    Reason 3 · offensive capability
   </div>
-  <div class="text-4xl font-bold mb-6" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">
-    The curve that scares states
+  <div class="text-4xl font-bold mb-5" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">
+    Why states are nervous
   </div>
-  <div class="space-y-3">
-    <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
-      <div class="font-bold flex-shrink-0 w-32" style="color: #ff9416">FEB</div>
-      <div>CrowdStrike, before Mythos: AI-assisted operations <span class="font-semibold">+89% year over year</span>.</div>
-    </div>
-    <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
-      <div class="font-bold flex-shrink-0 w-32" style="color: #ff9416">APR</div>
-      <div>Microsoft: AI-generated phishing, <span class="font-semibold">54% click rate</span>. Traditional: 12%.</div>
-    </div>
-    <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
-      <div class="font-bold flex-shrink-0 w-32" style="color: #ff9416">JUN</div>
-      <div>Five Eyes: models that overwhelm defenses are <span class="font-semibold">"months, not years"</span> away. UK AISI: offensive capability <span class="font-semibold">doubles every ~4 months</span>.</div>
-    </div>
-    <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
-      <div class="font-bold flex-shrink-0 w-32" style="color: #ff9416">JUL</div>
-      <div>Check Point: working exploits <span class="font-semibold">within hours</span> of a vulnerability being published.</div>
-    </div>
-  </div>
-  <div v-click class="mt-6 p-5 rounded-lg" style="background: rgba(148, 163, 184, 0.08)">
+  <div class="p-5 rounded-lg mb-5 flex items-center gap-6" style="background: rgba(255, 148, 22, 0.08); border-left: 4px solid #ff9416">
+    <div class="text-4xl font-black flex-shrink-0" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">×2 every ~4 months</div>
     <div class="text-base leading-relaxed" style="font-family: 'Montserrat', sans-serif">
-      Two honest caveats: the trend <span class="font-semibold">predates Mythos</span> (blaming it is not supported).
-      And being older <span class="font-semibold">does not make it less serious</span>.
+      Frontier models' cyberattack capability <span class="font-semibold">doubles every four months</span> (UK AISI). That's the curve.
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-4 text-center">
+    <div class="p-4 rounded-lg" style="background: rgba(148, 163, 184, 0.08)">
+      <div class="text-sm font-bold mb-1" style="color:#ff9416; font-family: 'Saira Condensed', sans-serif">"Months, not years"</div>
+      <div class="text-xs opacity-80" style="font-family: 'Montserrat', sans-serif">Until a model overwhelms defenses (Five Eyes warning).</div>
+    </div>
+    <div class="p-4 rounded-lg" style="background: rgba(148, 163, 184, 0.08)">
+      <div class="text-sm font-bold mb-1" style="color:#ff9416; font-family: 'Saira Condensed', sans-serif">Within hours</div>
+      <div class="text-xs opacity-80" style="font-family: 'Montserrat', sans-serif">Working exploits after a vulnerability is published (Check Point).</div>
+    </div>
+  </div>
+  <div v-click class="mt-5 p-4 rounded-lg" style="background: rgba(255, 148, 22, 0.05)">
+    <div class="text-base leading-relaxed" style="font-family: 'Montserrat', sans-serif">
+      Two honest caveats: the trend <span class="font-semibold">predates Mythos</span> (it's not these models' fault), but it's <span class="font-semibold">real and serious</span>.
     </div>
   </div>
 </div>
 
 <!--
 VOICE:
-"Leg three: the curve that explains why states are nervous.
+"Reason three: offensive capability, which is what makes states nervous. And
+there's one number that sums it all up: frontier models' cyberattack
+capability doubles every four months, per the UK security institute. Every
+four months, double. That's the curve.
 
-February, before Mythos: 89% more adversarial AI operations than the year
-before. April: AI-generated phishing gets 54% of clicks; traditional, 12.
-June: the Five Eyes warn that models able to overwhelm defenses are months,
-not years, away, and the UK institute estimates that offensive capability
-doubles every four months. July: working exploits within hours of a
-vulnerability being published.
+What does it mean concretely? Two examples. The Five Eyes warn that
+a model able to overwhelm defenses is months, not years, away. And there are
+already working exploits within hours of a vulnerability being published.
+(And in the background, CrowdStrike was already measuring 89% more AI
+operations than the year before, even before Mythos.)
 
-And one detail: that 'months, not years' is the same curve the AI safety
-literature had been modeling for a year: 'AI shortens cyberoperations from
-years to months'.
+It's the same curve the AI safety literature had been modeling for a year:
+'AI shortens cyberoperations from years to months'.
 
 [CLICK]
 
-Two honest caveats. One: the trend predates Mythos. Attributing the
-escalation to these models is not supported by the data, and whoever sells
-it to you that way is selling smoke. Two: being older does not make it
+Two honest caveats. One: this trend predates Mythos. Attributing the
+escalation to these specific models is not supported by the data, and whoever
+sells it to you that way is selling smoke. Two: being older does not make it
 less serious. It justifies structural concern. It does not justify any
 measure whatsoever."
 

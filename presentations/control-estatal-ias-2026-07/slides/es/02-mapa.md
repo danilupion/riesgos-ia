@@ -33,15 +33,15 @@ layout: default
   </div>
   <div class="grid grid-cols-3 gap-5">
     <div class="p-5 rounded-lg" style="background: rgba(255, 148, 22, 0.08); border-top: 4px solid #ff9416">
-      <div class="text-base font-bold mb-2" style="color: #ff9416; font-family: 'Saira Condensed', sans-serif">1 · CONTROL ESTATAL</div>
+      <div class="text-base font-bold mb-2" style="color: #ff9416; font-family: 'Saira Condensed', sans-serif">1 · CONTROL GUBERNAMENTAL</div>
       <div class="text-sm leading-relaxed opacity-90" style="font-family: 'Montserrat', sans-serif">
-        Centralizar cómputo y pesos bajo gobiernos. De la nacionalización a los tratados.
+        Los gobiernos, no el mercado, controlan la frontera: regulación, licencias y control del cómputo y los pesos.
       </div>
     </div>
     <div class="p-5 rounded-lg" style="background: rgba(148, 163, 184, 0.06); border-top: 4px solid #94a3b8">
       <div class="text-base font-bold mb-2 opacity-80" style="font-family: 'Saira Condensed', sans-serif">2 · IA ALINEADA</div>
       <div class="text-sm leading-relaxed opacity-70" style="font-family: 'Montserrat', sans-serif">
-        Lograr ventaja decisiva y delegar el problema en la propia IA.
+        Entregar el problema a una superinteligencia alineada, con ventaja estratégica decisiva.
       </div>
     </div>
     <div class="p-5 rounded-lg" style="background: rgba(148, 163, 184, 0.06); border-top: 4px solid #94a3b8">
@@ -59,22 +59,30 @@ layout: default
 
 <!--
 VOZ:
-"La literatura de estrategia AGI se organiza en tres campos. Uno: control
-estatal. Centralizar cómputo y pesos bajo gobiernos, desde la
-nacionalización que propone Aschenbrenner hasta los tratados
-internacionales. Dos: conseguir una superinteligencia alineada con ventaja
-decisiva y que ella resuelva. Tres: el campo d/acc. Acelerar defensas,
-difundir, desconfiar de cualquier centro.
+"La literatura de estrategia AGI se puede organizar, a grandes rasgos, en
+tres campos. Y digo a grandes rasgos porque es una simplificación: hay cortes
+más finos, y de hecho en un momento usaremos uno. Uno: control gubernamental.
+Que lo controlen los gobiernos, no el mercado: con regulación, licencias y
+control del cómputo y los pesos. Y ojo, esto abarca todo un abanico, desde la
+nacionalización que propone Aschenbrenner hasta los tratados internacionales;
+nacional o internacional, sigue siendo el campo uno. Dos: conseguir una superinteligencia
+alineada con ventaja decisiva y que ella resuelva. Tres: el campo d/acc.
+Acelerar defensas, difundir, desconfiar de cualquier centro.
 
 [CLICK]
 
 Junio de 2026 es el campo uno en acción. Con una diferencia importante que
-veremos al final del bloque."
+veremos al final del bloque: el gobierno de EE.UU. se quedó en el extremo
+nacional y unilateral. Lo que pediremos nosotros vive en el otro extremo del
+mismo campo."
 
 NOTAS:
-- Definición del campo 1 en BlueDot: "centralising control over compute and
-  frontier AI model weights into a small number of Government-backed 'AGI
-  Projects'". Citar en voz si encaja.
+- Fuente: campo 1 = "Government control over AGI", NO nación-estado en
+  concreto. Abarca de lo nacional (The Project) a lo internacional (CERN for
+  AI, tratado MIRI). Clave verificada: "must be stopped, paused or tightly
+  controlled by the world's governments". Por eso "gubernamental", no "estatal".
+- El eje nacional↔internacional dentro del campo 1 prepara el remate del
+  Bloque 5 (control estatal sí, pero el equivocado = polo nacional).
 - ~1.5 min.
 -->
 
@@ -83,16 +91,10 @@ layout: center
 class: text-center
 ---
 
-<div class="text-sm uppercase tracking-widest opacity-60 mb-6" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.15em">
-  Momento interactivo
-</div>
 <div class="text-3xl italic max-w-4xl mx-auto leading-snug" style="font-family: 'Roboto Slab', serif">
   ¿Qué preocupa más: la <span style="color: #ff9416">concentración de poder</span> del desarrollo centralizado, o los <span style="color: #ff9416">recortes en seguridad</span> de la carrera distribuida?
 </div>
-<div class="text-base opacity-50 mt-4" style="font-family: 'Montserrat', sans-serif">El «crux» de la gobernanza de IA, según IAPS</div>
-<div v-click class="mt-10 text-xl opacity-80" style="font-family: 'Montserrat', sans-serif">
-  ¿Manos?
-</div>
+<div class="text-base opacity-50 mt-6" style="font-family: 'Montserrat', sans-serif">El «crux» de la gobernanza de IA, según IAPS</div>
 
 <!--
 VOZ:
@@ -101,14 +103,13 @@ identifica como EL crux de toda la gobernanza de IA: ¿qué os preocupa más,
 la concentración de poder del desarrollo centralizado, o los recortes de
 seguridad de la carrera distribuida?
 
-[CLICK]
-
 A mano alzada: ¿concentración? [pausa] ¿Carrera? [pausa]"
 
 [30-60s de reacciones si la sala está viva]
 
 NOTAS:
-- MOMENTO INTERACTIVO 1. En virtual: encuesta o chat.
+- MOMENTO INTERACTIVO 1 (acotación, no va en pantalla). En virtual: encuesta o chat.
+- La slide solo muestra la pregunta; pedir manos es de viva voz.
 - Original: "Which is more concerning: power concentration from centralized
   AI development, or corner-cutting on safety from race dynamics in
   distributed AI development?" (IAPS, Strategic Visions).
@@ -122,9 +123,9 @@ class: text-center
 ---
 
 <div class="text-4xl font-bold max-w-4xl mx-auto leading-snug" style="font-family: 'Saira Condensed', sans-serif">
-  2026 no eligió.
+  En 2026 no hemos podido elegir.
 </div>
-<div v-click class="mt-10 text-2xl max-w-4xl mx-auto leading-relaxed" style="font-family: 'Roboto Slab', serif">
+<div class="mt-10 text-2xl max-w-4xl mx-auto leading-relaxed" style="font-family: 'Roboto Slab', serif">
   <span style="color: #ff9416">Concentración ad hoc</span> de la frontera cerrada.<br/>
   <span class="opacity-60">Y a la vez,</span><br/>
   <span style="color: #ff9416">proliferación irreversible</span> de la frontera abierta.
@@ -132,9 +133,7 @@ class: text-center
 
 <!--
 VOZ:
-"Os digo por qué la pregunta era un poco trampa. Porque 2026 no eligió.
-
-[CLICK]
+"Os digo por qué la pregunta era un poco trampa. Porque en 2026 no hemos podido elegir.
 
 Tenemos concentración: un gobierno decidiendo por carta quién accede a los
 modelos cerrados más capaces. Y tenemos proliferación: modelos open-weight
@@ -153,8 +152,11 @@ layout: default
 ---
 
 <div class="max-w-6xl mx-auto px-8 pt-2">
-  <div class="text-4xl font-bold mb-8" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">
-    El gradiente de acceso
+  <div class="text-4xl font-bold mb-2" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">
+    Los niveles de acceso
+  </div>
+  <div class="text-base opacity-70 mb-6" style="font-family: 'Montserrat', sans-serif">
+    El mismo modelo, según quién seas: de acceso sin límites a excluido.
   </div>
   <div class="grid grid-cols-4 gap-3 text-center">
     <div class="p-4 rounded-lg" style="background: rgba(255, 148, 22, 0.15)">
@@ -170,8 +172,8 @@ layout: default
       <div class="text-xs mt-2 opacity-80" style="font-family: 'Montserrat', sans-serif">Fable 5, con salvaguardas y routing.</div>
     </div>
     <div class="p-4 rounded-lg" style="background: rgba(148, 163, 184, 0.08)">
-      <div class="text-sm font-bold opacity-70" style="font-family: 'Saira Condensed', sans-serif">FUERA</div>
-      <div class="text-xs mt-2 opacity-60" style="font-family: 'Montserrat', sans-serif">19 días: todos. Hoy: Mythos fuera de EE.UU.</div>
+      <div class="text-sm font-bold opacity-70" style="font-family: 'Saira Condensed', sans-serif">EXCLUIDOS</div>
+      <div class="text-xs mt-2 opacity-60" style="font-family: 'Montserrat', sans-serif">Fuera de EE.UU.: sin Mythos.</div>
     </div>
   </div>
   <div v-click class="mt-8">
@@ -182,25 +184,26 @@ layout: default
       <div class="text-sm opacity-50 mt-2" style="font-family: 'Montserrat', sans-serif">Davidson, Finnveden y Hadshar, <i>AI-Enabled Coups</i> (2025)</div>
     </div>
     <div class="mt-4 text-base opacity-80 italic text-center" style="font-family: 'Roboto Slab', serif">
-      2026 estataliza el gradiente: ya no es empleados contra público. Es aprobados contra el resto.
+      Los labs construyen los niveles; en 2026 el gobierno controla la puerta.
     </div>
   </div>
 </div>
 
 <!--
 VOZ:
-"Este acceso escalonado no lo inventó el gobierno. Miradlo como gradiente:
-en el centro, la versión sin salvaguardas, que existe y está documentada en
-las system cards. Luego los aprobados. Luego el público, con salvaguardas y
-routing. Y luego los de fuera, que durante 19 días fuimos todos.
+"Este acceso por niveles no lo inventó el gobierno. Es el mismo modelo, pero
+lo que puedes hacer con él depende de quién seas. En un extremo, la versión
+sin salvaguardas, la interna, documentada en las system cards. Luego los
+aprobados. Luego el público, con salvaguardas y routing. Y en el otro
+extremo, los de fuera, que durante 19 días fuimos todos.
 
 [CLICK]
 
-En 2025, el paper de golpes asistidos por IA ya describía este gradiente
-como práctica interna de los labs, y lo señalaba como factor de riesgo de
-concentración de poder. Lo nuevo de 2026: el gradiente se ha estatalizado.
-La frontera ya no pasa entre empleados y público. Pasa entre aprobados por
-un gobierno y el resto del mundo."
+En 2025, el paper de golpes asistidos por IA ya describía estos niveles como
+práctica interna de los labs, y lo señalaba como factor de riesgo de
+concentración de poder. Los labs siguen construyendo los niveles. Lo nuevo de
+2026 es que ahora el gobierno controla la puerta: aprueba quién entra en los
+de arriba, y puede forzar que se cierre, como demostró el rollback."
 
 NOTAS:
 - Original: "employees get access to 'helpful-only' models with few safety
@@ -235,7 +238,7 @@ layout: default
   </div>
   <div v-click class="text-center mt-8">
     <div class="text-3xl font-bold italic" style="font-family: 'Roboto Slab', serif; color: #ff9416">
-      Quis custodiet ipsos custodes?
+      ¿Quién vigila a los vigilantes?
     </div>
     <div class="text-base opacity-60 mt-3" style="font-family: 'Montserrat', sans-serif">
       Acceso sin criterio público = poder arbitrario.

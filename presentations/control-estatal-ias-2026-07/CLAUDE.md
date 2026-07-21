@@ -92,7 +92,7 @@ Provisional (sin minutos — duración TBD con organizadores). Referencias: `res
 - [ ] **Ronda de validación de Dani sobre `research/crossover.md`** (en paralelo a la del informe)
 - [x] Construir slides individuales en `slides/es/` y `slides/en/` (2026-07-18: 36 slides × 2 idiomas, 7 ficheros por idioma, lockstep verificado, ambos builds OK) — pendiente de validación de Dani junto con informe + crossover
 - [ ] Verificar todas las fuentes con `TODO source:` en slides/
-- [ ] Generar QR codes en `public/` (pauseai.es + URL de la charla: `pauseai.es/presentaciones/control-estatal-ias-2026-07/` y `/en/`)
+- [x] Generar QR codes en `public/` (2026-07-21, con `segno`): `qr-charla.png` (URL ES) y `qr-charla-en.png` (URL `/en/`), usados en la slide de Preguntas. Cierre reestructurado a lo mythos-mayo: Gracias → Fuentes y verificación → Preguntas+QR (fuera la slide «qué puede hacer esta comunidad»)
 
 ## Key Sources
 

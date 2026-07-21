@@ -33,15 +33,15 @@ layout: default
   </div>
   <div class="grid grid-cols-3 gap-5">
     <div class="p-5 rounded-lg" style="background: rgba(255, 148, 22, 0.08); border-top: 4px solid #ff9416">
-      <div class="text-base font-bold mb-2" style="color: #ff9416; font-family: 'Saira Condensed', sans-serif">1 · STATE CONTROL</div>
+      <div class="text-base font-bold mb-2" style="color: #ff9416; font-family: 'Saira Condensed', sans-serif">1 · GOVERNMENT CONTROL</div>
       <div class="text-sm leading-relaxed opacity-90" style="font-family: 'Montserrat', sans-serif">
-        Centralize compute and weights under governments. From nationalization to treaties.
+        Governments, not the market, control the frontier: regulation, licensing, control of compute and weights.
       </div>
     </div>
     <div class="p-5 rounded-lg" style="background: rgba(148, 163, 184, 0.06); border-top: 4px solid #94a3b8">
       <div class="text-base font-bold mb-2 opacity-80" style="font-family: 'Saira Condensed', sans-serif">2 · ALIGNED AI</div>
       <div class="text-sm leading-relaxed opacity-70" style="font-family: 'Montserrat', sans-serif">
-        Achieve a decisive advantage and delegate the problem to the AI itself.
+        Hand the problem to an aligned superintelligence, with a decisive strategic advantage.
       </div>
     </div>
     <div class="p-5 rounded-lg" style="background: rgba(148, 163, 184, 0.06); border-top: 4px solid #94a3b8">
@@ -59,22 +59,29 @@ layout: default
 
 <!--
 VOICE:
-"The AGI strategy literature organizes into three camps. One: state
-control. Centralize compute and weights under governments, from the
-nationalization Aschenbrenner proposes to international treaties. Two: get
-an aligned superintelligence with a decisive advantage and let it solve the
-problem. Three: the d/acc camp. Accelerate defenses, diffuse, distrust any
-center.
+"The AGI strategy literature can be organized, broadly, into three camps. And
+I say broadly because it's a simplification: finer cuts exist, and in a moment
+we'll use one. One: government control. Governments control it, not the market:
+through regulation, licensing and control of compute and weights. And note,
+this spans a whole range, from the nationalization Aschenbrenner proposes to
+international treaties; national or international, it's still camp one. Two: get
+an aligned superintelligence with
+a decisive advantage and let it solve the problem. Three: the d/acc camp.
+Accelerate defenses, diffuse, distrust any center.
 
 [CLICK]
 
-June 2026 is camp one in action. With one important difference we will see
-at the end of this block."
+June 2026 is camp one in action. With one important difference we will see at
+the end of this block: the U.S. government stayed at the national, unilateral
+end. What we'll ask for lives at the other end of the same camp."
 
 NOTES:
-- Camp 1 definition in BlueDot: "centralising control over compute and
-  frontier AI model weights into a small number of Government-backed 'AGI
-  Projects'". Quote aloud if it fits.
+- Source: camp 1 = "Government control over AGI", NOT the nation-state
+  specifically. Spans national (The Project) to international (CERN for AI,
+  MIRI treaty). Verified key line: "must be stopped, paused or tightly
+  controlled by the world's governments". Hence "government", not "state".
+- The national vs international axis within camp 1 sets up the Block 5 payoff
+  (state control yes, but the wrong kind = the national pole).
 - ~1.5 min.
 -->
 
@@ -83,16 +90,10 @@ layout: center
 class: text-center
 ---
 
-<div class="text-sm uppercase tracking-widest opacity-60 mb-6" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.15em">
-  Interactive moment
-</div>
 <div class="text-3xl italic max-w-4xl mx-auto leading-snug" style="font-family: 'Roboto Slab', serif">
   Which is more concerning: <span style="color: #ff9416">power concentration</span> from centralized AI development, or <span style="color: #ff9416">corner-cutting on safety</span> from race dynamics in distributed AI development?
 </div>
-<div class="text-base opacity-50 mt-4" style="font-family: 'Montserrat', sans-serif">The "crux" of AI governance, according to IAPS</div>
-<div v-click class="mt-10 text-xl opacity-80" style="font-family: 'Montserrat', sans-serif">
-  Show of hands?
-</div>
+<div class="text-base opacity-50 mt-6" style="font-family: 'Montserrat', sans-serif">The "crux" of AI governance, according to IAPS</div>
 
 <!--
 VOICE:
@@ -101,14 +102,13 @@ identifies as THE crux of all AI governance: which worries you more, power
 concentration from centralized development, or corner-cutting on safety
 from the distributed race?
 
-[CLICK]
-
 Show of hands: concentration? [pause] Race? [pause]"
 
 [30-60s of reactions if the room is lively]
 
 NOTES:
-- INTERACTIVE MOMENT 1. Virtual: poll or chat.
+- INTERACTIVE MOMENT 1 (stage direction, not on screen). Virtual: poll or chat.
+- The slide only shows the question; asking for hands is done aloud.
 - Quote verbatim (verified): IAPS, Strategic Visions.
 - Note the split; it comes back in the next slide and in Q&A.
 - ~1.5-2 min.
@@ -120,9 +120,9 @@ class: text-center
 ---
 
 <div class="text-4xl font-bold max-w-4xl mx-auto leading-snug" style="font-family: 'Saira Condensed', sans-serif">
-  2026 did not choose.
+  In 2026 we didn't get to choose.
 </div>
-<div v-click class="mt-10 text-2xl max-w-4xl mx-auto leading-relaxed" style="font-family: 'Roboto Slab', serif">
+<div class="mt-10 text-2xl max-w-4xl mx-auto leading-relaxed" style="font-family: 'Roboto Slab', serif">
   <span style="color: #ff9416">Ad hoc concentration</span> of the closed frontier.<br/>
   <span class="opacity-60">And at the same time,</span><br/>
   <span style="color: #ff9416">irreversible proliferation</span> of the open frontier.
@@ -130,10 +130,8 @@ class: text-center
 
 <!--
 VOICE:
-"Let me tell you why the question was a bit of a trap. Because 2026 did not
-choose.
-
-[CLICK]
+"Let me tell you why the question was a bit of a trap. Because in 2026 we
+didn't get to choose.
 
 We have concentration: a government deciding by letter who gets access to
 the most capable closed models. And we have proliferation: open-weight
@@ -152,8 +150,11 @@ layout: default
 ---
 
 <div class="max-w-6xl mx-auto px-8 pt-2">
-  <div class="text-4xl font-bold mb-8" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">
-    The access gradient
+  <div class="text-4xl font-bold mb-2" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">
+    The tiers of access
+  </div>
+  <div class="text-base opacity-70 mb-6" style="font-family: 'Montserrat', sans-serif">
+    Same model, depending on who you are: from unrestricted access to excluded.
   </div>
   <div class="grid grid-cols-4 gap-3 text-center">
     <div class="p-4 rounded-lg" style="background: rgba(255, 148, 22, 0.15)">
@@ -169,8 +170,8 @@ layout: default
       <div class="text-xs mt-2 opacity-80" style="font-family: 'Montserrat', sans-serif">Fable 5, with safeguards and routing.</div>
     </div>
     <div class="p-4 rounded-lg" style="background: rgba(148, 163, 184, 0.08)">
-      <div class="text-sm font-bold opacity-70" style="font-family: 'Saira Condensed', sans-serif">OUTSIDE</div>
-      <div class="text-xs mt-2 opacity-60" style="font-family: 'Montserrat', sans-serif">19 days: everyone. Today: Mythos outside the US.</div>
+      <div class="text-sm font-bold opacity-70" style="font-family: 'Saira Condensed', sans-serif">EXCLUDED</div>
+      <div class="text-xs mt-2 opacity-60" style="font-family: 'Montserrat', sans-serif">Outside the US: no Mythos.</div>
     </div>
   </div>
   <div v-click class="mt-8">
@@ -181,26 +182,26 @@ layout: default
       <div class="text-sm opacity-50 mt-2" style="font-family: 'Montserrat', sans-serif">Davidson, Finnveden and Hadshar, <i>AI-Enabled Coups</i> (2025)</div>
     </div>
     <div class="mt-4 text-base opacity-80 italic text-center" style="font-family: 'Roboto Slab', serif">
-      2026 nationalizes the gradient: it is no longer employees versus public. It is approved versus everyone else.
+      The labs build the tiers; in 2026 the government controls the gate.
     </div>
   </div>
 </div>
 
 <!--
 VOICE:
-"This tiered access was not invented by the government. See it as a
-gradient: at the center, the version without safeguards, which exists and
-is documented in the system cards. Then the approved. Then the public,
-with safeguards and routing. And then those outside, which for 19 days was
-all of us.
+"This tiered access was not invented by the government. It's the same model,
+but what you can do with it depends on who you are. At one end, the version
+without safeguards, the internal one, documented in the system cards. Then
+the approved. Then the public, with safeguards and routing. And at the other
+end, those outside, which for 19 days was all of us.
 
 [CLICK]
 
-In 2025, the AI-enabled coups paper already described this gradient as
-internal lab practice, and flagged it as a power-concentration risk factor.
-What is new in 2026: the gradient has been taken over by the state. The
-line no longer runs between employees and public. It runs between those
-approved by a government and the rest of the world."
+In 2025, the AI-enabled coups paper already described these tiers as internal
+lab practice, and flagged it as a power-concentration risk factor. The labs
+still build the tiers. What's new in 2026 is that the government now controls
+the gate: it approves who gets into the top ones, and it can force them shut,
+as the rollback showed."
 
 NOTES:
 - Quote verbatim (verified): Forethought, crossover §1.
@@ -233,7 +234,7 @@ layout: default
   </div>
   <div v-click class="text-center mt-8">
     <div class="text-3xl font-bold italic" style="font-family: 'Roboto Slab', serif; color: #ff9416">
-      Quis custodiet ipsos custodes?
+      Who watches the watchmen?
     </div>
     <div class="text-base opacity-60 mt-3" style="font-family: 'Montserrat', sans-serif">
       Access without a public criterion = arbitrary power.

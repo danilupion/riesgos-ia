@@ -60,7 +60,7 @@ src: ./slides/es/03-tecnica.md
 ---
 
 ---
-src: ./slides/es/04-leviatan.md
+src: ./slides/es/04-estado.md
 ---
 
 ---

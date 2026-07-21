@@ -4,7 +4,7 @@ class: text-center
 ---
 
 <!--
-Bloque 3: Por qué no se sostiene técnicamente (~10 min). Tres patas:
+Bloque 3: Por qué no se sostiene técnicamente (~10 min). Tres razones:
 salvaguardas, open-weight, curva cyber. Fuente: crossover §2 a §4 + informe.
 Disciplina: el ">99%" SIEMPRE como afirmación de Anthropic.
 -->
@@ -15,7 +15,7 @@ Disciplina: el ">99%" SIEMPRE como afirmación de Anthropic.
 <!--
 VOZ:
 "Tercera parte. Supongamos que aceptamos este control de acceso. ¿Se
-sostiene técnicamente? Tres patas: las salvaguardas, los pesos abiertos y
+sostiene técnicamente? Tres razones: las salvaguardas, los pesos abiertos y
 la curva de capacidad ofensiva."
 
 NOTAS:
@@ -28,27 +28,83 @@ layout: default
 
 <div class="max-w-6xl mx-auto px-8 pt-2">
   <div class="text-sm uppercase tracking-widest opacity-60 mb-3" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.15em">
-    Pata 1 · las salvaguardas
+    Razón 1 · las salvaguardas
   </div>
   <div class="text-4xl font-bold mb-6" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">
-    El gato y el ratón, con datos
+    ¿Qué es un clasificador?
   </div>
-  <div class="space-y-3">
+  <div class="grid grid-cols-2 gap-6">
+    <div class="p-5 rounded-lg" style="background: rgba(148, 163, 184, 0.08)">
+      <div class="text-base font-bold mb-2 opacity-80" style="font-family: 'Saira Condensed', sans-serif; letter-spacing: 0.05em">
+        EL CONCEPTO
+      </div>
+      <div class="text-sm leading-relaxed" style="font-family: 'Montserrat', sans-serif">
+        Un segundo sistema que inspecciona <span class="font-semibold">lo que entra</span> (tu petición) y
+        <span class="font-semibold">lo que sale</span> (la respuesta) y bloquea lo prohibido.
+        Una capa de filtrado <span class="font-semibold">encima del modelo</span>.
+      </div>
+    </div>
+    <div class="p-5 rounded-lg" style="background: rgba(255, 148, 22, 0.05); border-left: 4px solid #ff9416">
+      <div class="text-base font-bold mb-2" style="color: #ff9416; font-family: 'Saira Condensed', sans-serif; letter-spacing: 0.05em">
+        SU RELACIÓN CON EL JAILBREAK
+      </div>
+      <div class="text-sm leading-relaxed" style="font-family: 'Montserrat', sans-serif">
+        Es <span class="font-semibold">la principal defensa</span>: el jailbreak busca que el modelo produzca lo vetado;
+        el clasificador es lo que debería atraparlo. Los «constitucionales» de Anthropic se entrenan desde una lista de
+        reglas y se <span class="font-semibold">reentrenan rápido</span> ante ataques nuevos.
+      </div>
+    </div>
+  </div>
+  <div class="mt-6 text-base opacity-80 italic text-center" style="font-family: 'Roboto Slab', serif">
+    La pregunta no es si existen, sino <span style="color:#ff9416">cuánto aguantan de verdad</span>.
+  </div>
+</div>
+
+<!--
+VOZ:
+"Primera razón: las salvaguardas. Y para hablar de ellas con propiedad, diez
+segundos sobre qué es un clasificador, porque es la pieza clave.
+
+Un clasificador es, sencillamente, un segundo sistema que mira lo que entra,
+tu petición, y lo que sale, la respuesta del modelo, y bloquea lo prohibido.
+Es una capa de filtrado que se pone encima del modelo, como un portero.
+
+¿Y qué tiene que ver con el jailbreak? Todo. El clasificador es la principal
+defensa contra los jailbreaks: el jailbreak busca que el modelo produzca
+contenido vetado, y el clasificador es justo lo que debería atraparlo. Los
+de Anthropic se llaman 'constitucionales' porque se entrenan a partir de una
+lista escrita de lo permitido y lo prohibido, y se pueden reentrenar rápido
+cuando aparece un ataque nuevo. Eso es lo que Anthropic llamó 'rapid
+response' en junio.
+
+La pregunta interesante, entonces, no es si existen. Es cuánto aguantan de
+verdad. Y eso lo vemos con datos."
+
+NOTAS:
+- Concepto de clasificador + su papel frente a jailbreaks. Contraparte de la
+  slide "¿Qué es un jailbreak?" del Bloque 1.
+- Sin clicks. ~1 min.
+-->
+
+---
+layout: default
+---
+
+<div class="max-w-6xl mx-auto px-8 pt-2">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-3" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.15em">
+    Razón 1 · las salvaguardas
+  </div>
+  <div class="text-4xl font-bold mb-6" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">
+    Un ciclo que no se cierra
+  </div>
+  <div class="space-y-4">
     <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
-      <div class="font-bold flex-shrink-0 w-32" style="color: #ff9416">2025</div>
-      <div>Clasificadores constitucionales: <span class="font-semibold">3.000 horas</span> de red-teaming sin jailbreak universal. Éxito de jailbreaks: 86% a <span class="font-semibold">4,4%</span>.</div>
+      <div class="font-bold flex-shrink-0 w-40" style="color: #ff9416">SE REFUERZA</div>
+      <div>Se entrena el clasificador y se declara robusto: en 2025, jailbreaks del 86% al <span class="font-semibold">4,4%</span> tras 3.000 h de red-teaming; y tras Fable, Anthropic <span class="font-semibold">dice</span> que bloquea la técnica en <span class="font-semibold">&gt;99%</span> (sin verificar).</div>
     </div>
     <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
-      <div class="font-bold flex-shrink-0 w-32" style="color: #ff9416">LA DEMO</div>
-      <div>En la demo pública, alguien acaba logrando <span class="font-semibold">un jailbreak universal</span>.</div>
-    </div>
-    <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
-      <div class="font-bold flex-shrink-0 w-32" style="color: #ff9416">JUN 2026</div>
-      <div>Fable 5 sale con salvaguardas reforzadas. <span class="font-semibold">Jailbreak en 3 días.</span></div>
-    </div>
-    <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
-      <div class="font-bold flex-shrink-0 w-32" style="color: #ff9416">«&gt;99%»</div>
-      <div>El clasificador reentrenado bloquea la técnica, <span class="font-semibold">dice Anthropic</span>. Fuente única, sin verificación independiente.</div>
+      <div class="font-bold flex-shrink-0 w-40" style="color: #ff9416">SE ROMPE</div>
+      <div>Y siempre acaba roto: un <span class="font-semibold">jailbreak universal</span> contra esos clasificadores en 2025; Fable 5, con las mejores salvaguardas, <span class="font-semibold">en 3 días</span> (jun 2026). <span class="opacity-70">↻ Y vuelta a reforzar.</span></div>
     </div>
   </div>
   <div v-click class="mt-6 p-5 rounded-lg" style="background: rgba(148, 163, 184, 0.08)">
@@ -61,16 +117,19 @@ layout: default
 
 <!--
 VOZ:
-"Pata uno: las salvaguardas. Y quiero ser justo, porque la historia es
-mejor de lo que parece. Y peor.
+"Los datos. Y quiero ser justo, porque la historia es mejor de lo que
+parece. Y peor. Fijaos: es un bucle de dos pasos. Se refuerza el clasificador,
+se rompe, y vuelta a empezar. Reforzar y reentrenar son lo mismo.
 
 En 2025, los clasificadores constitucionales de Anthropic aguantaron tres
 mil horas de red-teaming sin un solo jailbreak universal, y bajaron el
 éxito de jailbreaks del 86% al 4,4%. Ingeniería seria. Pero en la demo
 pública, al final, alguien consiguió el jailbreak universal.
 
-Junio de 2026, misma película: Fable 5 sale con las salvaguardas más
-trabajadas de la empresa. Tres días tardó el equipo de Amazon. Y la
+Junio de 2026, la misma dinámica, aunque un ataque distinto: no un jailbreak
+universal como el de la demo, sino una técnica concreta con la que Fable 5
+llegó a producir código de exploit. Fable sale con las salvaguardas más
+trabajadas de la empresa, y aun así el equipo de Amazon tardó tres días. Y la
 respuesta fue la de siempre: reentrenar el clasificador, que ahora, dice
 Anthropic, bloquea la técnica en más del 99% de los intentos. Fijaos que
 digo 'dice Anthropic': la cifra existe solo en su página.
@@ -129,7 +188,7 @@ layout: default
 
 <div class="max-w-6xl mx-auto px-8 pt-2">
   <div class="text-sm uppercase tracking-widest opacity-60 mb-3" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.15em">
-    Pata 2 · los pesos abiertos
+    Razón 2 · los pesos abiertos
   </div>
   <div class="text-4xl font-bold mb-6" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">
     Lo que la directiva no puede tocar
@@ -138,7 +197,7 @@ layout: default
     <div class="p-5 rounded-lg" style="background: rgba(255, 148, 22, 0.05)">
       <div class="text-5xl font-black" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">$200</div>
       <div class="text-sm mt-3 opacity-80 leading-relaxed" style="font-family: 'Montserrat', sans-serif">
-        Deshacer el safety fine-tuning de Llama 2.
+        Quitar las salvaguardas de un modelo abierto. Demostrado con Llama 2.
       </div>
     </div>
     <div class="p-5 rounded-lg" style="background: rgba(255, 148, 22, 0.05)">
@@ -165,10 +224,12 @@ layout: default
 
 <!--
 VOZ:
-"Pata dos: los pesos abiertos. Tres números.
+"Segunda razón: los pesos abiertos. Tres números.
 
-Doscientos dólares: lo que costó deshacer el safety fine-tuning de Llama 2.
-Las salvaguardas de un modelo abierto son una sugerencia.
+Doscientos dólares: lo que costó quitarle las salvaguardas a un modelo
+abierto. El caso se demostró con Llama 2 hace años; con los abiertos de hoy,
+más cerca de la frontera, el problema solo es más fácil. Las salvaguardas de
+un modelo abierto son una sugerencia.
 
 Noventa y cuatro por ciento: las peticiones abiertamente maliciosas que
 DeepSeek atendía con jailbreaks comunes. Los modelos americanos: ocho.
@@ -205,10 +266,6 @@ layout: default
     </blockquote>
     <div class="text-sm opacity-50 mt-3" style="font-family: 'Montserrat', sans-serif">Scher et al. (MIRI), propuesta de acuerdo internacional (2025)</div>
   </div>
-  <div v-click class="mt-8 text-xl text-center leading-relaxed max-w-4xl mx-auto" style="font-family: 'Roboto Slab', serif">
-    Esto no va contra la coordinación.<br/>
-    <span style="color: #ff9416">Es la premisa de todo tratado.</span>
-  </div>
 </div>
 
 <!--
@@ -218,8 +275,6 @@ control unilateral no funciona, ¿para qué pedir pausas?'
 
 El cálculo de MIRI lo dice sin anestesia: una pausa solo de Estados Unidos
 compra unos seis meses.
-
-[CLICK]
 
 Exacto. Por eso nadie serio pide una pausa unilateral. Que lo unilateral no
 funcione es la premisa de todo tratado, no su refutación. Nadie dice que el
@@ -238,58 +293,57 @@ layout: default
 
 <div class="max-w-6xl mx-auto px-8 pt-2">
   <div class="text-sm uppercase tracking-widest opacity-60 mb-3" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.15em">
-    Pata 3 · la capacidad ofensiva
+    Razón 3 · la capacidad ofensiva
   </div>
-  <div class="text-4xl font-bold mb-6" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">
-    La curva que asusta a los estados
+  <div class="text-4xl font-bold mb-5" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">
+    Por qué los estados están nerviosos
   </div>
-  <div class="space-y-3">
-    <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
-      <div class="font-bold flex-shrink-0 w-32" style="color: #ff9416">FEB</div>
-      <div>CrowdStrike, antes de Mythos: operaciones con IA <span class="font-semibold">+89% interanual</span>.</div>
-    </div>
-    <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
-      <div class="font-bold flex-shrink-0 w-32" style="color: #ff9416">ABR</div>
-      <div>Microsoft: phishing con IA, <span class="font-semibold">54% de clics</span>. El tradicional: 12%.</div>
-    </div>
-    <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
-      <div class="font-bold flex-shrink-0 w-32" style="color: #ff9416">JUN</div>
-      <div>Five Eyes: modelos que desbordan defensas a <span class="font-semibold">«meses, no años»</span>. UK AISI: la capacidad ofensiva <span class="font-semibold">se duplica cada ~4 meses</span>.</div>
-    </div>
-    <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
-      <div class="font-bold flex-shrink-0 w-32" style="color: #ff9416">JUL</div>
-      <div>Check Point: exploits funcionales <span class="font-semibold">a las horas</span> de publicarse una vulnerabilidad.</div>
-    </div>
-  </div>
-  <div v-click class="mt-6 p-5 rounded-lg" style="background: rgba(148, 163, 184, 0.08)">
+  <div class="p-5 rounded-lg mb-5 flex items-center gap-6" style="background: rgba(255, 148, 22, 0.08); border-left: 4px solid #ff9416">
+    <div class="text-4xl font-black flex-shrink-0" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">×2 cada ~4 meses</div>
     <div class="text-base leading-relaxed" style="font-family: 'Montserrat', sans-serif">
-      Dos honestidades: la tendencia <span class="font-semibold">precede a Mythos</span> (culparle no está soportado).
-      Y que sea anterior <span class="font-semibold">no la hace menos grave</span>.
+      La capacidad de ciberataque de los modelos de frontera <span class="font-semibold">se duplica cada cuatro meses</span> (UK AISI). Esa es la curva.
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-4 text-center">
+    <div class="p-4 rounded-lg" style="background: rgba(148, 163, 184, 0.08)">
+      <div class="text-sm font-bold mb-1" style="color:#ff9416; font-family: 'Saira Condensed', sans-serif">«Meses, no años»</div>
+      <div class="text-xs opacity-80" style="font-family: 'Montserrat', sans-serif">Para que un modelo desborde defensas (aviso Five Eyes).</div>
+    </div>
+    <div class="p-4 rounded-lg" style="background: rgba(148, 163, 184, 0.08)">
+      <div class="text-sm font-bold mb-1" style="color:#ff9416; font-family: 'Saira Condensed', sans-serif">En horas</div>
+      <div class="text-xs opacity-80" style="font-family: 'Montserrat', sans-serif">Exploits funcionales tras publicarse una vulnerabilidad (Check Point).</div>
+    </div>
+  </div>
+  <div v-click class="mt-5 p-4 rounded-lg" style="background: rgba(255, 148, 22, 0.05)">
+    <div class="text-base leading-relaxed" style="font-family: 'Montserrat', sans-serif">
+      Dos matices honestos: la tendencia <span class="font-semibold">ya venía de antes de Mythos</span> (no es culpa de estos modelos), pero es <span class="font-semibold">real y grave</span>.
     </div>
   </div>
 </div>
 
 <!--
 VOZ:
-"Pata tres: la curva que explica por qué los estados están nerviosos.
+"Tercera razón: la capacidad ofensiva, que es lo que pone nerviosos a los
+estados. Y hay un número que lo resume todo: la capacidad de ciberataque de
+los modelos de frontera se duplica cada cuatro meses, según el instituto
+británico de seguridad. Cada cuatro meses, el doble. Esa es la curva.
 
-Febrero, antes de Mythos: un 89% más de operaciones adversarias con IA que
-el año anterior. Abril: el phishing hecho con IA consigue el 54% de clics;
-el tradicional, el 12. Junio: los Five Eyes avisan de que los modelos
-capaces de desbordar defensas están a meses, no años, y el instituto
-británico estima que la capacidad ofensiva se duplica cada cuatro meses.
-Julio: exploits funcionales a las horas de publicarse una vulnerabilidad.
+¿Qué significa en concreto? Dos ejemplos. Los Five Eyes avisan de que
+un modelo capaz de desbordar defensas está a meses, no años. Y ya hay
+exploits funcionales a las horas de publicarse una vulnerabilidad. (Y de
+fondo, CrowdStrike ya medía un 89% más de operaciones con IA que el año
+anterior, antes incluso de Mythos.)
 
-Y un detalle: ese 'meses, no años' es la misma curva que la literatura de
-AI safety llevaba un año modelando: 'la IA acorta las ciberoperaciones de
-años a meses'.
+Es la misma curva que la literatura de AI safety llevaba un año modelando:
+'la IA acorta las ciberoperaciones de años a meses'.
 
 [CLICK]
 
-Dos honestidades. Una: la tendencia precede a Mythos. Atribuir la escalada
-a estos modelos no está soportado por los datos, y quien os lo venda así os
-vende humo. Dos: que sea anterior no la hace menos grave. Justifica
-preocupación estructural. No justifica cualquier medida."
+Dos matices honestos. Uno: esta tendencia ya venía de antes de Mythos.
+Atribuir la escalada a estos modelos concretos no está soportado por los
+datos, y quien os lo venda así os vende humo. Dos: que sea anterior no la
+hace menos grave. Justifica preocupación estructural. No justifica cualquier
+medida."
 
 NOTAS:
 - Todo ✅ (informe: ciberataques). Original BlueDot: "AI shortens full

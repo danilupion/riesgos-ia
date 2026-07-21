@@ -1,134 +1,70 @@
 ---
-layout: center
+layout: section
 class: text-center
 ---
 
 <!--
-Beat 0, Apertura fría (~3 min). Fechas en tipografía masiva, la voz hace
-el trabajo. Sin contexto: las fechas se sostienen solas.
+Bloque 1: De Mythos Preview al rollback (~8 min). Arrancamos por donde lo
+dejamos en mayo y fluimos a las novedades. Sin cold-open de fechas.
+La cita de Warner se da solo en voz y con descargo.
 -->
 
-<div class="text-9xl font-black tracking-tight" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416; letter-spacing: 0.02em">
-  9 DE JUNIO
-</div>
-<div class="text-5xl font-light mt-4 opacity-80" style="font-family: 'Saira Condensed', sans-serif">
-  DE 2026
-</div>
-<div class="text-2xl mt-12 opacity-80 italic max-w-3xl mx-auto leading-snug" style="font-family: 'Roboto Slab', serif">
-  Anthropic lanza la familia Claude 5.<br/>
-  <span style="color: #ff9416">Un solo modelo. Dos nombres. Dos mundos.</span>
-</div>
+# Bloque 1
+## De Mythos Preview al rollback
 
 <!--
 VOZ:
-"El 9 de junio de 2026, Anthropic lanza la familia Claude 5. Fable 5, para
-todo el mundo, con salvaguardas. Y Mythos 5, que es el mismo modelo
-subyacente, solo para organizaciones aprobadas.
-
-Un solo modelo. Dos nombres. Dos mundos."
-
-[Beat de 1 segundo]
+"Empezamos por donde lo dejamos en mayo, y de ahí a lo que ha pasado desde
+entonces."
 
 NOTAS:
-- No explicar todavía qué es "aprobadas". Solo sembrar la partición.
-- "El mismo modelo subyacente" es literal de Anthropic. Se demuestra en Bloque 1.
-- ~30s.
+- Pulso rápido: "¿quién estuvo en la de mayo?" para calibrar el recap.
+- ~10s.
 -->
 
 ---
-layout: center
-class: text-center
+layout: default
 ---
 
-<div class="text-9xl font-black tracking-tight" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416; letter-spacing: 0.02em">
-  12 DE JUNIO
-</div>
-<div class="text-5xl font-light mt-4 opacity-80" style="font-family: 'Saira Condensed', sans-serif">
-  TRES DÍAS DESPUÉS
-</div>
-<div class="text-2xl mt-12 opacity-80 italic max-w-3xl mx-auto leading-snug" style="font-family: 'Roboto Slab', serif">
-  El gobierno de EE.UU. ordena retirarlo.<br/>
-  <span style="color: #ff9416">De todo el planeta.</span>
-</div>
-
-<!--
-VOZ:
-"Tres días después, el viernes 12 de junio, el Departamento de Comercio
-emite una directiva de control de exportaciones. Anthropic suspende el
-acceso. No en China. No en países sancionados. En todo el planeta,
-incluida esta sala."
-
-[Beat de 1 segundo]
-
-NOTAS:
-- "Incluida esta sala": primer anclaje personal para la audiencia europea.
-- El porqué (jailbreak de Amazon) se cuenta en Bloque 1.
-- ~30s.
--->
-
----
-layout: center
-class: text-center
----
-
-<div class="text-9xl font-black tracking-tight" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416; letter-spacing: 0.02em">
-  27 DE JUNIO
-</div>
-<div class="text-2xl mt-12 opacity-80 max-w-3xl mx-auto leading-snug">
-  <div class="italic" style="font-family: 'Roboto Slab', serif">
-    «El gobierno nos ha notificado que Mythos 5 puede redesplegarse.»
+<div class="max-w-6xl mx-auto px-8 pt-2">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-3" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.15em">
+    Donde lo dejamos
   </div>
-  <div class="text-base opacity-50 mt-3" style="font-family: 'Montserrat', sans-serif">Anthropic, 27 de junio de 2026</div>
-</div>
-<div v-click class="mt-10 text-2xl italic max-w-3xl mx-auto leading-snug" style="font-family: 'Roboto Slab', serif; color: #ff9416">
-  Quien notifica es quien manda.
-</div>
-
-<!--
-VOZ:
-"Y el 27 de junio, Anthropic publica esta frase: 'el gobierno nos ha
-notificado que Mythos 5 puede redesplegarse'.
-
-[CLICK]
-
-Fijaos en la gramática. No 'hemos decidido'. No 'hemos acordado'.
-Nos han notificado. Quien notifica es quien manda."
-
-[Beat de 1 segundo]
-
-NOTAS:
-- Original en inglés: "The government notified us that Mythos 5 can be
-  redeployed" (anthropic.com/news/redeploying-fable-5, ✅ informe).
-- La gramática de la frase ES el argumento de la charla en miniatura.
-- ~40s.
--->
-
----
-layout: center
-class: text-center
----
-
-<div class="text-4xl font-bold max-w-4xl mx-auto leading-snug" style="font-family: 'Saira Condensed', sans-serif">
-  ¿Ha comenzado la era del<br/>
-  <span style="color: #ff9416">control estatal de la IA de frontera?</span>
-</div>
-<div v-click class="mt-12 text-2xl opacity-80 italic max-w-3xl mx-auto" style="font-family: 'Roboto Slab', serif">
-  Respuesta corta: <span style="color: #ff9416">sí.</span><br/>
-  La charla va de <span class="font-semibold">qué tipo de control es</span>.
+  <div class="text-4xl font-bold mb-1" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">
+    Mythos y Glasswing
+  </div>
+  <div class="text-base opacity-70 mb-7" style="font-family: 'Montserrat', sans-serif">
+    Anthropic los anuncia el 7 de abril de 2026.
+  </div>
+  <div class="space-y-4">
+    <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
+      <div class="font-bold flex-shrink-0 w-32" style="color: #ff9416">EL MODELO</div>
+      <div><span class="font-semibold">Mythos Preview</span>: el más capaz de Anthropic. Capacidades ofensivas que no entrenaron a propósito. No liberado.</div>
+    </div>
+    <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
+      <div class="font-bold flex-shrink-0 w-32" style="color: #ff9416">GLASSWING</div>
+      <div>Acceso solo para defensores: 12 socios y más de 40 organizaciones. Criterio de selección <span class="font-semibold">no público</span>.</div>
+    </div>
+    <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
+      <div class="font-bold flex-shrink-0 w-32" style="color: #ff9416">EL LEAK</div>
+      <div>El día del anuncio, un grupo no autorizado ya estaba dentro. El perímetro nunca fue perfecto.</div>
+    </div>
+  </div>
 </div>
 
 <!--
 VOZ:
-"La pregunta del título: ¿ha comenzado la era del control estatal de la IA
-de frontera?
+"En mayo os conté esto. Mythos Preview: el modelo más capaz de Anthropic,
+con capacidades ofensivas de ciberseguridad que no habían entrenado a
+propósito. Decidieron no liberarlo. En su lugar, Glasswing: acceso solo para
+defensores, con un criterio de selección que nunca se ha hecho público. Y
+recordad el detalle: el mismo día del anuncio, un grupo no autorizado ya
+estaba dentro. El perímetro nunca fue perfecto.
 
-[CLICK]
-
-Os adelanto la respuesta corta: sí. No vamos a jugar al suspense. La charla
-va de algo más interesante: qué tipo de control es el que ha llegado, y por
-qué esa diferencia lo cambia todo."
+La tesis de mayo era que la ventana entre atacante y defensor se estaba
+cerrando. Hoy os traigo qué pasó cuando esa lógica se encontró con el Estado."
 
 NOTAS:
-- Revelar la tesis pronto es deliberado: audiencia técnica, no quiere misterio.
-- ~45s. Total beat 0: ~3 min.
+- "No público" reaparece en Bloque 2 (quién decide).
+- ~2 min con el pulso inicial.
 -->

@@ -1,133 +1,69 @@
 ---
-layout: center
+layout: section
 class: text-center
 ---
 
 <!--
-Beat 0, cold open (~3 min). Dates in massive typography, the voice does
-the work. No context: the dates stand on their own.
+Block 1: From Mythos Preview to the rollback (~8 min). We start where we left
+off in May and flow into the news. No cold-open of dates. The Warner quote is
+given in voice only, with a disclaimer.
 -->
 
-<div class="text-9xl font-black tracking-tight" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416; letter-spacing: 0.02em">
-  JUNE 9
-</div>
-<div class="text-5xl font-light mt-4 opacity-80" style="font-family: 'Saira Condensed', sans-serif">
-  2026
-</div>
-<div class="text-2xl mt-12 opacity-80 italic max-w-3xl mx-auto leading-snug" style="font-family: 'Roboto Slab', serif">
-  Anthropic launches the Claude 5 family.<br/>
-  <span style="color: #ff9416">One model. Two names. Two worlds.</span>
-</div>
+# Block 1
+## From Mythos Preview to the rollback
 
 <!--
 VOICE:
-"On June 9, 2026, Anthropic launches the Claude 5 family. Fable 5, for
-everyone, with safeguards. And Mythos 5, which is the same underlying
-model, only for approved organizations.
-
-One model. Two names. Two worlds."
-
-[1-second beat]
+"We start where we left off in May, and from there to what has happened since."
 
 NOTES:
-- Don't explain yet what "approved" means. Just plant the partition.
-- "The same underlying model" is verbatim from Anthropic. Proven in Block 1.
-- ~30s.
+- Quick pulse: "who was at the May talk?" to calibrate the recap.
+- ~10s.
 -->
 
 ---
-layout: center
-class: text-center
+layout: default
 ---
 
-<div class="text-9xl font-black tracking-tight" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416; letter-spacing: 0.02em">
-  JUNE 12
-</div>
-<div class="text-5xl font-light mt-4 opacity-80" style="font-family: 'Saira Condensed', sans-serif">
-  THREE DAYS LATER
-</div>
-<div class="text-2xl mt-12 opacity-80 italic max-w-3xl mx-auto leading-snug" style="font-family: 'Roboto Slab', serif">
-  The U.S. government orders it pulled.<br/>
-  <span style="color: #ff9416">From the entire planet.</span>
-</div>
-
-<!--
-VOICE:
-"Three days later, on Friday June 12, the Department of Commerce issues an
-export control directive. Anthropic suspends access. Not in China. Not in
-sanctioned countries. Across the entire planet, including this room."
-
-[1-second beat]
-
-NOTES:
-- "Including this room": first personal anchor for the European audience.
-- The why (the Amazon jailbreak) is told in Block 1.
-- ~30s.
--->
-
----
-layout: center
-class: text-center
----
-
-<div class="text-9xl font-black tracking-tight" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416; letter-spacing: 0.02em">
-  JUNE 27
-</div>
-<div class="text-2xl mt-12 opacity-80 max-w-3xl mx-auto leading-snug">
-  <div class="italic" style="font-family: 'Roboto Slab', serif">
-    "The government notified us that Mythos 5 can be redeployed."
+<div class="max-w-6xl mx-auto px-8 pt-2">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-3" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.15em">
+    Where we left off
   </div>
-  <div class="text-base opacity-50 mt-3" style="font-family: 'Montserrat', sans-serif">Anthropic, June 27, 2026</div>
-</div>
-<div v-click class="mt-10 text-2xl italic max-w-3xl mx-auto leading-snug" style="font-family: 'Roboto Slab', serif; color: #ff9416">
-  Whoever notifies is whoever commands.
-</div>
-
-<!--
-VOICE:
-"And on June 27, Anthropic publishes this sentence: 'the government
-notified us that Mythos 5 can be redeployed'.
-
-[CLICK]
-
-Look at the grammar. Not 'we decided'. Not 'we agreed'.
-They notified us. Whoever notifies is whoever commands."
-
-[1-second beat]
-
-NOTES:
-- Quote verbatim from Anthropic (anthropic.com/news/redeploying-fable-5,
-  ✅ report).
-- The grammar of that sentence IS the talk's argument in miniature.
-- ~40s.
--->
-
----
-layout: center
-class: text-center
----
-
-<div class="text-4xl font-bold max-w-4xl mx-auto leading-snug" style="font-family: 'Saira Condensed', sans-serif">
-  Has the era of<br/>
-  <span style="color: #ff9416">state control of frontier AI begun?</span>
-</div>
-<div v-click class="mt-12 text-2xl opacity-80 italic max-w-3xl mx-auto" style="font-family: 'Roboto Slab', serif">
-  Short answer: <span style="color: #ff9416">yes.</span><br/>
-  This talk is about <span class="font-semibold">what kind of control it is</span>.
+  <div class="text-4xl font-bold mb-1" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">
+    Mythos and Glasswing
+  </div>
+  <div class="text-base opacity-70 mb-7" style="font-family: 'Montserrat', sans-serif">
+    Anthropic announced them on April 7, 2026.
+  </div>
+  <div class="space-y-4">
+    <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
+      <div class="font-bold flex-shrink-0 w-32" style="color: #ff9416">THE MODEL</div>
+      <div><span class="font-semibold">Mythos Preview</span>: Anthropic's most capable. Offensive capabilities they didn't train on purpose. Not released.</div>
+    </div>
+    <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
+      <div class="font-bold flex-shrink-0 w-32" style="color: #ff9416">GLASSWING</div>
+      <div>Defenders only: 12 partners and over 40 organizations. Selection criteria <span class="font-semibold">not public</span>.</div>
+    </div>
+    <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
+      <div class="font-bold flex-shrink-0 w-32" style="color: #ff9416">THE LEAK</div>
+      <div>On the day of the announcement, an unauthorized group was already inside. The perimeter was never perfect.</div>
+    </div>
+  </div>
 </div>
 
 <!--
 VOICE:
-"The question in the title: has the era of state control of frontier AI
-begun?
+"In May I told you this. Mythos Preview: Anthropic's most capable model, with
+offensive cybersecurity capabilities they hadn't trained on purpose. They
+decided not to release it. Instead, Glasswing: access for defenders only, with
+a selection process that has never been made public. And remember the detail:
+on the very day of the announcement, an unauthorized group was already inside.
+The perimeter was never perfect.
 
-[CLICK]
-
-I'll give you the short answer up front: yes. We're not playing suspense.
-The talk is about something more interesting: what kind of control has
-arrived, and why that difference changes everything."
+May's thesis was that the window between attacker and defender was closing.
+Today I bring you what happened when that logic met the State."
 
 NOTES:
-- Revealing the thesis early is deliberate: technical audience, doesn't want mystery.
-- ~45s. Total beat 0: ~3 min.
+- "Not public" comes back in Block 2 (who decides).
+- ~2 min with the opening pulse check.
 -->
