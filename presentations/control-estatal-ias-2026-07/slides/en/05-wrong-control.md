@@ -40,12 +40,12 @@ layout: default
     <tbody class="align-top">
       <tr class="border-t" style="border-color: rgba(148,163,184,0.15)">
         <td class="py-2 pr-4 opacity-60">Legal basis</td>
-        <td class="py-2 pr-4">Letters and a "voluntary" order</td>
+        <td class="py-2 pr-4">A "voluntary" order and an export directive</td>
         <td class="py-2 font-semibold">Ratified treaty, with the US and China</td>
       </tr>
       <tr class="border-t" style="border-color: rgba(148,163,184,0.15)">
         <td class="py-2 pr-4 opacity-60">Authority</td>
-        <td class="py-2 pr-4">One government, by letter</td>
+        <td class="py-2 pr-4">One government, at its discretion</td>
         <td class="py-2 font-semibold">International agency (AISA), IAEA-style</td>
       </tr>
       <tr class="border-t" style="border-color: rgba(148,163,184,0.15)">
@@ -77,9 +77,9 @@ VOICE:
 "This table is the whole talk in one slide, and it's literally PauseAI's
 proposal set next to what has arrived.
 
-Legal basis: letters and a 'voluntary' order, versus a ratified treaty, with
-the US and China in it, because without China it's six months of nothing.
-Authority: one government deciding by letter, versus an international agency,
+Legal basis: a 'voluntary' order and an export directive, versus a ratified
+treaty, with the US and China in it, because without China it's six months of
+nothing. Authority: one government deciding at its discretion, versus an international agency,
 the one the proposal calls AISA, on the model of the atomic agency, the IAEA.
 Criteria: Glasswing is opaque; a compute threshold is a public number anyone
 can audit. Verification: none, versus GPU tracking and data-center
@@ -101,67 +101,6 @@ NOTES:
   data-center inspections, deployment veto by a coalition + AISA custody of the
   weights. Aligned with aitreaty.org and the MIRI agreement (crossover §9).
 - No clicks: the whole table at once, the voice walks through it.
-- ~2 min.
--->
-
----
-layout: default
----
-
-<div class="max-w-6xl mx-auto px-8 pt-2">
-  <div class="text-4xl font-bold mb-6" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">
-    "Your pause concentrates power too"
-  </div>
-  <div class="p-4 rounded-lg mb-5" style="background: rgba(148, 163, 184, 0.08)">
-    <div class="text-sm leading-relaxed" style="font-family: 'Montserrat', sans-serif">
-      Enforcing a global pause requires an authority that watches everyone's compute: <span class="font-semibold">that is already concentrating power</span>. So Drago and Laine group <span class="font-semibold">PauseAI</span>'s proposal with Bostrom's Panopticon and Aschenbrenner's nationalization: centralizations that could bring about the very power lock-in they fear.
-    </div>
-  </div>
-  <div v-click class="space-y-3">
-    <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
-      <div class="font-bold flex-shrink-0 w-8" style="color: #ff9416">1</div>
-      <div><span class="font-semibold">We concede the risk.</span> That's why we ask for rules and procedure, not handing the frontier to an executive.</div>
-    </div>
-    <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
-      <div class="font-bold flex-shrink-0 w-8" style="color: #ff9416">2</div>
-      <div><span class="font-semibold">Look at the real alternative.</span> Without a treaty there is no decentralization: there is ad hoc concentration without checks. 2026 is the proof.</div>
-    </div>
-    <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
-      <div class="font-bold flex-shrink-0 w-8" style="color: #ff9416">3</div>
-      <div><span class="font-semibold">The pause is reversible.</span> Pausing can be un-paused. Releasing weights cannot be un-released.</div>
-    </div>
-  </div>
-</div>
-
-<!--
-VOICE:
-"And now the serious objection, which also has our name on it. Drago and
-Laine group PauseAI's proposal with Bostrom's Panopticon and
-Aschenbrenner's nationalization: they say centralizing responses could
-bring about exactly the power lock-in they fear. Helen Toner distills it:
-if we handle the risks by massively concentrating power, we haven't
-succeeded.
-
-[CLICK] Three answers.
-
-One: we concede the risk. Seriously. That's why what we ask for is
-procedural: public numbers, mutual inspection, a commission. Not 'hand the
-frontier to an executive'.
-
-Two: look at the real alternative, which is no longer
-hypothetical. 2026 is the experiment: without a treaty you don't get
-dynamic decentralization. You get ad hoc concentration without checks. All
-the flaws they fear, none of the safeguards.
-
-And three, the decisive one: the pause is the most reversible item
-on the menu. Pausing can be un-paused tomorrow. Releasing weights can
-never be un-released. A reversible lock-in is not a lock-in. It's a
-traffic light."
-
-NOTES:
-- Central preempt (crossover: objection 1). Toner in voice; quote verbatim
-  (verified): "if we handle them by massively concentrating power, we
-  haven't succeeded."
 - ~2 min.
 -->
 
@@ -192,7 +131,7 @@ layout: default
   </div>
   <div v-click class="mt-8 text-xl text-center leading-relaxed max-w-4xl mx-auto" style="font-family: 'Roboto Slab', serif">
     Two blocs competing to influence and to diffuse.<br/>
-    <span style="color:#ff9416">A verifiable safety treaty is being built by no one. That vacancy is the opportunity.</span>
+    <span style="color:#ff9416">A verifiable safety treaty is being built by no one.</span>
   </div>
 </div>
 

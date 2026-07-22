@@ -44,7 +44,7 @@ is that order in action. Verified facts from the report.
     <div class="space-y-1 text-sm leading-relaxed" style="font-family: 'Montserrat', sans-serif">
       <div>· Government pre-review <span class="font-semibold">becomes routine before every frontier launch</span>.</div>
       <div>· No formal framework: it's <span class="font-semibold">discretionary and revocable</span>. Control, but no law behind it.</div>
-      <div>· RAND gave <span class="font-semibold">5.9%</span> to formal controls before August. The control arrived, but through the soft route.</div>
+      <div>· RAND gave <span class="font-semibold">5.9%</span> to formal controls before August.</div>
     </div>
   </div>
 </div>

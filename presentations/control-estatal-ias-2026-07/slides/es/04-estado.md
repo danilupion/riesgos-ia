@@ -113,9 +113,6 @@ layout: default
     <div class="p-4 rounded-lg" style="background: rgba(148, 163, 184, 0.08)"><span class="font-semibold">Antitrust</span><div class="text-xs opacity-70 mt-1 leading-snug">Frena o trocea a los gigantes.</div></div>
     <div class="p-4 rounded-lg" style="background: rgba(148, 163, 184, 0.08)"><span class="font-semibold">«Born secret»</span><div class="text-xs opacity-70 mt-1 leading-snug">La información nace clasificada. Doctrina nuclear.</div></div>
   </div>
-  <div v-click class="mt-8 text-lg text-center italic max-w-4xl mx-auto" style="font-family: 'Roboto Slab', serif">
-    2026 no es una anomalía: <span style="color:#ff9416">es el catálogo activándose</span>.
-  </div>
 </div>
 
 <!--
@@ -125,8 +122,6 @@ catalogó las palancas legales del gobierno americano para moldear la IA:
 controles de exportación, órdenes de secreto, la Defense Production Act,
 CFIUS, antitrust, y la doctrina 'born secret' del régimen nuclear: cierta
 información nace clasificada.
-
-[CLICK]
 
 De ese catálogo, 2026 ha activado la primera palanca. Y una que ni
 figuraba: el mercado público como castigo. La lección: cuando un estado
@@ -164,8 +159,8 @@ layout: default
   </div>
   <div v-click class="mt-10 text-center">
     <div class="text-2xl italic leading-relaxed max-w-4xl mx-auto" style="font-family: 'Roboto Slab', serif">
-      Por eso la lógica de seguridad empuja a <span style="color: #ff9416">controlar quién tiene la capacidad</span>.<br/>
-      <span class="text-xl opacity-70">Es una asimetría real, no paranoia. La pregunta no es si controlar, sino con qué reglas.</span>
+      Por eso, por seguridad, un Estado quiere <span style="color: #ff9416">decidir quién tiene esa capacidad</span>.<br/>
+      <span class="text-xl opacity-70">La pregunta no es si controlar, sino con qué reglas.</span>
     </div>
   </div>
 </div>

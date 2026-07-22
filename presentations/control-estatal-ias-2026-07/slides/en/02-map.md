@@ -41,7 +41,7 @@ layout: default
     <div class="p-5 rounded-lg" style="background: rgba(148, 163, 184, 0.06); border-top: 4px solid #94a3b8">
       <div class="text-base font-bold mb-2 opacity-80" style="font-family: 'Saira Condensed', sans-serif">2 · ALIGNED AI</div>
       <div class="text-sm leading-relaxed opacity-70" style="font-family: 'Montserrat', sans-serif">
-        Hand the problem to an aligned superintelligence, with a decisive strategic advantage.
+        Hand the problem to an aligned AI with a decisive strategic advantage.
       </div>
     </div>
     <div class="p-5 rounded-lg" style="background: rgba(148, 163, 184, 0.06); border-top: 4px solid #94a3b8">
@@ -52,8 +52,7 @@ layout: default
     </div>
   </div>
   <div v-click class="mt-8 text-xl text-center italic max-w-4xl mx-auto" style="font-family: 'Roboto Slab', serif">
-    June 2026 is camp 1 in action.<br/>
-    <span style="color:#ff9416">With one difference we will see at the end.</span>
+    June 2026 is camp 1 in action.
   </div>
 </div>
 
@@ -65,8 +64,8 @@ we'll use one. One: government control. Governments control it, not the market:
 through regulation, licensing and control of compute and weights. And note,
 this spans a whole range, from the nationalization Aschenbrenner proposes to
 international treaties; national or international, it's still camp one. Two: get
-an aligned superintelligence with
-a decisive advantage and let it solve the problem. Three: the d/acc camp.
+an aligned AI with a decisive advantage and let it solve the problem. Three: the
+d/acc camp.
 Accelerate defenses, diffuse, distrust any center.
 
 [CLICK]
@@ -182,7 +181,7 @@ layout: default
       <div class="text-sm opacity-50 mt-2" style="font-family: 'Montserrat', sans-serif">Davidson, Finnveden and Hadshar, <i>AI-Enabled Coups</i> (2025)</div>
     </div>
     <div class="mt-4 text-base opacity-80 italic text-center" style="font-family: 'Roboto Slab', serif">
-      The labs build the tiers; in 2026 the government controls the gate.
+      The labs designed the tiers; in 2026, access is decided by the government.
     </div>
   </div>
 </div>
@@ -226,9 +225,8 @@ layout: default
     </div>
     <div class="p-5 rounded-lg" style="background: rgba(255, 148, 22, 0.05); border-left: 4px solid #ff9416">
       <div class="text-base leading-relaxed" style="font-family: 'Montserrat', sans-serif">
-        What arrived: the authority is <span class="font-semibold">one</span> government, the criterion
-        <span class="font-semibold">is not public</span>, and approval travels
-        <span class="font-semibold">in a letter</span>.
+        What arrived: the authority is <span class="font-semibold">one</span> government, and the criterion
+        <span class="font-semibold">is not public</span>.
       </div>
     </div>
   </div>

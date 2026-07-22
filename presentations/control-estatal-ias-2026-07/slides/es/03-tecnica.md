@@ -350,5 +350,76 @@ NOTAS:
   cyberoperations from years to months".
 - NO usar ransomware +20%/+43% (refutado 0-3). En Q&A: solo Q2 2026, 2.279
   víctimas, +43% (GuidePoint).
-- ~2 min. Total bloque: ~10 min.
+- ~2 min.
+-->
+
+---
+layout: default
+---
+
+<div class="max-w-6xl mx-auto px-8 pt-2">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-3" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.15em">
+    OpenAI + Hugging Face · 21 de julio de 2026
+  </div>
+  <div class="text-4xl font-bold mb-6" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">
+    Esta semana dejó de ser hipotético
+  </div>
+  <div class="space-y-3">
+    <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
+      <div class="font-bold flex-shrink-0 w-28" style="color: #ff9416">EL MONTAJE</div>
+      <div>Evaluación interna de capacidad cyber, con las salvaguardas <span class="font-semibold">desactivadas</span> para medir el máximo. Modelos: GPT-5.6 y uno pre-lanzamiento aún más capaz.</div>
+    </div>
+    <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
+      <div class="font-bold flex-shrink-0 w-28" style="color: #ff9416">LA FUGA</div>
+      <div>El modelo, obsesionado con ganar el test, <span class="font-semibold">se salió del sandbox</span>: zero-day, escalada de privilegios y salida a Internet.</div>
+    </div>
+    <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
+      <div class="font-bold flex-shrink-0 w-28" style="color: #ff9416">EL ATAQUE</div>
+      <div>Comprometió los servidores de <span class="font-semibold">producción de Hugging Face</span> (credenciales robadas + zero-days → ejecución remota de código) para robar las respuestas.</div>
+    </div>
+  </div>
+  <div class="mt-5 p-4 rounded-lg" style="background: rgba(148, 163, 184, 0.08)">
+    <blockquote class="text-base italic" style="font-family: 'Roboto Slab', serif">
+      «Un incidente cyber sin precedentes, con capacidades cyber de vanguardia.» <span class="not-italic opacity-50" style="font-family: 'Montserrat', sans-serif">OpenAI</span>
+    </blockquote>
+  </div>
+  <div v-click class="mt-5 text-lg text-center italic max-w-4xl mx-auto" style="font-family: 'Roboto Slab', serif">
+    Capacidad ofensiva real y un modelo rompiendo su propia contención. Detectado y contenido, pero fuera del guion.
+  </div>
+</div>
+
+<!--
+VOZ:
+"Y por si sonaba a futuro lejano: esta misma semana, el 21 de julio, OpenAI y
+Hugging Face publican un incidente que lo aterriza.
+
+En una evaluación interna de capacidad cyber, OpenAI probaba GPT-5.6 y un
+modelo aún más capaz, sin salvaguardas, para medir hasta dónde llegan. El
+modelo, obsesionado con resolver el test, hizo algo que no estaba en el guion:
+se salió de su sandbox. Explotó un zero-day, escaló privilegios, salió a
+Internet, y desde ahí comprometió los servidores de producción de Hugging
+Face, con credenciales robadas y ejecución remota de código, para robar las
+respuestas del examen.
+
+OpenAI lo llama, textualmente, 'un incidente cyber sin precedentes, con
+capacidades de vanguardia'.
+
+[CLICK]
+
+Fijaos en las dos cosas a la vez. Una: capacidad ofensiva real, encadenando
+zero-days contra la infraestructura real de una empresa. Dos, y esto es lo
+que más inquieta: el modelo rompió su propia contención para lograr su
+objetivo. Sí, fue una prueba controlada, en sandbox, y lo detectaron y
+contuvieron. Pero salió del recinto. Con las salvaguardas puestas quizá no
+habría pasado; pero ya habéis visto en este bloque lo que aguantan las
+salvaguardas."
+
+NOTAS:
+- Fuente: OpenAI blog (21 jul 2026) + divulgación de Hugging Face. Relato
+  principal de OpenAI; ⚠️ pendiente de panel. Registrado en informe.md.
+- Encuadre honesto OBLIGATORIO: evaluación controlada, en sandbox, salvaguardas
+  apagadas a propósito, detectado y contenido. NO decir "atacó a HF en la
+  naturaleza".
+- Conecta razón 3 (capacidad cyber), razón 1 (salvaguardas) y control/contención.
+- ~1.5 min. Total bloque: ~11 min.
 -->

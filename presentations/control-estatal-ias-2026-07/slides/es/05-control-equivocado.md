@@ -40,12 +40,12 @@ layout: default
     <tbody class="align-top">
       <tr class="border-t" style="border-color: rgba(148,163,184,0.15)">
         <td class="py-2 pr-4 opacity-60">Base legal</td>
-        <td class="py-2 pr-4">Cartas y una orden «voluntaria»</td>
+        <td class="py-2 pr-4">Una orden «voluntaria» y una directiva de exportación</td>
         <td class="py-2 font-semibold">Tratado ratificado, con EE.UU. y China</td>
       </tr>
       <tr class="border-t" style="border-color: rgba(148,163,184,0.15)">
         <td class="py-2 pr-4 opacity-60">Autoridad</td>
-        <td class="py-2 pr-4">Un solo gobierno, por carta</td>
+        <td class="py-2 pr-4">Un solo gobierno, a discreción</td>
         <td class="py-2 font-semibold">Agencia internacional (AISA), estilo OIEA</td>
       </tr>
       <tr class="border-t" style="border-color: rgba(148,163,184,0.15)">
@@ -77,9 +77,9 @@ VOZ:
 "Esta tabla es la charla entera en una slide, y es literalmente la propuesta
 de PauseAI puesta al lado de lo que ha llegado.
 
-Base legal: cartas y una orden 'voluntaria', frente a un tratado ratificado,
-con Estados Unidos y China dentro, porque sin China son seis meses de nada.
-Autoridad: un solo gobierno decidiendo por carta, frente a una agencia
+Base legal: una orden 'voluntaria' y una directiva de exportación, frente a un
+tratado ratificado, con Estados Unidos y China dentro, porque sin China son
+seis meses de nada. Autoridad: un solo gobierno decidiendo a su discreción, frente a una agencia
 internacional, la que la propuesta llama AISA, con el modelo de la agencia
 atómica, la OIEA. Criterio: Glasswing es opaco; un umbral de cómputo es un
 número público que cualquiera puede auditar. Verificación: ninguna, frente a
@@ -101,65 +101,6 @@ NOTAS:
   inspección de centros de datos, veto de despliegue por coalición + custodia
   de pesos por la AISA. Alineado con aitreaty.org y el acuerdo de MIRI (crossover §9).
 - Sin clicks: la tabla entera de golpe, la voz la recorre.
-- ~2 min.
--->
-
----
-layout: default
----
-
-<div class="max-w-6xl mx-auto px-8 pt-2">
-  <div class="text-4xl font-bold mb-6" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">
-    «Vuestra pausa también concentra poder»
-  </div>
-  <div class="p-4 rounded-lg mb-5" style="background: rgba(148, 163, 184, 0.08)">
-    <div class="text-sm leading-relaxed" style="font-family: 'Montserrat', sans-serif">
-      Para imponer una pausa global hace falta una autoridad que vigile el cómputo de todos: <span class="font-semibold">eso ya es concentrar poder</span>. Por eso Drago y Laine agrupan la propuesta de <span class="font-semibold">PauseAI</span> con el Panopticon de Bostrom y la nacionalización de Aschenbrenner: centralizaciones que podrían provocar el bloqueo de poder que temen.
-    </div>
-  </div>
-  <div v-click class="space-y-3">
-    <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
-      <div class="font-bold flex-shrink-0 w-8" style="color: #ff9416">1</div>
-      <div><span class="font-semibold">Concedemos el riesgo.</span> Por eso pedimos reglas y procedimiento, no entregar la frontera a un ejecutivo.</div>
-    </div>
-    <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
-      <div class="font-bold flex-shrink-0 w-8" style="color: #ff9416">2</div>
-      <div><span class="font-semibold">Mirad la alternativa real.</span> Sin tratado no hay descentralización: hay concentración ad hoc sin contrapesos. 2026 es la prueba.</div>
-    </div>
-    <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
-      <div class="font-bold flex-shrink-0 w-8" style="color: #ff9416">3</div>
-      <div><span class="font-semibold">La pausa es reversible.</span> Pausar se puede des-pausar. Difundir pesos no se puede des-difundir.</div>
-    </div>
-  </div>
-</div>
-
-<!--
-VOZ:
-"Y ahora la objeción seria, que además lleva nuestro nombre. Drago y Laine
-agrupan la propuesta de PauseAI con el Panopticon de Bostrom y la
-nacionalización de Aschenbrenner: dicen que las respuestas centralizadoras
-podrían provocar justo el bloqueo de poder que temen. Helen Toner lo
-destila: si gestionamos los riesgos concentrando poder masivamente, no
-hemos tenido éxito.
-
-[CLICK] Tres respuestas.
-
-Uno: concedemos el riesgo. En serio. Por eso lo que pedimos es
-procedimental: números públicos, inspección mutua, una comisión. No
-'entregadle la frontera a un ejecutivo'.
-
-Dos: mirad la alternativa real, que ya no es hipotética. 2026 es
-el experimento: sin tratado no obtienes descentralización dinámica.
-Obtienes concentración ad hoc sin contrapesos. Todos los defectos que
-temen, ninguna de las salvaguardas.
-
-Y tres, el decisivo: la pausa es lo más reversible del menú.
-Pausar se puede des-pausar mañana. Difundir pesos no se puede des-difundir
-nunca. Un bloqueo reversible no es un bloqueo. Es un semáforo."
-
-NOTAS:
-- Preempt central (crossover: objeción 1). Toner en voz; original: "if we
-  handle them by massively concentrating power, we haven't succeeded."
 - ~2 min.
 -->
 
@@ -190,7 +131,7 @@ layout: default
   </div>
   <div v-click class="mt-8 text-xl text-center leading-relaxed max-w-4xl mx-auto" style="font-family: 'Roboto Slab', serif">
     Dos bloques compitiendo por influir y difundir.<br/>
-    <span style="color:#ff9416">Un tratado verificable de seguridad no lo está construyendo nadie. Esa vacante es la oportunidad.</span>
+    <span style="color:#ff9416">Un tratado verificable de seguridad no lo está construyendo nadie.</span>
   </div>
 </div>
 

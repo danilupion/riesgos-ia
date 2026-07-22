@@ -113,9 +113,6 @@ layout: default
     <div class="p-4 rounded-lg" style="background: rgba(148, 163, 184, 0.08)"><span class="font-semibold">Antitrust</span><div class="text-xs opacity-70 mt-1 leading-snug">Curbs or breaks up the giants.</div></div>
     <div class="p-4 rounded-lg" style="background: rgba(148, 163, 184, 0.08)"><span class="font-semibold">"Born secret"</span><div class="text-xs opacity-70 mt-1 leading-snug">Information classified at birth. Nuclear doctrine.</div></div>
   </div>
-  <div v-click class="mt-8 text-lg text-center italic max-w-4xl mx-auto" style="font-family: 'Roboto Slab', serif">
-    2026 is not an anomaly: <span style="color:#ff9416">it's the catalogue activating</span>.
-  </div>
 </div>
 
 <!--
@@ -125,8 +122,6 @@ catalogued the US government's legal levers for shaping AI: export
 controls, secrecy orders, the Defense Production Act, CFIUS, antitrust,
 and the 'born secret' doctrine from the nuclear regime: certain
 information is classified at birth.
-
-[CLICK]
 
 From that catalog, 2026 has activated the first lever. Plus one that
 wasn't even listed: public procurement as punishment. The lesson: when a
@@ -164,8 +159,8 @@ layout: default
   </div>
   <div v-click class="mt-10 text-center">
     <div class="text-2xl italic leading-relaxed max-w-4xl mx-auto" style="font-family: 'Roboto Slab', serif">
-      That's why the security logic pushes toward <span style="color: #ff9416">controlling who has the capability</span>.<br/>
-      <span class="text-xl opacity-70">It's a real asymmetry, not paranoia. The question isn't whether to control, but by what rules.</span>
+      That's why, for security, a state wants to <span style="color: #ff9416">decide who has that capability</span>.<br/>
+      <span class="text-xl opacity-70">The question isn't whether to control, but by what rules.</span>
     </div>
   </div>
 </div>

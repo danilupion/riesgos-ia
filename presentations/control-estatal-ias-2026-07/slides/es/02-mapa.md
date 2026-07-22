@@ -41,7 +41,7 @@ layout: default
     <div class="p-5 rounded-lg" style="background: rgba(148, 163, 184, 0.06); border-top: 4px solid #94a3b8">
       <div class="text-base font-bold mb-2 opacity-80" style="font-family: 'Saira Condensed', sans-serif">2 · IA ALINEADA</div>
       <div class="text-sm leading-relaxed opacity-70" style="font-family: 'Montserrat', sans-serif">
-        Entregar el problema a una superinteligencia alineada, con ventaja estratégica decisiva.
+        Entregar el problema a una IA alineada con ventaja estratégica decisiva.
       </div>
     </div>
     <div class="p-5 rounded-lg" style="background: rgba(148, 163, 184, 0.06); border-top: 4px solid #94a3b8">
@@ -52,8 +52,7 @@ layout: default
     </div>
   </div>
   <div v-click class="mt-8 text-xl text-center italic max-w-4xl mx-auto" style="font-family: 'Roboto Slab', serif">
-    Junio de 2026 es el campo 1 en acción.<br/>
-    <span style="color:#ff9416">Con una diferencia que veremos al final.</span>
+    Junio de 2026 es el campo 1 en acción.
   </div>
 </div>
 
@@ -65,7 +64,7 @@ más finos, y de hecho en un momento usaremos uno. Uno: control gubernamental.
 Que lo controlen los gobiernos, no el mercado: con regulación, licencias y
 control del cómputo y los pesos. Y ojo, esto abarca todo un abanico, desde la
 nacionalización que propone Aschenbrenner hasta los tratados internacionales;
-nacional o internacional, sigue siendo el campo uno. Dos: conseguir una superinteligencia
+nacional o internacional, sigue siendo el campo uno. Dos: conseguir una IA
 alineada con ventaja decisiva y que ella resuelva. Tres: el campo d/acc.
 Acelerar defensas, difundir, desconfiar de cualquier centro.
 
@@ -184,7 +183,7 @@ layout: default
       <div class="text-sm opacity-50 mt-2" style="font-family: 'Montserrat', sans-serif">Davidson, Finnveden y Hadshar, <i>AI-Enabled Coups</i> (2025)</div>
     </div>
     <div class="mt-4 text-base opacity-80 italic text-center" style="font-family: 'Roboto Slab', serif">
-      Los labs construyen los niveles; en 2026 el gobierno controla la puerta.
+      Los niveles los diseñaron los labs; en 2026, el acceso lo decide el gobierno.
     </div>
   </div>
 </div>
@@ -230,9 +229,8 @@ layout: default
     </div>
     <div class="p-5 rounded-lg" style="background: rgba(255, 148, 22, 0.05); border-left: 4px solid #ff9416">
       <div class="text-base leading-relaxed" style="font-family: 'Montserrat', sans-serif">
-        Lo que llegó: la autoridad es <span class="font-semibold">un</span> gobierno, el criterio
-        <span class="font-semibold">no es público</span>, y la aprobación viaja
-        <span class="font-semibold">en una carta</span>.
+        Lo que llegó: la autoridad es <span class="font-semibold">un</span> gobierno, y el criterio
+        <span class="font-semibold">no es público</span>.
       </div>
     </div>
   </div>

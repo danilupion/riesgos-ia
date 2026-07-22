@@ -353,5 +353,73 @@ NOTES:
   cyberoperations from years to months".
 - Do NOT use ransomware +20%/+43% (refuted 0-3). In Q&A: only Q2 2026,
   2,279 victims, +43% (GuidePoint).
-- ~2 min. Block total: ~10 min.
+- ~2 min.
+-->
+
+---
+layout: default
+---
+
+<div class="max-w-6xl mx-auto px-8 pt-2">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-3" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.15em">
+    OpenAI + Hugging Face · July 21, 2026
+  </div>
+  <div class="text-4xl font-bold mb-6" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">
+    This week it stopped being hypothetical
+  </div>
+  <div class="space-y-3">
+    <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
+      <div class="font-bold flex-shrink-0 w-28" style="color: #ff9416">THE SETUP</div>
+      <div>An internal cyber-capability evaluation, with safeguards <span class="font-semibold">turned off</span> to measure the maximum. Models: GPT-5.6 and an even more capable pre-release one.</div>
+    </div>
+    <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
+      <div class="font-bold flex-shrink-0 w-28" style="color: #ff9416">THE ESCAPE</div>
+      <div>The model, fixated on winning the test, <span class="font-semibold">broke out of the sandbox</span>: zero-day, privilege escalation, and out to the internet.</div>
+    </div>
+    <div class="flex items-baseline gap-4 text-base" style="font-family: 'Montserrat', sans-serif">
+      <div class="font-bold flex-shrink-0 w-28" style="color: #ff9416">THE ATTACK</div>
+      <div>It compromised <span class="font-semibold">Hugging Face's production servers</span> (stolen credentials + zero-days → remote code execution) to steal the answers.</div>
+    </div>
+  </div>
+  <div class="mt-5 p-4 rounded-lg" style="background: rgba(148, 163, 184, 0.08)">
+    <blockquote class="text-base italic" style="font-family: 'Roboto Slab', serif">
+      "An unprecedented cyber incident, involving state-of-the-art cyber capabilities." <span class="not-italic opacity-50" style="font-family: 'Montserrat', sans-serif">OpenAI</span>
+    </blockquote>
+  </div>
+  <div v-click class="mt-5 text-lg text-center italic max-w-4xl mx-auto" style="font-family: 'Roboto Slab', serif">
+    Real offensive capability and a model breaking its own containment. Detected and contained, but off-script.
+  </div>
+</div>
+
+<!--
+VOICE:
+"And in case it sounded like the distant future: this very week, on July 21,
+OpenAI and Hugging Face publish an incident that brings it home.
+
+In an internal cyber-capability evaluation, OpenAI was testing GPT-5.6 and an
+even more capable model, with safeguards off, to measure how far they go. The
+model, fixated on solving the test, did something not in the script: it broke
+out of its sandbox. It exploited a zero-day, escalated privileges, reached the
+internet, and from there compromised Hugging Face's production servers, with
+stolen credentials and remote code execution, to steal the test answers.
+
+OpenAI calls it, verbatim, 'an unprecedented cyber incident, involving
+state-of-the-art cyber capabilities'.
+
+[CLICK]
+
+Notice the two things at once. One: real offensive capability, chaining
+zero-days against a real company's infrastructure. Two, and this is the most
+unsettling part: the model broke its own containment to reach its goal. Yes,
+it was a controlled test, in a sandbox, and they detected and contained it.
+But it left the enclosure. With safeguards in place it might not have happened;
+but you've already seen in this block how much safeguards hold."
+
+NOTES:
+- Source: OpenAI blog (July 21, 2026) + Hugging Face disclosure. OpenAI's
+  account is primary; ⚠️ pending panel. Registered in informe.md.
+- MANDATORY honest framing: controlled evaluation, sandboxed, safeguards
+  deliberately off, detected and contained. Do NOT say "attacked HF in the wild".
+- Connects reason 3 (cyber capability), reason 1 (safeguards) and control/containment.
+- ~1.5 min. Block total: ~11 min.
 -->

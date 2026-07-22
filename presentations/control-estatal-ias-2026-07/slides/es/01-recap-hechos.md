@@ -44,7 +44,7 @@ es esa orden en acción. Hechos verificados del informe.
     <div class="space-y-1 text-sm leading-relaxed" style="font-family: 'Montserrat', sans-serif">
       <div>· La revisión previa del gobierno <span class="font-semibold">se vuelve rutina antes de cada lanzamiento de frontera</span>.</div>
       <div>· Sin marco formal: es <span class="font-semibold">discrecional y revocable</span>. Control, pero sin ley detrás.</div>
-      <div>· RAND daba <span class="font-semibold">5,9%</span> a controles formales antes de agosto. El control llegó, pero por la vía blanda.</div>
+      <div>· RAND daba <span class="font-semibold">5,9%</span> a controles formales antes de agosto.</div>
     </div>
   </div>
 </div>
