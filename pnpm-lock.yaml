@@ -262,7 +262,7 @@ importers:
     devDependencies:
       '@slango.configs/eslint':
         specifier: 1.2.34
-        version: 1.2.34(@typescript-eslint/parser@8.64.0(eslint@10.7.0(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/utils@8.64.0(eslint@10.7.0(jiti@2.7.0))(typescript@6.0.3))(eslint-import-resolver-node@0.3.10)(eslint-plugin-import@2.32.0)(eslint@10.7.0(jiti@2.7.0))(prettier@3.9.5)(typescript@6.0.3)
+        version: 1.2.34(@typescript-eslint/parser@8.64.0(eslint@10.7.0(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/utils@8.64.0(eslint@10.7.0(jiti@2.7.0))(typescript@6.0.3))(eslint-import-resolver-node@0.3.10)(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.64.0(eslint@10.7.0(jiti@2.7.0))(typescript@6.0.3))(eslint-import-resolver-typescript@3.10.1)(eslint@10.7.0(jiti@2.7.0)))(eslint@10.7.0(jiti@2.7.0))(prettier@3.9.5)(typescript@6.0.3)
       '@slango.configs/lint-staged':
         specifier: 1.1.30
         version: 1.1.30(lint-staged@17.1.0)
@@ -362,6 +362,18 @@ importers:
       '@slidev/cli':
         specifier: 52.18.0
         version: 52.18.0(@nuxt/kit@3.21.8)(@types/markdown-it@14.1.2)(@types/node@22.20.1)(@vue/compiler-sfc@3.5.40)(esbuild@0.27.7)(lightningcss@1.32.0)(markdown-it@14.3.0)(postcss@8.5.19)(rolldown@1.1.5)(rollup@4.60.1)
+      '@slidev/theme-default':
+        specifier: 0.25.0
+        version: 0.25.0
+      slidev-addon-pauseai:
+        specifier: workspace:*
+        version: link:../../packages/slidev-addon-pauseai
+
+  presentations/por-que-pausa-general-2026-05:
+    devDependencies:
+      '@slidev/cli':
+        specifier: 52.14.2
+        version: 52.14.2(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)(@nuxt/kit@3.21.8)(@types/markdown-it@14.1.2)(@types/node@22.20.1)(@vue/compiler-sfc@3.5.40)(esbuild@0.27.7)(lightningcss@1.32.0)(markdown-it@14.3.0)(postcss@8.5.19)(rolldown@1.1.5)(rollup@4.60.1)
       '@slidev/theme-default':
         specifier: 0.25.0
         version: 0.25.0
@@ -11235,6 +11247,14 @@ snapshots:
       - '@emnapi/runtime'
     optional: true
 
+  '@oxc-parser/binding-wasm32-wasi@0.124.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)':
+    dependencies:
+      '@napi-rs/wasm-runtime': 1.1.6(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)
+    transitivePeerDependencies:
+      - '@emnapi/core'
+      - '@emnapi/runtime'
+    optional: true
+
   '@oxc-parser/binding-wasm32-wasi@0.131.0':
     dependencies:
       '@emnapi/core': 1.10.0
@@ -11639,7 +11659,7 @@ snapshots:
 
   '@shikijs/vscode-textmate@10.0.2': {}
 
-  '@slango.configs/eslint@1.2.34(@typescript-eslint/parser@8.64.0(eslint@10.7.0(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/utils@8.64.0(eslint@10.7.0(jiti@2.7.0))(typescript@6.0.3))(eslint-import-resolver-node@0.3.10)(eslint-plugin-import@2.32.0)(eslint@10.7.0(jiti@2.7.0))(prettier@3.9.5)(typescript@6.0.3)':
+  '@slango.configs/eslint@1.2.34(@typescript-eslint/parser@8.64.0(eslint@10.7.0(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/utils@8.64.0(eslint@10.7.0(jiti@2.7.0))(typescript@6.0.3))(eslint-import-resolver-node@0.3.10)(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.64.0(eslint@10.7.0(jiti@2.7.0))(typescript@6.0.3))(eslint-import-resolver-typescript@3.10.1)(eslint@10.7.0(jiti@2.7.0)))(eslint@10.7.0(jiti@2.7.0))(prettier@3.9.5)(typescript@6.0.3)':
     dependencies:
       '@eslint-community/eslint-plugin-eslint-comments': 4.7.2(eslint@10.7.0(jiti@2.7.0))
       '@eslint/js': 10.0.1(eslint@10.7.0(jiti@2.7.0))
@@ -11742,6 +11762,117 @@ snapshots:
       uqr: 0.1.3
       vite: 7.3.2(@types/node@22.20.1)(jiti@2.7.0)(lightningcss@1.32.0)(yaml@2.9.0)
       vite-plugin-inspect: 11.3.3(@nuxt/kit@3.21.2)(vite@7.3.2(@types/node@22.20.1)(jiti@2.7.0)(lightningcss@1.32.0)(yaml@2.9.0))
+      vite-plugin-remote-assets: 2.1.0(vite@7.3.2(@types/node@22.20.1)(jiti@2.7.0)(lightningcss@1.32.0)(yaml@2.9.0))
+      vite-plugin-static-copy: 3.4.0(vite@7.3.2(@types/node@22.20.1)(jiti@2.7.0)(lightningcss@1.32.0)(yaml@2.9.0))
+      vite-plugin-vue-server-ref: 1.0.0(vite@7.3.2(@types/node@22.20.1)(jiti@2.7.0)(lightningcss@1.32.0)(yaml@2.9.0))(vue@3.5.34(typescript@5.9.3))
+      vitefu: 1.1.3(vite@7.3.2(@types/node@22.20.1)(jiti@2.7.0)(lightningcss@1.32.0)(yaml@2.9.0))
+      vue: 3.5.34(typescript@5.9.3)
+      yaml: 2.9.0
+      yargs: 18.0.0
+    transitivePeerDependencies:
+      - '@emnapi/core'
+      - '@emnapi/runtime'
+      - '@farmfe/core'
+      - '@nuxt/kit'
+      - '@pinia/colada'
+      - '@rspack/core'
+      - '@svgr/core'
+      - '@svgx/core'
+      - '@types/markdown-it'
+      - '@types/node'
+      - '@unocss/astro'
+      - '@unocss/postcss'
+      - '@unocss/webpack'
+      - '@vue/compiler-sfc'
+      - bun-types-no-globals
+      - esbuild
+      - less
+      - lightningcss
+      - magicast
+      - markdown-it
+      - markdown-it-async
+      - pinia
+      - postcss
+      - react
+      - rolldown
+      - rollup
+      - sass
+      - sass-embedded
+      - solid-js
+      - stylus
+      - sugarss
+      - supports-color
+      - svelte
+      - terser
+      - tsx
+      - unloader
+      - webpack
+
+  '@slidev/cli@52.14.2(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)(@nuxt/kit@3.21.8)(@types/markdown-it@14.1.2)(@types/node@22.20.1)(@vue/compiler-sfc@3.5.40)(esbuild@0.27.7)(lightningcss@1.32.0)(markdown-it@14.3.0)(postcss@8.5.19)(rolldown@1.1.5)(rollup@4.60.1)':
+    dependencies:
+      '@antfu/ni': 28.3.0
+      '@antfu/utils': 9.3.0
+      '@comark/markdown-it': 0.3.4(@types/markdown-it@14.1.2)(markdown-it@14.3.0)
+      '@iconify-json/carbon': 1.2.21
+      '@iconify-json/ph': 1.2.2
+      '@iconify-json/svg-spinners': 1.2.4
+      '@lillallol/outline-pdf': 4.0.0
+      '@shikijs/markdown-it': 4.0.2
+      '@shikijs/twoslash': 4.0.2(typescript@5.9.3)
+      '@shikijs/vitepress-twoslash': 4.0.2(@nuxt/kit@3.21.8)(typescript@5.9.3)
+      '@slidev/client': 52.14.2(@nuxt/kit@3.21.8)(@vue/compiler-sfc@3.5.40)(esbuild@0.27.7)(rolldown@1.1.5)(rollup@4.60.1)(vite@7.3.2(@types/node@22.20.1)(jiti@2.7.0)(lightningcss@1.32.0)(yaml@2.9.0))
+      '@slidev/parser': 52.14.2(@nuxt/kit@3.21.8)(@vue/compiler-sfc@3.5.40)(esbuild@0.27.7)(rolldown@1.1.5)(rollup@4.60.1)(typescript@5.9.3)(vite@7.3.2(@types/node@22.20.1)(jiti@2.7.0)(lightningcss@1.32.0)(yaml@2.9.0))
+      '@slidev/types': 52.14.2(@nuxt/kit@3.21.8)(@vue/compiler-sfc@3.5.40)(esbuild@0.27.7)(rolldown@1.1.5)(rollup@4.60.1)(typescript@5.9.3)(vite@7.3.2(@types/node@22.20.1)(jiti@2.7.0)(lightningcss@1.32.0)(yaml@2.9.0))
+      '@unocss/extractor-mdc': 66.6.8
+      '@unocss/reset': 66.6.8
+      '@vitejs/plugin-vue': 6.0.7(vite@7.3.2(@types/node@22.20.1)(jiti@2.7.0)(lightningcss@1.32.0)(yaml@2.9.0))(vue@3.5.34(typescript@5.9.3))
+      '@vitejs/plugin-vue-jsx': 5.1.5(vite@7.3.2(@types/node@22.20.1)(jiti@2.7.0)(lightningcss@1.32.0)(yaml@2.9.0))(vue@3.5.34(typescript@5.9.3))
+      ansis: 4.3.0
+      chokidar: 5.0.0
+      cli-progress: 3.12.0
+      connect: 3.7.0
+      fast-deep-equal: 3.1.3
+      fast-glob: 3.3.3
+      get-port-please: 3.2.0
+      global-directory: 5.0.0
+      htmlparser2: 10.1.0
+      is-installed-globally: 1.0.0
+      jiti: 2.7.0
+      katex: 0.16.47
+      local-pkg: 1.1.2
+      lz-string: 1.5.0
+      magic-string: 0.30.21
+      magic-string-stack: 1.1.0
+      markdown-exit: 1.0.0-beta.9
+      markdown-it-footnote: 4.0.0
+      mlly: 1.8.2
+      monaco-editor: 0.55.1
+      obug: 2.1.1
+      open: 11.0.0
+      pdf-lib: 1.17.1
+      picomatch: 4.0.4
+      plantuml-encoder: 1.4.0
+      postcss-nested: 7.0.2(postcss@8.5.19)
+      pptxgenjs: 4.0.1
+      prompts: 2.4.2
+      public-ip: 8.0.0
+      resolve-from: 5.0.0
+      resolve-global: 2.0.0
+      semver: 7.8.0
+      shiki: 4.0.2
+      shiki-magic-move: 1.3.0(shiki@4.0.2)(vue@3.5.34(typescript@5.9.3))
+      sirv: 3.0.2
+      source-map-js: 1.2.1
+      typescript: 5.9.3
+      unhead: 2.1.15
+      unocss: 66.6.8(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)(vite@7.3.2(@types/node@22.20.1)(jiti@2.7.0)(lightningcss@1.32.0)(yaml@2.9.0))
+      unplugin-icons: 23.0.1(@vue/compiler-sfc@3.5.40)
+      unplugin-vue-components: 31.1.0(@nuxt/kit@3.21.8)(vue@3.5.34(typescript@5.9.3))
+      unplugin-vue-markdown: 30.0.0(vite@7.3.2(@types/node@22.20.1)(jiti@2.7.0)(lightningcss@1.32.0)(yaml@2.9.0))
+      untun: 0.1.3
+      uqr: 0.1.3
+      vite: 7.3.2(@types/node@22.20.1)(jiti@2.7.0)(lightningcss@1.32.0)(yaml@2.9.0)
+      vite-plugin-inspect: 11.3.3(@nuxt/kit@3.21.8)(vite@7.3.2(@types/node@22.20.1)(jiti@2.7.0)(lightningcss@1.32.0)(yaml@2.9.0))
       vite-plugin-remote-assets: 2.1.0(vite@7.3.2(@types/node@22.20.1)(jiti@2.7.0)(lightningcss@1.32.0)(yaml@2.9.0))
       vite-plugin-static-copy: 3.4.0(vite@7.3.2(@types/node@22.20.1)(jiti@2.7.0)(lightningcss@1.32.0)(yaml@2.9.0))
       vite-plugin-vue-server-ref: 1.0.0(vite@7.3.2(@types/node@22.20.1)(jiti@2.7.0)(lightningcss@1.32.0)(yaml@2.9.0))(vue@3.5.34(typescript@5.9.3))
@@ -12814,6 +12945,15 @@ snapshots:
       '@unocss/core': 66.6.8
       oxc-parser: 0.124.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)
       oxc-walker: 0.7.0(oxc-parser@0.124.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0))
+    transitivePeerDependencies:
+      - '@emnapi/core'
+      - '@emnapi/runtime'
+
+  '@unocss/transformer-attributify-jsx@66.6.8(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)':
+    dependencies:
+      '@unocss/core': 66.6.8
+      oxc-parser: 0.124.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)
+      oxc-walker: 0.7.0(oxc-parser@0.124.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1))
     transitivePeerDependencies:
       - '@emnapi/core'
       - '@emnapi/runtime'
@@ -16014,6 +16154,34 @@ snapshots:
       - '@emnapi/core'
       - '@emnapi/runtime'
 
+  oxc-parser@0.124.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1):
+    dependencies:
+      '@oxc-project/types': 0.124.0
+    optionalDependencies:
+      '@oxc-parser/binding-android-arm-eabi': 0.124.0
+      '@oxc-parser/binding-android-arm64': 0.124.0
+      '@oxc-parser/binding-darwin-arm64': 0.124.0
+      '@oxc-parser/binding-darwin-x64': 0.124.0
+      '@oxc-parser/binding-freebsd-x64': 0.124.0
+      '@oxc-parser/binding-linux-arm-gnueabihf': 0.124.0
+      '@oxc-parser/binding-linux-arm-musleabihf': 0.124.0
+      '@oxc-parser/binding-linux-arm64-gnu': 0.124.0
+      '@oxc-parser/binding-linux-arm64-musl': 0.124.0
+      '@oxc-parser/binding-linux-ppc64-gnu': 0.124.0
+      '@oxc-parser/binding-linux-riscv64-gnu': 0.124.0
+      '@oxc-parser/binding-linux-riscv64-musl': 0.124.0
+      '@oxc-parser/binding-linux-s390x-gnu': 0.124.0
+      '@oxc-parser/binding-linux-x64-gnu': 0.124.0
+      '@oxc-parser/binding-linux-x64-musl': 0.124.0
+      '@oxc-parser/binding-openharmony-arm64': 0.124.0
+      '@oxc-parser/binding-wasm32-wasi': 0.124.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)
+      '@oxc-parser/binding-win32-arm64-msvc': 0.124.0
+      '@oxc-parser/binding-win32-ia32-msvc': 0.124.0
+      '@oxc-parser/binding-win32-x64-msvc': 0.124.0
+    transitivePeerDependencies:
+      - '@emnapi/core'
+      - '@emnapi/runtime'
+
   oxc-parser@0.131.0:
     dependencies:
       '@oxc-project/types': 0.131.0
@@ -16093,6 +16261,11 @@ snapshots:
     dependencies:
       magic-regexp: 0.10.0
       oxc-parser: 0.124.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)
+
+  oxc-walker@0.7.0(oxc-parser@0.124.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)):
+    dependencies:
+      magic-regexp: 0.10.0
+      oxc-parser: 0.124.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)
 
   oxc-walker@0.7.0(oxc-parser@0.131.0):
     dependencies:
@@ -17075,6 +17248,30 @@ snapshots:
       - '@emnapi/runtime'
       - vite
 
+  unocss@66.6.8(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)(vite@7.3.2(@types/node@22.20.1)(jiti@2.7.0)(lightningcss@1.32.0)(yaml@2.9.0)):
+    dependencies:
+      '@unocss/cli': 66.6.8
+      '@unocss/core': 66.6.8
+      '@unocss/preset-attributify': 66.6.8
+      '@unocss/preset-icons': 66.6.8
+      '@unocss/preset-mini': 66.6.8
+      '@unocss/preset-tagify': 66.6.8
+      '@unocss/preset-typography': 66.6.8
+      '@unocss/preset-uno': 66.6.8
+      '@unocss/preset-web-fonts': 66.6.8
+      '@unocss/preset-wind': 66.6.8
+      '@unocss/preset-wind3': 66.6.8
+      '@unocss/preset-wind4': 66.6.8
+      '@unocss/transformer-attributify-jsx': 66.6.8(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)
+      '@unocss/transformer-compile-class': 66.6.8
+      '@unocss/transformer-directives': 66.6.8
+      '@unocss/transformer-variant-group': 66.6.8
+      '@unocss/vite': 66.6.8(vite@7.3.2(@types/node@22.20.1)(jiti@2.7.0)(lightningcss@1.32.0)(yaml@2.9.0))
+    transitivePeerDependencies:
+      - '@emnapi/core'
+      - '@emnapi/runtime'
+      - vite
+
   unocss@66.7.5(vite@7.3.2(@types/node@22.20.1)(jiti@2.7.0)(lightningcss@1.32.0)(yaml@2.9.0)):
     dependencies:
       '@unocss/cli': 66.7.5
@@ -17165,6 +17362,21 @@ snapshots:
       vue: 3.5.34(typescript@5.9.3)
     optionalDependencies:
       '@nuxt/kit': 3.21.2
+
+  unplugin-vue-components@31.1.0(@nuxt/kit@3.21.8)(vue@3.5.34(typescript@5.9.3)):
+    dependencies:
+      chokidar: 5.0.0
+      local-pkg: 1.2.1
+      magic-string: 0.30.21
+      mlly: 1.8.2
+      obug: 2.1.3
+      picomatch: 4.0.5
+      tinyglobby: 0.2.16
+      unplugin: 2.3.11
+      unplugin-utils: 0.3.1
+      vue: 3.5.34(typescript@5.9.3)
+    optionalDependencies:
+      '@nuxt/kit': 3.21.8
 
   unplugin-vue-components@32.1.0(@nuxt/kit@3.21.8)(esbuild@0.27.7)(rolldown@1.1.5)(rollup@4.60.1)(vite@8.1.5(@types/node@22.20.1)(esbuild@0.27.7)(jiti@2.7.0)(yaml@2.9.0))(vue@3.5.40(typescript@6.0.3)):
     dependencies:
@@ -17377,6 +17589,23 @@ snapshots:
       vite-dev-rpc: 1.1.0(vite@7.3.2(@types/node@22.20.1)(jiti@2.7.0)(lightningcss@1.32.0)(yaml@2.9.0))
     optionalDependencies:
       '@nuxt/kit': 3.21.2
+    transitivePeerDependencies:
+      - supports-color
+
+  vite-plugin-inspect@11.3.3(@nuxt/kit@3.21.8)(vite@7.3.2(@types/node@22.20.1)(jiti@2.7.0)(lightningcss@1.32.0)(yaml@2.9.0)):
+    dependencies:
+      ansis: 4.3.1
+      debug: 4.4.3
+      error-stack-parser-es: 1.0.5
+      ohash: 2.0.11
+      open: 10.2.0
+      perfect-debounce: 2.1.0
+      sirv: 3.0.2
+      unplugin-utils: 0.3.1
+      vite: 7.3.2(@types/node@22.20.1)(jiti@2.7.0)(lightningcss@1.32.0)(yaml@2.9.0)
+      vite-dev-rpc: 1.1.0(vite@7.3.2(@types/node@22.20.1)(jiti@2.7.0)(lightningcss@1.32.0)(yaml@2.9.0))
+    optionalDependencies:
+      '@nuxt/kit': 3.21.8
     transitivePeerDependencies:
       - supports-color
 

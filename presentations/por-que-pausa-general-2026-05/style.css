@@ -1,0 +1,133 @@
+/* ============================================
+   PauseAI — "El por qué de la pausa"
+   Tema claro (crema) + paleta del deck de Figma
+   Fonts: Montserrat (titulares black + body), Roboto Slab (citas)
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&family=Roboto+Slab:wght@400;700&display=swap');
+
+:root {
+  --pa-orange: #ff6f1f; /* acento PauseAI / "PAUSA" */
+  --pa-orange-cover: #fb8b33; /* fondo de la portada */
+  --pa-yellow: #f9b233; /* escalera / acentos */
+  --pa-teal: #15a39b; /* "ventajas", sectores */
+  --pa-red: #e5342a; /* "daños" */
+  --pa-cream: #f5f3ed; /* fondo claro del deck */
+  --pa-ink: #1a1a1a; /* texto y titulares */
+  --slidev-theme-primary: #1a1a1a;
+  --slidev-theme-accent: #ff6f1f;
+}
+
+/* ---- Base ---- */
+.slidev-layout {
+  background: var(--pa-cream);
+  color: var(--pa-ink);
+  font-family: 'Montserrat', sans-serif;
+  overflow: hidden;
+}
+
+/* ---- Titulares: negro, peso máximo (look del deck) ---- */
+h1 {
+  color: var(--pa-ink) !important;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  text-transform: none;
+  letter-spacing: -0.015em;
+  line-height: 1.02;
+}
+h2,
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  color: var(--pa-ink);
+}
+
+/* ---- Utilidades de color de marca ---- */
+.t-orange {
+  color: var(--pa-orange);
+}
+.t-teal {
+  color: var(--pa-teal);
+}
+.t-red {
+  color: var(--pa-red);
+}
+.t-yellow {
+  color: var(--pa-yellow);
+}
+
+/* ---- Portada naranja ---- */
+.cover {
+  position: absolute;
+  inset: 0;
+  background: var(--pa-orange-cover);
+  color: var(--pa-ink);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 3.6rem;
+}
+.cover .cover-top {
+  position: absolute;
+  top: 2rem;
+  left: 3.6rem;
+  right: 3.6rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  letter-spacing: 0.28em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.cover .cover-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 4.6rem;
+  line-height: 0.98;
+  letter-spacing: -0.02em;
+  color: var(--pa-ink);
+  margin: 0;
+  max-width: 58%;
+}
+.cover .cover-foot {
+  position: absolute;
+  left: 3.6rem;
+  right: 3.6rem;
+  bottom: 1.8rem;
+  border-top: 3px dotted rgba(0, 0, 0, 0.55);
+  padding-top: 0.7rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.cover .enye {
+  position: absolute;
+  right: 4.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 300px;
+  z-index: 2;
+}
+
+/* ---- Citas ---- */
+blockquote {
+  border-left: 4px solid var(--pa-orange);
+  padding-left: 1rem;
+  font-family: 'Roboto Slab', serif;
+  opacity: 0.95;
+}
+
+/* ---- Barra de progreso ---- */
+.slidev-progress-bar,
+.slidev-progress {
+  background: var(--pa-orange) !important;
+}
+
+/* ---- Imagen a pantalla completa ---- */
+.fullpage-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}

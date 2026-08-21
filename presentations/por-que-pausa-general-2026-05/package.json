@@ -1,0 +1,16 @@
+{
+  "name": "por-que-pausa-general-2026-05",
+  "type": "module",
+  "private": true,
+  "version": "1.0.0",
+  "description": "El por qué de la pausa — PauseAI en español",
+  "scripts": {
+    "dev": "slidev --remote --port 3050",
+    "build": "slidev build"
+  },
+  "devDependencies": {
+    "@slidev/cli": "52.14.2",
+    "@slidev/theme-default": "0.25.0",
+    "slidev-addon-pauseai": "workspace:*"
+  }
+}

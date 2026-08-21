@@ -1,0 +1,13 @@
+{
+  "speaker": "Álvaro Torres",
+  "date": "2026-05-01",
+  "dateApprox": true,
+  "languages": {
+    "es": {
+      "title": "El por qué de la pausa — PauseAI en español",
+      "subtitle": "PauseAI en español",
+      "venue": "Presentación de uso general de PauseAI en español, reutilizable en distintos contextos y sedes.",
+      "description": "Presentación introductoria de PauseAI España que expone el porqué de pausar el desarrollo de la IA de frontera: el desajuste entre la velocidad de la tecnología y la capacidad de la sociedad para legislar y adaptarse, las conversaciones urgentes que debemos tener, el consenso científico sobre el riesgo y qué pide PauseAI."
+    }
+  }
+}
