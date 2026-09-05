@@ -12,7 +12,7 @@
 #   with the landing at /presentaciones/. Override the base prefix if needed:
 #     --build-arg BASE_PREFIX=/other-prefix/
 
-ARG NODE_IMAGE=node:26.7.0-alpine
+ARG NODE_IMAGE=node:26.7.0-alpine@sha256:aadf416b2cdce311a8811ba3f0608a61b77dbf997500e2eafe781b51f6a0b019
 # Pin pnpm here to match the root package.json `packageManager` field.
 # Node 26 dropped the bundled corepack shim, so install pnpm directly via npm.
 ARG PNPM_VERSION=11.22.0
@@ -64,7 +64,7 @@ RUN mkdir -p "/output${BASE_PREFIX}" && \
     chmod -R a+rX /output
 
 # ------ serve ------
-FROM nginx:alpine
+FROM nginx:alpine@sha256:72ba65eb42c10344912a84ff42408db7d34f2feb642204570ab8fc5ffd29f1d3
 
 COPY --from=build /output /usr/share/nginx/html
 
